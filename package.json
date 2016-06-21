@@ -14,7 +14,8 @@
     "homepage": "https://github.com/mozilla/vaani.server#readme",
     "dependencies": {
         "watson-developer-cloud": "^1.9.4",
-        "ws": "^1.0.1"
+        "ws": "^1.0.1",
+        "websocket-stream": "^3.2.1"
     },
     "main": "index.js",
     "scripts": {
