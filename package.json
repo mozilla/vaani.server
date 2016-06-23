@@ -15,10 +15,15 @@
     "dependencies": {
         "watson-developer-cloud": "^1.9.4",
         "ws": "^1.0.1",
-        "websocket-stream": "^3.2.1"
+        "websocket-stream": "^3.2.1",
+        "wav": "^1.0.0",
+        "speaker": "^0.3.0",
+        "url": "^0.11.0"
     },
     "main": "index.js",
     "scripts": {
-        "test": "node test/tests.js"
+        "install": "openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -days 10000 -nodes -subj \"/C=DE/ST=Berlin/L=Berlin/O=Mozilla/OU=CD/CN=mozilla.com\"",
+        "test": "node test/tests.js",
+        "start": "./run"
     }
 }

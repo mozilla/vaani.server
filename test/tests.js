@@ -7,18 +7,36 @@
 const vaani = require('../index');
 const WebSocket = require('ws');
 const fs = require('fs');
+const wav = require('wav');
+const Speaker = require('speaker');
 
-vaani.serve(8080);
-var ws = new WebSocket('ws://localhost:8080');
-ws.on('open', () => {
-    fs.readFile('test/resources/helloworld.raw', (err, data) => {
-        if (err) throw err;
-        ws.send(data);
-        ws.send('EOS');
+
+fs.readFile("config.json", (err, data) => {
+    var config = vaani.getConfig();
+    vaani.serve(config);
+    var ws = new WebSocket('wss://localhost:' + config.port + '/?token=testtoken', null, { rejectUnauthorized: false });
+    ws.on('open', () => {
+        fs.readFile('test/resources/helloworld.raw', (err, data) => {
+            if (err) throw err;
+            ws.send(data);
+            ws.send('EOS');
+        });
     });
-});
-ws.on('message', (data, flags) => {
-    data = JSON.parse(data);
-    console.log(data.data);
-    process.exit(data.status);
+    var sink = new wav.Reader();
+    var speaker;
+    sink.on('format', function (format) {
+        speaker = new Speaker(format);
+        setTimeout(function() {
+            sink.pipe(speaker);
+        }, 250);
+    });
+    sink.on('close', () => { speaker && speaker.close(); });
+    ws.on('message', (data, flags) => {
+        sink.write(data);
+    });
+    ws.on('close', () => {
+        setTimeout(function() {
+            process.exit(0);
+        }, 1000);
+    });
 });

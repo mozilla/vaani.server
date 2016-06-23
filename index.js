@@ -4,64 +4,95 @@
 
 'use strict';
 
-const http = require('http');
+const fs = require('fs');
+const url = require('url');
+const https = require('https');
 const WebSocket = require('ws');
 const WebSocketServer = WebSocket.Server;
+const watson = require('watson-developer-cloud');
+const websocketStream = require('websocket-stream');
 
 var clients = [],
-    count = 0;
+    count = 0,
+
+    getConfig = () => {
+        var config = JSON.parse(process.env.VAANI_CONFIG || fs.readFileSync("config.json"));
+        config.port = config.port || 80;
+        return config;
+    };
 
 module.exports = {
 
-    serve: (port) => {
-        var wss = new WebSocketServer({
-            port: port
-        });
-        wss.on('connection', (ws) => {
-            console.log('Connecting a client...');
+    getConfig: getConfig,
 
+    serve: (config) => {
+        config = config || getConfig();
+
+        var privateKey  = fs.readFileSync('key.pem', 'utf8');
+        var certificate = fs.readFileSync('cert.pem', 'utf8');
+        var credentials = {key: privateKey, cert: certificate};
+        var httpsServer = https.createServer(credentials);
+        httpsServer.listen(config.port);
+
+        var wss = new WebSocketServer({
+            server: httpsServer
+        });
+        var text_to_speech = watson.text_to_speech({
+            username: config.watsontts.username,
+            password: config.watsontts.password,
+            version: 'v1'
+        });
+        wss.on('connection', (client) => {
             var id = count++,
                 buffer = [],
-                ttt;
-            clients[id] = ws;
-            ws.on('message', (data, flags) => {
-                console.log('From client - type: ' + typeof(data) + ' length: ' + data.length);
+                query = url.parse(client.upgradeReq.url, true).query,
+                interval;
+
+            clients[id] = client;
+
+            client.on('message', (data, flags) => {
                 buffer.push(data);
             });
-            ws.on('close', () => {
+            client.on('close', () => {
                 delete clients[id];
                 clearInterval(interval);
-                console.log('Client disconnected.');
             });
 
-            var kaldi = new WebSocket('ws://52.37.26.79:8888/client/ws/speech?content-type=audio/x-raw,layout=(string)interleaved,rate=(int)16000,format=(string)S16LE,channels=(int)1');
-            kaldi.on('open', () => {
-                console.time('kaldi');
-                console.log('connected with kaldi - starting time measurement');
+            var answer = (message) => {
+                console.log('Sending answer: ' + message);
+                kaldi.close();
+                text_to_speech.synthesize({
+                  text: message,
+                  voice: 'en-US_AllisonVoice',
+                  accept: 'audio/wav'
+                }).pipe(websocketStream(client));
+            };
 
+            var kaldi = new WebSocket(config.kaldi.url + '?content-type=audio/x-raw,layout=(string)interleaved,rate=(int)16000,format=(string)S16LE,channels=(int)1');
+            kaldi.on('open', () => {
+                //console.time('kaldi time');
+                //console.log('kaldi started');
                 var send = () => {
                     var i;
                     for(i = 0; i<buffer.length; i++) {
                         kaldi.send(buffer[i]);
-                        console.log ('sent one package to kaldi');
                     }
                     buffer = [];
                 };
                 send();
-                var interval = setInterval(send, 250);
+                interval = setInterval(send, 250);
             });
             kaldi.on('message', (data, flags) => {
-                console.log ('received one package from kaldi');
                 var message = JSON.parse(data);
                 if (message.status > 0) {
-                    console.timeEnd('kaldi');
-                    ws.send(JSON.stringify({ status: message.status, message: 'Speech recognition failed', data: message }));
+                    //console.timeEnd('kaldi time');
+                    answer('Sorry, but I did not quite understand.');
                     return;
                 }
                 var result = message.result;
                 if (result && result.final) {
-                    console.timeEnd('kaldi');
-                    ws.send(JSON.stringify({ status: message.status, message: 'OK', data: result.hypotheses[0].transcript }));
+                    //console.timeEnd('kaldi time');
+                    answer(result.hypotheses[0].transcript);
                 }
             });
         });
