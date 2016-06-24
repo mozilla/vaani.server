@@ -8,7 +8,7 @@ const vaani = require('../index');
 const WebSocket = require('ws');
 const fs = require('fs');
 const wav = require('wav');
-const Speaker = require('speaker');
+const Speaker = process.env.VAANI_NO_AUDIO ? false : require('speaker');
 
 
 fs.readFile("config.json", (err, data) => {
@@ -22,18 +22,20 @@ fs.readFile("config.json", (err, data) => {
             ws.send('EOS');
         });
     });
-    var sink = new wav.Reader();
-    var speaker;
-    sink.on('format', function (format) {
-        speaker = new Speaker(format);
-        setTimeout(function() {
-            sink.pipe(speaker);
-        }, 250);
-    });
-    sink.on('close', () => { speaker && speaker.close(); });
-    ws.on('message', (data, flags) => {
-        sink.write(data);
-    });
+    if(Speaker) {
+        var sink = new wav.Reader();
+        var speaker;
+        sink.on('format', function (format) {
+            speaker = new Speaker(format);
+            setTimeout(function() {
+                sink.pipe(speaker);
+            }, 250);
+        });
+        sink.on('close', () => { speaker && speaker.close(); });
+        ws.on('message', (data, flags) => {
+            sink.write(data);
+        });
+    }
     ws.on('close', () => {
         setTimeout(function() {
             process.exit(0);
