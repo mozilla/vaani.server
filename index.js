@@ -11,6 +11,9 @@ const WebSocket = require('ws');
 const WebSocketServer = WebSocket.Server;
 const watson = require('watson-developer-cloud');
 const websocketStream = require('websocket-stream');
+const slparser = require('./shoppinglist');
+
+const sorry = 'Sorry, but I did not quite understand.';
 
 var clients = [],
     count = 0,
@@ -28,20 +31,22 @@ module.exports = {
     serve: (config) => {
         config = config || getConfig();
 
-        var privateKey  = fs.readFileSync('key.pem', 'utf8');
-        var certificate = fs.readFileSync('cert.pem', 'utf8');
-        var credentials = {key: privateKey, cert: certificate};
-        var httpsServer = https.createServer(credentials);
+        const privateKey  = fs.readFileSync('key.pem', 'utf8');
+        const certificate = fs.readFileSync('cert.pem', 'utf8');
+        const credentials = {key: privateKey, cert: certificate};
+        const httpsServer = https.createServer(credentials);
         httpsServer.listen(config.port);
 
-        var wss = new WebSocketServer({
+        const wss = new WebSocketServer({
             server: httpsServer
         });
-        var text_to_speech = watson.text_to_speech({
+
+        const text_to_speech = watson.text_to_speech({
             username: config.watsontts.username,
             password: config.watsontts.password,
             version: 'v1'
         });
+
         wss.on('connection', (client) => {
             var id = count++,
                 buffer = [],
@@ -58,7 +63,7 @@ module.exports = {
                 clearInterval(interval);
             });
 
-            var answer = (message) => {
+            const answer = (message) => {
                 console.log('Sending answer: ' + message);
                 kaldi.close();
                 text_to_speech.synthesize({
@@ -66,6 +71,19 @@ module.exports = {
                   voice: 'en-US_AllisonVoice',
                   accept: 'audio/wav'
                 }).pipe(websocketStream(client));
+            };
+
+            const interpret = (message) => {
+                var product;
+                try {
+                    product = slparser.parse(message);
+                } catch (ex) {
+                    console.log('Problem interpreting: ' + message);
+                    answer(sorry);
+                    return;
+                }
+                /* TODO: Add the product to some list */
+                answer('Added ' + product + ' to your shopping list.');
             };
 
             var kaldi = new WebSocket(config.kaldi.url + '?content-type=audio/x-raw,layout=(string)interleaved,rate=(int)16000,format=(string)S16LE,channels=(int)1');
@@ -86,13 +104,13 @@ module.exports = {
                 var message = JSON.parse(data);
                 if (message.status > 0) {
                     //console.timeEnd('kaldi time');
-                    answer('Sorry, but I did not quite understand.');
+                    answer(sorry);
                     return;
                 }
                 var result = message.result;
                 if (result && result.final) {
                     //console.timeEnd('kaldi time');
-                    answer(result.hypotheses[0].transcript);
+                    interpret(result.hypotheses[0].transcript);
                 }
             });
         });

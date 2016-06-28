@@ -6,39 +6,49 @@
 
 const vaani = require('../index');
 const WebSocket = require('ws');
-const fs = require('fs');
-const wav = require('wav');
-const Speaker = process.env.VAANI_NO_AUDIO ? false : require('speaker');
+const watson = require('watson-developer-cloud');
+const child_process = require('child_process');
 
+const config = vaani.getConfig();
+vaani.serve(config);
 
-fs.readFile("config.json", (err, data) => {
-    var config = vaani.getConfig();
-    vaani.serve(config);
-    var ws = new WebSocket('wss://localhost:' + config.port + '/?token=testtoken', null, { rejectUnauthorized: false });
-    ws.on('open', () => {
-        fs.readFile('test/resources/helloworld.raw', (err, data) => {
-            if (err) throw err;
-            ws.send(data);
-            ws.send('EOS');
-        });
-    });
-    if(Speaker) {
-        var sink = new wav.Reader();
-        var speaker;
-        sink.on('format', function (format) {
-            speaker = new Speaker(format);
-            setTimeout(function() {
-                sink.pipe(speaker);
-            }, 250);
-        });
-        sink.on('close', () => { speaker && speaker.close(); });
-        ws.on('message', (data, flags) => {
-            sink.write(data);
-        });
-    }
-    ws.on('close', () => {
-        setTimeout(function() {
-            process.exit(0);
-        }, 1000);
-    });
+const text_to_speech = watson.text_to_speech({
+    username: config.watsontts.username,
+    password: config.watsontts.password,
+    version: 'v1'
 });
+
+const call = (command, params) => child_process.spawn(command, params.split(' '));
+
+const ws = new WebSocket('wss://localhost:' + config.port + '/?token=testtoken', null, { rejectUnauthorized: false });
+ws.on('open', () => {
+    var sox = call('sox', '-t wav - -t raw -b 16 -e signed -c 1 -r 16k -');
+    sox.stdout.on('data', (data) => {
+        ws.send(data);
+    });
+    sox.stdout.on('close', () => {
+        ws.send('EOS');
+    });
+    text_to_speech.synthesize({
+        text: process.argv.slice(2, process.argv.length).join(' '),
+        voice: 'en-US_AllisonVoice',
+        accept: 'audio/wav'
+    }).pipe(sox.stdin);
+});
+
+if(process.env.VAANI_NO_AUDIO) {
+    ws.on('close', () => {
+        process.exit(0);
+    });
+} else {
+    var player = call('play', '-t wav -');
+    ws.on('message', (data, flags) => {
+        player.stdin.write(data);
+    });
+    ws.on('close', () => {
+        player.stdin.end();
+    });
+    player.stdout.on('close', () => {
+        process.exit(0);
+    });
+}

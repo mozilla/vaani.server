@@ -1,4 +1,5 @@
 node_modules
+/shoppinglist.js
 /config.json
 .DS_Store
 /*.pem

@@ -1,22 +1,13 @@
 language: node_js
+
 node_js:
 - "4"
 
 env:
 - secure: "BGy3qFbv5XCUfVhSUR/ObEpCgmD6MULASeDy3PAFuj5LwFKud8ftlcNhRnuJVyr72c4q4G/tr7xL6thAJ5JhJVK2yXO9up4KuohsSyn08n76qjzmdY9IBAemam7+a6LkamK5Ji2F9mAxG3yf1QZP37CLtMr5pbdxfbrtFV8xLNrPStfv7q+9Y6+0BLfmpXJuTbvaqWqbxnoDP95kdEuQ45Ss1PvGKwX/0/bqOpIiHT6waQCPurH3TjVr7eNSZSGUeacNNWlY+Mv3+/2aQ+wwJdAntnwRcgRbXZs51og47WbGXzIOrwYr6ZRqYlbAzHTIFwx1H3DgU49hoIHAVvaFCQ27yrpyzP8fkVrKiRl2wMNVm8V54p2wl62KXf1yIO8yJSZxpPhNIvsHBbjhSSOMP+55dJbDJYls5vYjzpG0s5ClETpArfMQvZxNvXync/qgBQZ88puMOYYW+NRCfwfcqHtvymRwoJtj3VZDCwZ5g1oFXtNQCt/7stxqZCyx8HETv9OjS/kYRLTnGIgTbjAvxlLRqXR7f1gMc5EDJHE8rFgfZI3n/Q9xZxavzfYCpWBwoKXyi2gv3UIfwm/kTPeo+qLAbvCLx5EtH1WgelrP48Zm+aViVVJ1UnuhSjF2/XOSG65uRJmY0s9tkv9P4y5lfM99j7gjeI+9ZNtLOXMcbTk="
 
-before_install:
-- sudo apt-get update -qq
-- sudo apt-get install -qq
-
 install:
-- sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
-- sudo apt-get update
-- sudo apt-get install g++-4.8
-- sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.8 90
-- sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 90
-- sudo apt-get install libstdc++-4.8-dev
-- sudo apt-get install libasound2-dev
+- sudo apt-get install sox
 - npm install
 
 script:

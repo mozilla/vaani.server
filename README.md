@@ -1,7 +1,7 @@
 Vaani server
 ------------
 
-This is the Vaani server project. It provides all required back-end functionality for the    [Vaani client](https://github.com/mozilla/vaani.client).
+This is the Vaani server project. It provides all required back-end functionality for the [Vaani client](https://github.com/mozilla/vaani.client).
 
 Preparation
 -----------
@@ -34,24 +34,32 @@ Testing
 -------
 A full round trip test can be executed by:
 ``` sh
-npm test
+node test/tests.js Add milk to my shopping list.
 ```
+You should be able to use almost any other grocery product instead of milk.
 
 It will
  - Start the server on localhost
- - Read a sample raw PCM audio file (```test/resources/helloworld.raw```)
+ - Take the sentence from the command line and convert it by Watson TTS into audio data
  - Connect to the localhost server via WebSocket
- - Send the file over and end the transmission with an "EOS" (end of stream) WebSocket message
+ - Send the audio data over and end the transmission with an "EOS" (end of stream) WebSocket message
  - Wait for a resulting Wave file to be sent back (over the same WebSocket connection)
  - Play back the Wave file
 
 During this test, the server should
  - Accept the incoming WebSocket connection
  - Receive the client's PCM audio via that connection (till the "EOS" message is sent)
- - Use the Kaldi STT server to translate that audio data into text (in the given case this will be "hello world.")
- - Use the Watson TTS service to translate that text (talking-santa for now) into a speech audio file (Wave format)
+ - Use the Kaldi STT server to translate that audio data into text (in the above case this will be "add milk to my shopping list.")
+ - Parse that sentence to extract the product name (in this case "milk") and build an answer from it ("Added milk to your shopping list.")
+ - Use the Watson TTS service to translate the answer text into a speech audio file (Wave format)
  - Send that speech file back to the client (still using the same WebSocket connection)
  - Close the WebSocket connection
+
+You can also use test the textual interpreter without any audio involved:
+ ``` sh
+ ./parse add milk to my shopping list
+ ```
+ The output should be ```milk```. Bw aware: It will fail, if the first word is upper case. Please look into ```resources/shoppinglist.jison``` for further information.
 
 Running
 -------
