@@ -11,7 +11,7 @@ const WebSocket = require('ws');
 const WebSocketServer = WebSocket.Server;
 const watson = require('watson-developer-cloud');
 const websocketStream = require('websocket-stream');
-const slparser = require('./shoppinglist');
+const slparser = require('./resources/shoppinglist');
 
 const sorry = 'Sorry, but I did not quite understand.';
 
@@ -31,8 +31,8 @@ module.exports = {
     serve: (config) => {
         config = config || getConfig();
 
-        const privateKey  = fs.readFileSync('key.pem', 'utf8');
-        const certificate = fs.readFileSync('cert.pem', 'utf8');
+        const privateKey  = fs.readFileSync('./resources/key.pem', 'utf8');
+        const certificate = fs.readFileSync('./resources/cert.pem', 'utf8');
         const credentials = {key: privateKey, cert: certificate};
         const httpsServer = https.createServer(credentials);
         httpsServer.listen(config.port);

@@ -32,6 +32,7 @@ npm install
 
 Testing
 -------
+All tests require the [SoX](http://sox.sourceforge.net/) to be installed (you can brew and apt-get install them). 
 A full round trip test can be executed by:
 ``` sh
 node test/tests.js Add milk to my shopping list.

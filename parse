@@ -5,5 +5,5 @@
 
 'use strict';
 
-var parser = require("./shoppinglist").parser;
+var parser = require("./resources/shoppinglist").parser;
 console.log(parser.parse(process.argv.slice(2, process.argv.length).join(' ')));

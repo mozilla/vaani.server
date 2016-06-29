@@ -23,7 +23,7 @@
     },
     "main": "index.js",
     "scripts": {
-        "install": "jison resources/shoppinglist.jison && openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -days 10000 -nodes -subj \"/C=DE/ST=Berlin/L=Berlin/O=Mozilla/OU=CD/CN=mozilla.com\"",
+        "install": "resources/prepare.sh",
         "test": "node test/tests.js Add marmalade to my shopping list.",
         "start": "./run"
     }

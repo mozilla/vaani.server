@@ -1,6 +1,7 @@
 node_modules
-/shoppinglist.js
+/resources/shoppinglist.js
+/resources/shoppinglist.jison
 /config.json
 .DS_Store
-/*.pem
+/resources/*.pem
 /npm-debug.log
