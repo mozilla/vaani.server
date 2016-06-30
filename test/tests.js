@@ -20,7 +20,7 @@ const text_to_speech = watson.text_to_speech({
 
 const call = (command, params) => child_process.spawn(command, params.split(' '));
 
-const ws = new WebSocket('wss://localhost:' + config.port + '/?token=testtoken', null, { rejectUnauthorized: false });
+const ws = new WebSocket('wss://localhost:' + config.port + '/?token=testtoken&authtoken=' + config.evernote.authtoken, null, { rejectUnauthorized: false });
 ws.on('open', () => {
     var sox = call('sox', '-t wav - -t raw -b 16 -e signed -c 1 -r 16k -');
     sox.stdout.on('data', (data) => {
