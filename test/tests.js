@@ -36,19 +36,31 @@ ws.on('open', () => {
     }).pipe(sox.stdin);
 });
 
+var response;
+
 if(process.env.VAANI_NO_AUDIO) {
-    ws.on('close', () => {
-        process.exit(0);
+    ws.on('close', (code, message) => {
+        console.log(response);
+        process.exit(response ? response.status : 1);
+    });
+    ws.on('message', (data, flags) => {
+        if(!response) {
+            console.log(response = JSON.parse(data));
+        }
     });
 } else {
     var player = call('play', '-t wav -');
     ws.on('message', (data, flags) => {
-        player.stdin.write(data);
+        if(response) {
+            player.stdin.write(data);
+        } else {
+            console.log(response = JSON.parse(data));
+        }
     });
-    ws.on('close', () => {
+    ws.on('close', (code, message) => {
         player.stdin.end();
     });
     player.stdout.on('close', () => {
-        process.exit(0);
+        process.exit(response ? response.status : 1);
     });
 }
