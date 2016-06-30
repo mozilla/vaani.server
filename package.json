@@ -1,30 +1,31 @@
 {
-    "name": "vaani.server",
-    "version": "0.0.1",
-    "description": "Server for Project Vaani",
-    "repository": {
+  "name": "vaani.server",
+  "version": "0.0.1",
+  "description": "Server for Project Vaani",
+  "repository": {
     "type": "git",
-        "url": "git+https://github.com/mozilla/vaani.server.git"
-    },
-    "author": "Kelly Davis <kdavis@mozilla.com>",
-    "license": "MPL-2.0",
-    "bugs": {
-        "url": "https://github.com/mozilla/vaani.server/issues"
-    },
-    "homepage": "https://github.com/mozilla/vaani.server#readme",
-    "devDependencies": {
-        "jison": "^0.4.17"
-    },
-    "dependencies": {
-        "watson-developer-cloud": "^1.9.4",
-        "ws": "^1.0.1",
-        "websocket-stream": "^3.2.1",
-        "url": "^0.11.0"
-    },
-    "main": "index.js",
-    "scripts": {
-        "install": "resources/prepare.sh",
-        "test": "node test/tests.js Add marmalade to my shopping list.",
-        "start": "./run"
-    }
+    "url": "git+https://github.com/mozilla/vaani.server.git"
+  },
+  "author": "Kelly Davis <kdavis@mozilla.com>",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/mozilla/vaani.server/issues"
+  },
+  "homepage": "https://github.com/mozilla/vaani.server#readme",
+  "devDependencies": {
+    "jison": "^0.4.17"
+  },
+  "dependencies": {
+    "evernote": "^1.25.82",
+    "url": "^0.11.0",
+    "watson-developer-cloud": "^1.9.4",
+    "websocket-stream": "^3.2.1",
+    "ws": "^1.0.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "install": "resources/prepare.sh",
+    "test": "node test/tests.js Add marmalade to my shopping list.",
+    "start": "./run"
+  }
 }

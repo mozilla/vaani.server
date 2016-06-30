@@ -9,6 +9,7 @@ const url = require('url');
 const https = require('https');
 const WebSocket = require('ws');
 const WebSocketServer = WebSocket.Server;
+const evernote = require('./lib/evernote');
 const watson = require('watson-developer-cloud');
 const websocketStream = require('websocket-stream');
 const slparser = require('./resources/shoppinglist');
@@ -100,7 +101,7 @@ module.exports = {
                     answer(ERROR_PARSING, sorryUnderstand, command, confidence);
                     return;
                 }
-                /* TODO: Add the product to some list */
+                evernote.addNoteItem(query.authtoken, product);
                 answer(
                     OK,
                     'Added ' + product + ' to your shopping list.',
