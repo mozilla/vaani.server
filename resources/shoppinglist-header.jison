@@ -1,3 +1,7 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
 /* Description:
    Parses shopping list commands. The main rule (S) returns the name
    of the item that should be added to the list.
@@ -54,4 +58,3 @@
 	| "to" "my" "grocery" "list"
 	| "to" "my" "grocery" "list" "please"
     ;
- 
