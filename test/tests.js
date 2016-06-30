@@ -40,7 +40,6 @@ var response;
 
 if(process.env.VAANI_NO_AUDIO) {
     ws.on('close', (code, message) => {
-        console.log(response);
         process.exit(response ? response.status : 1);
     });
     ws.on('message', (data, flags) => {
