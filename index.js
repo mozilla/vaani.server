@@ -47,6 +47,11 @@ module.exports = {
             server = http.createServer();
         }
 
+        server.on('error', (error) => {
+            console.log('Server problem: ' + error.message);
+            process.exit(1);
+        });
+
         const app = express();
         app.use((req, res) => {
             res.send({ msg: "hello" });
