@@ -17,6 +17,8 @@
   },
   "dependencies": {
     "evernote": "^1.25.82",
+    "express": "^4.14.0",
+    "http": "0.0.0",
     "url": "^0.11.0",
     "watson-developer-cloud": "^1.9.4",
     "websocket-stream": "^3.2.1",

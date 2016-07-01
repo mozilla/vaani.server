@@ -10,6 +10,10 @@ const watson = require('watson-developer-cloud');
 const child_process = require('child_process');
 
 const config = vaani.getConfig();
+
+config.port = 8080; // for development and testing, as port 80 is typically blocked
+config.secure = false; // no security required for development and testing 
+
 vaani.serve(config);
 
 const text_to_speech = watson.text_to_speech({
@@ -20,7 +24,13 @@ const text_to_speech = watson.text_to_speech({
 
 const call = (command, params) => child_process.spawn(command, params.split(' '));
 
-const ws = new WebSocket('wss://localhost:' + config.port + '/?token=testtoken&authtoken=' + config.evernote.authtoken, null, { rejectUnauthorized: false });
+const ws = new WebSocket(
+    (config.secure ? 'wss' : 'ws') +
+    '://localhost:' + config.port +
+    '/?token=testtoken&authtoken=' + config.evernote.authtoken,
+    null,
+    { rejectUnauthorized: false }
+);
 ws.on('open', () => {
     var sox = call('sox', '-t wav - -t raw -b 16 -e signed -c 1 -r 16k -');
     sox.stdout.on('data', (data) => {

@@ -6,9 +6,11 @@
 
 const fs = require('fs');
 const url = require('url');
+const http = require('http');
 const https = require('https');
+const express = require('express');
 const WebSocket = require('ws');
-const WebSocketServer = WebSocket.Server;
+    const WebSocketServer = WebSocket.Server;
 const evernote = require('./lib/evernote');
 const watson = require('watson-developer-cloud');
 const websocketStream = require('websocket-stream');
@@ -36,13 +38,25 @@ module.exports = {
     serve: (config) => {
         config = config || getConfig();
 
-        const key = fs.readFileSync('./resources/key.pem', 'utf8');
-        const cert = fs.readFileSync('./resources/cert.pem', 'utf8');
-        const httpsServer = https.createServer({key: key, cert: cert});
-        httpsServer.listen(config.port);
+        var server;
+        if(config.secure) {
+            const key = fs.readFileSync('./resources/key.pem', 'utf8');
+            const cert = fs.readFileSync('./resources/cert.pem', 'utf8');
+            server = https.createServer({key: key, cert: cert});
+        } else {
+            server = http.createServer();
+        }
+
+        const app = express();
+        app.use((req, res) => {
+            res.send({ msg: "hello" });
+        });
+        server.on('request', app);
+
+        server.listen(config.port || (config.secure ? 443 : 80));
 
         const wss = new WebSocketServer({
-            server: httpsServer
+            server: server
         });
 
         const text_to_speech = watson.text_to_speech({
