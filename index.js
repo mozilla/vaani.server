@@ -104,7 +104,7 @@ module.exports = {
                         ].join(''),
                         voice: 'en-US_AllisonVoice',
                         accept: 'audio/wav'
-                    }, () => { console.log('closing client'); client.close() });
+                    }, () => { client.close() });
                     voice.on('data', (data) => client.send(data));
                     voice.on('close', () => client.close());
                 } catch(ex) {
