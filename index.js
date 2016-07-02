@@ -105,7 +105,7 @@ module.exports = {
                         voice: 'en-US_AllisonVoice',
                         accept: 'audio/wav'
                     }, () => { client.close() });
-                    voice.on('data', (data) => client.send(data));
+                    voice.on('data', (data) => {if (client.readyState == client.OPEN) client.send(data)});
                     voice.on('close', () => client.close());
                 } catch(ex) {
                     fail('answering');
