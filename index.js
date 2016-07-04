@@ -13,7 +13,6 @@ const WebSocket = require('ws');
     const WebSocketServer = WebSocket.Server;
 const evernote = require('./lib/evernote');
 const watson = require('watson-developer-cloud');
-const websocketStream = require('websocket-stream');
 const slparser = require('./resources/shoppinglist');
 
 const sorryUnderstand = 'Sorry, but I did not quite understand.';
@@ -107,7 +106,7 @@ module.exports = {
                         accept: 'audio/wav'
                     });
                     voice.on('data', (data) => client.send(data));
-                    voice.on('close', () => client.close());
+                    voice.on('end', () => client.close());
                 } catch(ex) {
                     fail('answering');
                 }
