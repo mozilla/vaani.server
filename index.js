@@ -106,7 +106,7 @@ module.exports = {
                         accept: 'audio/wav'
                     });
                     voice.on('data', (data) => client.send(data));
-                    voice.on('close', () => client.close());
+                    voice.on('end', () => client.close());
                 } catch(ex) {
                     fail('answering');
                 }
