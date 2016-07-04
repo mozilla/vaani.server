@@ -26,8 +26,10 @@
   },
   "main": "index.js",
   "scripts": {
-    "install": "node resources/prepare-shoppinglist.js && jison resources/shoppinglist.jison --outfile resources/shoppinglist.js",
     "test": "node test/tests.js Add marmalade to my shopping list.",
-    "start": "node ./run"
+    "start": "node ./app.js"
+  },
+  "config": {
+    "unsafe-perm":true
   }
 }

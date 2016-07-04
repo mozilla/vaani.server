@@ -13,7 +13,8 @@ const WebSocket = require('ws');
     const WebSocketServer = WebSocket.Server;
 const evernote = require('./lib/evernote');
 const watson = require('watson-developer-cloud');
-const slparser = require('./resources/shoppinglist');
+const shoppinglistloader = require('./resources/shoppinglistloader');
+
 
 const sorryUnderstand = 'Sorry, but I did not quite understand.';
 const sorryService = 'Sorry, the service is not available at the moment.';
@@ -34,159 +35,163 @@ module.exports = {
 
     getConfig: getConfig,
 
-    serve: (config) => {
-        config = config || getConfig();
+    serve: (config, callback) => {
+        shoppinglistloader.load((parser) => {
+            config = config || getConfig();
 
-        var server;
-        if(config.secure) {
-            const key = fs.readFileSync('./resources/key.pem', 'utf8');
-            const cert = fs.readFileSync('./resources/cert.pem', 'utf8');
-            server = https.createServer({key: key, cert: cert});
-        } else {
-            server = http.createServer();
-        }
+            var server;
+            if(config.secure) {
+                const key = fs.readFileSync('./resources/key.pem', 'utf8');
+                const cert = fs.readFileSync('./resources/cert.pem', 'utf8');
+                server = https.createServer({key: key, cert: cert});
+            } else {
+                server = http.createServer();
+            }
 
-        server.on('error', (error) => {
-            console.log('Server problem: ' + error.message);
-            process.exit(1);
-        });
-
-        const app = express();
-        app.use((req, res) => {
-            res.send({ msg: "hello" });
-        });
-        server.on('request', app);
-
-        server.listen(config.port || (config.secure ? 443 : 80));
-
-        const wss = new WebSocketServer({
-            server: server
-        });
-
-        const text_to_speech = watson.text_to_speech({
-            username: config.watsontts.username,
-            password: config.watsontts.password,
-            version: 'v1'
-        });
-
-        wss.on('connection', (client) => {
-
-            var buffer = [],
-                query = url.parse(client.upgradeReq.url, true).query,
-                interval,
-                kaldi = new WebSocket(
-                    config.kaldi.url +
-                    '?content-type=audio/x-raw,layout=(string)interleaved,rate=(int)16000,format=(string)S16LE,channels=(int)1'
-                );
-
-            const fail = (message) => {
-                kaldi.close();
-                client.close();
-                console.log('Failed: ' + message);
-            };
-
-            const answer = (status, message, command, confidence) => {
-                console.log('Sending answer: ' + status + ' - ' + message);
-                try {
-                    client.send(JSON.stringify({
-                        status: status,
-                        message: message,
-                        command: command,
-                        confidence: confidence || 1
-                    }));
-                    var voice = text_to_speech.synthesize({
-                        text: [
-                            '<express-as type="',
-                                (status > 0 ? 'Apology' : ''),
-                            '">',
-                            message,
-                            '</express-as>'
-                        ].join(''),
-                        voice: 'en-US_AllisonVoice',
-                        accept: 'audio/wav'
-                    });
-                    voice.on('data', (data) => client.send(data));
-                    voice.on('end', () => client.close());
-                } catch(ex) {
-                    fail('answering');
-                }
-            };
-
-            const interpret = (command, confidence) => {
-                var product;
-                try {
-                    product = slparser.parse(command);
-                } catch (ex) {
-                    console.log('Problem interpreting: ' + command);
-                    answer(ERROR_PARSING, sorryUnderstand, command, confidence);
-                    return;
-                }
-                evernote.addNoteItem(query.authtoken, product);
-                answer(
-                    OK,
-                    'Added ' + product + ' to your shopping list.',
-                    command,
-                    confidence
-                );
-            };
-
-            client.on('message', (data, flags) => {
-                buffer.push(data);
-            });
-            client.on('error', (error) => {
-                fail('client connection')
-            });
-            client.on('close', () => {
-                clearInterval(interval);
+            server.on('error', (error) => {
+                console.log('Server problem: ' + error.message);
+                process.exit(1);
             });
 
-            const kaldiProblem = (status) => {
-                clearInterval(interval);
-                kaldi.close();
-                answer(
-                    ERROR_STT + (status ? status : 0),
-                    sorryService,
-                    unknown
-                );
-            };
+            const app = express();
+            app.use((req, res) => {
+                res.send({ msg: "hello" });
+            });
+            server.on('request', app);
 
-            kaldi.on('open', () => {
-                //console.time('kaldi time');
-                var send = () => {
+            server.listen(config.port || (config.secure ? 443 : 80));
+
+            const wss = new WebSocketServer({
+                server: server
+            });
+
+            const text_to_speech = watson.text_to_speech({
+                username: config.watsontts.username,
+                password: config.watsontts.password,
+                version: 'v1'
+            });
+
+            wss.on('connection', (client) => {
+
+                var buffer = [],
+                    query = url.parse(client.upgradeReq.url, true).query,
+                    interval,
+                    kaldi = new WebSocket(
+                        config.kaldi.url +
+                        '?content-type=audio/x-raw,layout=(string)interleaved,rate=(int)16000,format=(string)S16LE,channels=(int)1'
+                    );
+
+                const fail = (message) => {
+                    kaldi.close();
+                    client.close();
+                    console.log('Failed: ' + message);
+                };
+
+                const answer = (status, message, command, confidence) => {
+                    console.log('Sending answer: ' + status + ' - ' + message);
                     try {
-                        var i;
-                        for(i = 0; i<buffer.length; i++) {
-                            kaldi.send(buffer[i]);
-                        }
-                        buffer = [];
+                        client.send(JSON.stringify({
+                            status: status,
+                            message: message,
+                            command: command,
+                            confidence: confidence || 1
+                        }));
+                        var voice = text_to_speech.synthesize({
+                            text: [
+                                '<express-as type="',
+                                    (status > 0 ? 'Apology' : ''),
+                                '">',
+                                message,
+                                '</express-as>'
+                            ].join(''),
+                            voice: 'en-US_AllisonVoice',
+                            accept: 'audio/wav'
+                        });
+                        voice.on('data', (data) => client.send(data));
+                        voice.on('end', () => client.close());
                     } catch(ex) {
-                        kaldiProblem();
+                        fail('answering');
                     }
                 };
-                send();
-                interval = setInterval(send, 250);
-            });
-            kaldi.on('message', (data, flags) => {
-                try {
-                    var message = JSON.parse(data);
-                    if (message.status > 0) {
-                        //console.timeEnd('kaldi time');
-                        kaldiProblem(message.status);
+
+                const interpret = (command, confidence) => {
+                    var product;
+                    try {
+                        product = parser.parse(command);
+                    } catch (ex) {
+                        console.log('Problem interpreting: ' + command + ': ' + ex);
+                        answer(ERROR_PARSING, sorryUnderstand, command, confidence);
                         return;
                     }
-                    var result = message.result;
-                    if (result && result.final) {
-                        //console.timeEnd('kaldi time');
-                        var hypothesis = result.hypotheses[0];
-                        interpret(hypothesis.transcript, hypothesis.confidence);
+                    evernote.addNoteItem(query.authtoken, product);
+                    answer(
+                        OK,
+                        'Added ' + product + ' to your shopping list.',
+                        command,
+                        confidence
+                    );
+                };
+
+                client.on('message', (data, flags) => {
+                    buffer.push(data);
+                });
+                client.on('error', (error) => {
+                    fail('client connection')
+                });
+                client.on('close', () => {
+                    clearInterval(interval);
+                });
+
+                const kaldiProblem = (status) => {
+                    clearInterval(interval);
+                    kaldi.close();
+                    answer(
+                        ERROR_STT + (status ? status : 0),
+                        sorryService,
+                        unknown
+                    );
+                };
+
+                kaldi.on('open', () => {
+                    //console.time('kaldi time');
+                    var send = () => {
+                        try {
+                            var i;
+                            for(i = 0; i<buffer.length; i++) {
+                                kaldi.send(buffer[i]);
+                            }
+                            buffer = [];
+                        } catch(ex) {
+                            kaldiProblem();
+                        }
+                    };
+                    send();
+                    interval = setInterval(send, 250);
+                });
+                kaldi.on('message', (data, flags) => {
+                    try {
+                        var message = JSON.parse(data);
+                        if (message.status > 0) {
+                            //console.timeEnd('kaldi time');
+                            kaldiProblem(message.status);
+                            return;
+                        }
+                        var result = message.result;
+                        if (result && result.final) {
+                            //console.timeEnd('kaldi time');
+                            var hypothesis = result.hypotheses[0];
+                            interpret(hypothesis.transcript, hypothesis.confidence);
+                        }
+                    } catch (ex) {
+                        kaldiProblem();
                     }
-                } catch (ex) {
+                });
+                kaldi.on('error', (error) => {
                     kaldiProblem();
-                }
+                });
             });
-            kaldi.on('error', (error) => {
-                kaldiProblem();
-            });
+
+            callback && callback();
         });
     }
 };
