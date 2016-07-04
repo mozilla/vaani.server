@@ -12,7 +12,7 @@ const child_process = require('child_process');
 const config = vaani.getConfig();
 
 config.port = 8080; // for development and testing, as port 80 is typically blocked
-config.secure = false; // no security required for development and testing 
+config.secure = false; // no security required for development and testing
 
 vaani.serve(config);
 

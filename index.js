@@ -105,7 +105,9 @@ module.exports = {
                         ].join(''),
                         voice: 'en-US_AllisonVoice',
                         accept: 'audio/wav'
-                    }).pipe(websocketStream(client));
+                    });
+                    voice.on('data', (data) => client.send(data));
+                    voice.on('close', () => client.close());
                 } catch(ex) {
                     fail('answering');
                 }

@@ -12,10 +12,10 @@
 
 %%
 
-\s+                            /* skip whitespace */
-[a-zA-Z\']+                    return yytext;
-"."                            return "DOT";
-<<EOF>>                        return "EOF";
+\s+                                              /* skip whitespace */
+[a-zA-Z\']+                                      return yytext;
+"."                                              return "DOT";
+<<EOF>>                                          return "EOF";
 
 /lex
 
@@ -23,38 +23,38 @@
 
 %% /* language grammar */
 
- S  : SC DOT EOF               { return $1; }
+ S  : SC DOT EOF                                 { return $1; }
     | SC EOF
     ;
 
- SC	: MD "you" "please" VP     { return $4; }
-	| MD "you" VP              { return $3; }
-	| "please" VP              { return $2; }
-	| VP                       { return $1; }
-	| NP                       { return $1; }
+ SC : MD "you" "please" VP                       { return $4; }
+    | MD "you" VP                                { return $3; }
+    | "please" VP                                { return $2; }
+    | VP                                         { return $1; }
+    | NP                                         { return $1; }
     ;
 
- MD	: "could"
-	| "can"
-	| "would"
+ MD : "could"
+    | "can"
+    | "would"
     ;
 
- VP	: VB NP PP                 { return $2; }
-	| VB NP "please"           { return $2; }
-	| VB NP                    { return $2; }
+ VP : VB NP PP                                   { return $2; }
+    | VB NP "please"                             { return $2; }
+    | VB NP                                      { return $2; }
     ;
 
- VB	: "add"
-	| "append"
-	| "add" "on"
-	| "tag" "on"
-	| "tack" "on"
+ VB : "add"
+    | "append"
+    | "add" "on"
+    | "tag" "on"
+    | "tack" "on"
     ;
 
- PP	: "to" "my" "shopping" "list"
-	| "to" "my" "shopping" "list" "please"
-	| "to" "my" "list"
-	| "to" "my" "list" "please"
-	| "to" "my" "grocery" "list"
-	| "to" "my" "grocery" "list" "please"
+ PP : "to" "my" "shopping" "list"
+    | "to" "my" "shopping" "list" "please"
+    | "to" "my" "list"
+    | "to" "my" "list" "please"
+    | "to" "my" "grocery" "list"
+    | "to" "my" "grocery" "list" "please"
     ;
