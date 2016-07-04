@@ -1,9 +1,11 @@
 node_modules
-/.git/*
-/resources/shoppinglist.*
+/resources/shoppinglist.js
+/resources/shoppinglist.jison
+/resources/*.pem
+
+*.log
 .DS_Store
-/npm-debug.log
-/test/*
+
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml

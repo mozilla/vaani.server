@@ -2,9 +2,10 @@ node_modules
 /resources/shoppinglist.js
 /resources/shoppinglist.jison
 /config.json
-.DS_Store
 /resources/*.pem
-/npm-debug.log
+
+*.log
+.DS_Store
 
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
