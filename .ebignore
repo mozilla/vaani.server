@@ -3,6 +3,7 @@ node_modules
 /resources/shoppinglist.jison
 /resources/*.pem
 
+/.git/*
 *.log
 .DS_Store
 

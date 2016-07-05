@@ -21,15 +21,14 @@
     "http": "0.0.0",
     "url": "^0.11.0",
     "watson-developer-cloud": "^1.9.4",
-    "websocket-stream": "^3.2.1",
     "ws": "^1.0.1"
   },
-  "main": "index.js",
+  "engine": "node 6.2.2",
   "scripts": {
     "test": "node test/tests.js Add marmalade to my shopping list.",
-    "start": "node ./app.js"
+    "start": "node app.js"
   },
   "config": {
-    "unsafe-perm":true
+    "unsafe-perm": true
   }
 }
