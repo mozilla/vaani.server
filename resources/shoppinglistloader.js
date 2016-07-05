@@ -7,8 +7,6 @@
 
 const fs = require('fs');
 const readline = require('readline');
-const jison = require('jison');
-
 
 const resources = './resources'
 const sljison = resources + '/shoppinglist.jison';
@@ -56,6 +54,7 @@ module.exports.load = (callback) => {
                 writer.write('    ;\n', utf8);
                 writer.on('finish', () => {
                     console.log('generating parser (build)...');
+                    const jison = require('jison');
                     var parser = new jison.Parser(fs.readFileSync(sljison, utf8));
                     console.log('generating parser (write)...');
                     writer = fs.createWriteStream(slparser);
