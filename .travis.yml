@@ -1,14 +1,10 @@
 language: node_js
-
 node_js:
-- "4"
-
-env:
-- secure: "M99r4tU9q4GBIDO0cfi8Qy8ZfMAp/yn95EWiq8p90nSIECuuA5EN3SwCDUFgG9d0Oh8MNhSvz1NgmWakLGtPoj77KG3Tdpqn4x42nAZjlhNGnKnb1LzvDSJECIGn6Wbpzyij/V8tqiR8e8QSBe/2u5+I7G652NTHKEs7PodGFZ08kLp37lZG1iwK4QOCdytuvuiTpOq1BLHgLOmMHMmkW0I6744I2Kn/q4mqJUr0DI+sHU8cqNfROhhWmBz2qTVRwReYvWhlQltRGqbKyTyk00jWXmzvqOeYszlWoUt88ScrxzpzHzKUyJ85nBxaHvrKbVs7rF4o1gZRQPQobLMOJ50nBdllAuTWXyXW5nYrj5dQQX2XZ5v7J3LQdtMcsc2bXMiM2YMZZMa+eSFvPIVsyZGRu5H16+hElbiJroTeYW8ab9wYHD5GEpqA/v9wqXf2QT1oVCjA/A4tDTb6Y1UbE/FNXh4PdK/3c2Q5pYSk8lWTiUiZlCXOadVxWzC5TM5uE2sye1fdJ2PaWRSQ19WFnaFd/T8Bw48YPmRvZfOIYDUGvlM9A2BapHh72IouEMFfJQpwQX20UzURMNnZeIu3F9GGUKsMFZslJ4XLU0Wq8hv2y5ixloH7hAIRlDnqyPhvjIl6wo9Ijj/EdW+yC3eVYYu07aJ+XVW9G0ILGsDll44="
-
+- '4'
 install:
 - sudo apt-get install sox
 - npm install
-
 script:
-- VAANI_CONFIG=$(echo $VAANI_CONFIG | base64 -d) ./vaani -m tell add milk to my shopping list
+- ./vaani -m tell add milk to my shopping list
+before_install:
+- openssl aes-256-cbc -K $encrypted_6407108f7dc7_key -iv $encrypted_6407108f7dc7_iv -in config.json.enc -out config.json -d
