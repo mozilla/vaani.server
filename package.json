@@ -16,6 +16,7 @@
     "jison": "^0.4.17"
   },
   "dependencies": {
+    "commander": "^2.9.0",
     "evernote": "^1.25.82",
     "express": "^4.14.0",
     "http": "0.0.0",

@@ -9,7 +9,7 @@ Preparation
 To be able to run the Vaani server, you need the following:
 - A running instance of a [Kaldi speech to text (STT) gstreamer server](https://github.com/alumae/kaldi-gstreamer-server).
 - An access token to the IBM Watson Text to speech (TTS) service. You can get one from [bluemix](https://bluemix.net).
-- An authentication token for the Evernote sandbox server. You can get one from [Evernote](https://dev.evernote.com/). 
+- An authentication token for the Evernote sandbox server. You can get one from [Evernote](https://dev.evernote.com/).
 
 Based on this requirements, you have to create a ```config.json``` file in the root of your cloned project. Here's how it should look like (replace all ```<some_*>``` fields by your specific values):
 
@@ -34,16 +34,16 @@ Finally you should call
 npm install
 ```
 
-Testing
--------
-All tests require [SoX](http://sox.sourceforge.net/) audio tools to be installed (you can brew and apt-get install it).
+Test client
+-----------
+The test client requires [SoX](http://sox.sourceforge.net/) audio tools to be installed (you can do this by ```brew install sox``` on Mac or ```apt-get install sox``` on Debians).
 A full round trip test can be executed by:
 ``` sh
-node test/tests.js Add milk to my shopping list.
+./vaani tell Add milk to my shopping list.
 ```
 You should be able to use almost any other grocery product instead of milk.
 
-It will
+In the above case, it will
  - Start the server on localhost
  - Take the sentence from the command line and convert it by Watson TTS into audio data
  - Connect to the localhost server via WebSocket
@@ -52,7 +52,7 @@ It will
  - Receive subsequent Wave data messages till the connection gets closed
  - Play back received Wave data
 
-During this test, the server should
+During this call, the server should
  - Accept the incoming WebSocket connection
  - Receive the client's PCM audio via that connection (till the "EOS" message is sent)
  - Use the Kaldi STT server to translate that audio data into text (in the above case this will be "add milk to my shopping list.")
@@ -63,6 +63,14 @@ During this test, the server should
  - Send the answer audio data back to the client
  - Close the WebSocket connection
 
+ Please consult
+ ``` sh
+ ./vaani --help
+ ```
+for further information on the test client.
+
+Testing the parser
+------------------
 This is how you can just test the textual interpreter without any audio involved:
  ``` sh
  ./parse add milk to my shopping list

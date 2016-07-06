@@ -186,9 +186,7 @@ module.exports = {
                         kaldiProblem();
                     }
                 });
-                kaldi.on('error', (error) => {
-                    kaldiProblem();
-                });
+                kaldi.on('error', kaldiProblem);
             });
 
             callback && callback();

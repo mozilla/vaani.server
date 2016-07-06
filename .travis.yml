@@ -11,4 +11,4 @@ install:
 - npm install
 
 script:
-- VAANI_CONFIG=$(echo $VAANI_CONFIG | base64 -d) VAANI_NO_AUDIO=true npm test
+- VAANI_CONFIG=$(echo $VAANI_CONFIG | base64 -d) ./vaani -m tell add milk to my shopping list

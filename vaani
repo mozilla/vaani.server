@@ -1,0 +1,112 @@
+#!/usr/bin/env node
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+'use strict';
+
+const vaani = require('./');
+const WebSocket = require('ws');
+const watson = require('watson-developer-cloud');
+const child_process = require('child_process');
+const fs = require('fs');
+
+var program = require('commander'),
+    config = vaani.getConfig(),
+    telltext,
+    audiofile,
+    audio;
+
+config.port = 8080; // for development and testing, as port 80 is typically blocked
+config.secure = false; // no security required for development and testing
+
+program
+    .version('0.0.1')
+    .description('Vaani command line client.')
+    .option('-s, --server [url]',         'Vaani server URL. If not specified, starts a local server and connects to it.')
+    .option('-w, --watson [credentials]', 'Watson service credentials of the form <username>:<password>. By default it uses credentials from the config.json file.')
+    .option('-m, --mute',                 'No audio output.');
+
+program
+    .command('tell [text...]')
+    .description('Sends a command to Vaani by converting the provided text into audio data.')
+    .action((text) => telltext = text.join(' '));
+
+program
+    .command('send <file>')
+    .description('Sends a command to Vaani by loading it from the specified audio file in WAV format. Use "-" to load from STDIN.')
+    .action((file) => audiofile = file);
+
+program.parse(process.argv);
+
+if(program.watson) {
+    var parts = program.watson.split(':');
+    config.watsontts = { username: parts[0], password: parts[0] };
+}
+config.watsontts.version = 'v1';
+
+const text_to_speech = watson.text_to_speech(config.watsontts);
+
+const fail = (message) => { console.log(message); process.exit(1); }
+
+const call = (command, params) => child_process.spawn(command, params.split(' '));
+
+const send = (audio, server) => {
+    var response,
+        vs = new WebSocket(
+            server + '/?authtoken=' + config.evernote.authtoken,
+            null,
+            { rejectUnauthorized: false }
+        );
+
+    vs.on('open', () => {
+        var sox = call('sox', '-t wav - -t raw -b 16 -e signed -c 1 -r 16k -');
+        sox.stdout.on('data', (data) => vs.send(data));
+        sox.stdout.on('close', () => vs.send('EOS'));
+        audio.pipe(sox.stdin);
+    });
+
+    vs.on('error', (error) => fail('Problem connecting to server.'));
+
+    if(program.mute) {
+        vs.on('close', (code, message) => {
+            process.exit(response ? response.status : 1);
+        });
+        vs.on('message', (data, flags) => {
+            if(!response) {
+                console.log(response = JSON.parse(data));
+            }
+        });
+    } else {
+        var player = call('play', '-t wav -');
+        vs.on('message', (data, flags) => {
+            if(response) {
+                player.stdin.write(data);
+            } else {
+                console.log(response = JSON.parse(data));
+            }
+        });
+        vs.on('close', (code, message) => player.stdin.end());
+        player.stdout.on('close', () => process.exit(response ? response.status : 1));
+    }
+}
+
+if(telltext) {
+    audio = text_to_speech.synthesize({
+        text: telltext,
+        voice: 'en-US_AllisonVoice',
+        accept: 'audio/wav'
+    });
+    audio.on('error', (error) => fail('Problem with TTS service.'));
+} else if(audiofile) {
+    audio = (audiofile == '-') ? process.stdin : fs.createReadStream(audiofile);
+    audio.on('error', (error) => fail('Problem reading from audio file.'));
+} else {
+    program.help();
+}
+
+if(program.server) {
+    send(audio, program.server);
+} else {
+    vaani.serve(config, () => send(audio, 'ws://localhost:8080'));
+}
