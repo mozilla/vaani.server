@@ -1,36 +1,36 @@
-Anemone quinquefolia
-Rob Roy
+anemone quinquefolia
+rob roy
 macedoine
 linguinis
 merry bells
 corn whisky
 spiders
-Spanish paprika
-Chrysanthemum coronarium
+spanish paprika
+chrysanthemum coronarium
 borshes
 pebble plants
 marsh gentians
 philters
 albumen
-Lactuca serriolas
+lactuca serriolas
 garlic clove
-Habenaria chloranthas
+habenaria chloranthas
 bocks
 alligator pears
-Papaver californicum
-Gentiana andrewsiuss
+papaver californicum
+gentiana andrewsiuss
 gentianella amarella
 figs
-Verbesina encelioides
+verbesina encelioides
 chocolate cake
 baking chocolate
 caramels
 broiler
-nickel-iron batteries
+nickel iron batteries
 hot chocolates
 blue daisy
 courgette
-crepe Suzette
+crepe suzette
 main courses
 fritter
 raisin brans
@@ -38,16 +38,16 @@ bacon
 square meals
 pulse
 millet
-Stiltons
+stiltons
 icebergs
-Cephalanthera rubra
+cephalanthera rubra
 estragons
-Aster acuminatus
+aster acuminatus
 bioflavinoid
 salsify
-Mexican husk tomato
-Habenaria bifoliums
-Cheshire cheese
+mexican husk tomato
+habenaria bifoliums
+cheshire cheese
 marmalade plum
 firm omelets
 carp
@@ -68,7 +68,7 @@ lychee
 poulets
 orange soda
 cooking apple
-Twinkie
+twinkie
 purple fringeless orchid
 tuberoses
 cobblers
@@ -79,7 +79,7 @@ finocchios
 shad roes
 rijstaffels
 cypripedia
-sauce Alberts
+sauce alberts
 stockpot
 kettles
 fish stick
@@ -87,7 +87,7 @@ grahams
 chicken sandwich
 swannecks
 inebriants
-swan-neck
+swan neck
 macaroni salads
 bean sprout
 ducks
@@ -100,12 +100,12 @@ ageratums
 muskellunge
 green pea
 purple fringeless orchis
-French pancakes
-Helipterum manglesiuss
-Begonia semperflorens
+french pancakes
+helipterum manglesiuss
+begonia semperflorens
 melons
 omelets
-Mexican tulip poppies
+mexican tulip poppies
 river pear
 headache powder
 chocolate sauce
@@ -113,12 +113,12 @@ buffalo wings
 green beans
 sour mash whiskeys
 cookers
-Rudbeckia laciniata hortensiums
+rudbeckia laciniata hortensiums
 wild snapdragon
 nonfat dry milk
 pyrethrums
 rarebit
-A
+a
 papaya juice
 bocconia
 summer savories
@@ -128,40 +128,40 @@ crisphead lettuces
 demeraras
 turnovers
 ilama
-Portulaca grandiflora
-Western silvery aster
+portulaca grandiflora
+western silvery aster
 jawbreaker
 corn mayweed
 snowballs
 endives
 wine
 calves' liver
-chicken Kievs
+chicken kievs
 haricot verts
 foodstuff
 ergocalciferol
-Anemone nemorosas
-Burgundy sauces
+anemone nemorosas
+burgundy sauces
 peace lilies
 plantains
 gridiron
 lanset
 folate
-wish-washes
+wish washes
 lanseh
-Seders
+seders
 fig
 legs of lamb
 sour mashes
 pestoes
 gum balls
 undercut
-Cyclamen purpurascens
+cyclamen purpurascens
 baking chocolates
 goats' milks
 adermins
 blue columbines
-Russian dressing
+russian dressing
 jalapeno peppers
 thyme
 blusher
@@ -170,8 +170,8 @@ sugarplums
 fortified wine
 stanhopea
 torte
-Acroclinium roseums
-Platanthera leucophea
+acroclinium roseums
+platanthera leucophea
 lentil soup
 shish kebabs
 bird's eyes
@@ -180,14 +180,14 @@ catchfly
 plum sauces
 table mustard
 turnip
-self-rising flour
+self rising flour
 whip
-Smitane
+smitane
 caramel apple
 centaury
-Dutch-processed cocoas
+dutch processed cocoas
 soapwort gentians
-Calypso bulbosas
+calypso bulbosas
 plum puddings
 runcible spoons
 food turner
@@ -200,13 +200,13 @@ natal plum
 greengage
 light bulb
 cauldrons
-Jamaica rums
+jamaica rums
 takeout
 dark bread
 pteroylmonoglutamic acids
 potions
 chitlins
-Chrysanthemum coronariums
+chrysanthemum coronariums
 veggie
 avocado pear
 zinfandel
@@ -225,44 +225,44 @@ shortbreads
 junk foods
 calendula
 twayblades
-Anemone virginianas
+anemone virginianas
 antipastoes
-chicken Kiev
+chicken kiev
 hays
 skimmer
 chiffon cakes
-Helichrysum bracteatum
+helichrysum bracteatum
 caster sugars
 whiskey smies
 shasta daisies
 red bird's eyes
-Emmentals
+emmentals
 native peaches
 chopped steaks
-Chrysanthemum segetums
+chrysanthemum segetums
 lemon juice
 corns
 tamale pies
 pumpernickels
-Virginia spring beauty
-Cox's Orange Pippin
+virginia spring beauty
+cox's orange pippin
 artichoke hearts
-Moehringia lateriflora
-Scotch and sodas
+moehringia lateriflora
+scotch and sodas
 crookneck squashes
-China asters
+china asters
 fish slice
 flank steak
-Chablis
-California wine
-Chateaubriands
+chablis
+california wine
+chateaubriands
 kingfisher daisies
 crayfish
 orange liqueurs
 sapsagoes
 rhizomatous begoniums
-Habenaria peramoena
-open-face sandwiches
+habenaria peramoena
+open face sandwiches
 treasure flower
 piroshki
 blue marguerites
@@ -270,16 +270,16 @@ kashas
 tequila
 barley
 fennel
-Alaskan king crabs
+alaskan king crabs
 caper
 araks
-yellow lady-slipper
+yellow lady slipper
 arroz con pollo
-Lonas inodoras
+lonas inodoras
 menu
-Saintpaulia ionanthas
-Ageratum houstonianum
-Transvaal daisy
+saintpaulia ionanthas
+ageratum houstonianum
+transvaal daisy
 barmbracks
 fish finger
 rice
@@ -293,7 +293,7 @@ criolloes
 relish
 curry powders
 flaming poppies
-Habenaria fimbriatums
+habenaria fimbriatums
 greens
 coles
 pretzel
@@ -303,60 +303,60 @@ mistflowers
 open sandwiches
 bleu
 sandwich plate
-Velveeta
-Dianthus latifolius
+velveeta
+dianthus latifolius
 gravelweeds
 club sandwich
 coconut macaroon
 roast veals
-lady-slippers
-star-leaf begoniums
-Pepsis
+lady slippers
+star leaf begoniums
+pepsis
 chabasite
-Lord's Supper
-Christmas cake
+lord's supper
+christmas cake
 toilet water
 yogurt
 drop scones
 preserve
-Dutch oven
+dutch oven
 cosmoes
 horseflesh
 white wines
 mahimahi
 barbecue sauce
-Welsh rabbit
+welsh rabbit
 foreshank
-May wine
+may wine
 crumpets
 acidophilus milk
 canistels
 pita
 yellow chamomiles
 dietaries
-Virginia spring beauties
+virginia spring beauties
 purple onions
 open sandwich
 succotashes
 raita
-Welsh rarebit
+welsh rarebit
 elver
 smoked herring
 fudges
 folacins
 caraway seed
-all-day suckers
+all day suckers
 sorghum molasses
 cud
-Welsh rarebits
+welsh rarebits
 sponges
 saute
 papaws
 broccoli raab
 liquidisers
-California lady's slippers
-Begonia socotrana
-Layia platyglossas
+california lady's slippers
+begonia socotrana
+layia platyglossas
 toffee apple
 molded salad
 chile
@@ -366,17 +366,17 @@ mulligans
 madrilenes
 peach sauce
 oatmeal cookies
-Tagetes patulas
+tagetes patulas
 bullace grape
 kidney begonia
 ginger nuts
 pepper pots
-Canadian bacons
+canadian bacons
 kohl
 bullace grapes
-Malcolmia maritimas
+malcolmia maritimas
 wheatflake
-Italian dressing
+italian dressing
 conditioner
 dropped egg
 vinoes
@@ -387,16 +387,16 @@ browallia
 helianthus
 scrag ends
 split
-Vouvray
+vouvray
 mad apple
 tiffin
 rex begonia
 torpedoes
 maraschino liqueurs
 side of beef
-Lychins floscuculis
+lychins floscuculis
 boiler
-coquilles Saint-Jacques
+coquilles saint jacques
 supper
 white onion sauces
 tuna
@@ -409,16 +409,16 @@ antiberiberi factors
 meads
 sacramental wine
 ladies' slippers
-Vienna rolls
+vienna rolls
 buttermilk biscuit
 burgers
 mayweed
 veal parmigianas
 strong drinks
-Jonathans
+jonathans
 felwort
 hushpuppies
-Calvados
+calvados
 soochong
 tea bag
 mostacciolis
@@ -426,47 +426,47 @@ ham
 cowpen daisy
 hay
 enchilada
-low-fat milk
-Thousand Island dressing
+low fat milk
+thousand island dressing
 port wine
 acorn squash
 margarines
 confection
 creep feed
-Dendranthema grandifloruom
+dendranthema grandifloruom
 field speedwells
 refried beans
 tea ball
 smoked mackerel
 pinwheel roll
-white-topped aster
+white topped aster
 tenderloins
 mulled wines
 spinach beet
 pina colada
 honeysuckles
 lobster thermidor
-Lane's Prince Alberts
+lane's prince alberts
 lithia waters
 juicers
-Pearmains
+pearmains
 okra
 filet de boeuf en croutes
 lemonade mix
 root beer
 ascorbic acids
 reamer
-Silphium laciniatums
+silphium laciniatums
 ice milk
 pickled herrings
 poppies
 pale ale
-swan-necks
+swan necks
 gin rickey
 lingonberry
 ades
 fruit juice
-Macoun
+macoun
 lemon curds
 nicads
 sweet peppers
@@ -480,17 +480,17 @@ rugelaches
 barbados cherries
 mocha
 dessert apple
-gluten-free diets
+gluten free diets
 soy
-half-and-half
+half and half
 clambakes
 rose campions
 poitrine d'agneaux
 ham and eggs
 borshch
 moss campions
-seafood Newburg
-Armagnacs
+seafood newburg
+armagnacs
 bullshots
 pencils
 prune cakes
@@ -505,58 +505,58 @@ steak tartare
 moccasin flower
 kohls
 paprika
-Anemone nemorosa
+anemone nemorosa
 sockeyes
 maravillas
 damson
-Zantedeschia rehmanii
+zantedeschia rehmanii
 double creams
-Bermuda onions
+bermuda onions
 sprouts
 pitahaya
 smelt
 rein orchids
-Russian dressings
+russian dressings
 face creams
 zucchinis
 roll
-Harvey Wallbangers
+harvey wallbangers
 saucepans
 truffles
-E
+e
 lollipops
 ointment
 globe amaranths
-vol-au-vents
+vol au vents
 grinders
 dyers' chamomiles
 leafy vegetable
 spotted dick
 veal roasts
 loquats
-C-ration
-Madeira
-Empire
+c ration
+madeira
+empire
 key limes
 cachous
 bortsch
 smelts
-Worcestershire sauce
-Stylomecon heterophyllums
+worcestershire sauce
+stylomecon heterophyllums
 filet mignons
 angel cake
 kavakava
-Helipterum manglesii
+helipterum manglesii
 fad diet
 veg
 creme caramels
 margaritums
 cooking chocolate
 demerara
-Aplectrum hyemales
+aplectrum hyemales
 jerk
 wild oats
-Kentucky wonder bean
+kentucky wonder bean
 malt liquor
 oils of wintergreen
 blood agars
@@ -569,30 +569,30 @@ oreo cookie
 pastums
 troche
 tomato juices
-Habenaria unalascensis
+habenaria unalascensis
 steaks
 sloe gin
 crab apple
 phosphates
-Helianthus maximilianii
+helianthus maximilianii
 electric toothbrushes
 monkey bread
 bay leaves
 butter knife
 flame tokay
 black bread
-Spode
-Linaria canadensis
+spode
+linaria canadensis
 gyroes
-Irish soda bread
-Dubonnet
+irish soda bread
+dubonnet
 celery root
-English daisies
+english daisies
 calypsoes
 wooden spoons
-Rudbeckia hirtums
+rudbeckia hirtums
 maiolicas
-Helichrysum bracteatums
+helichrysum bracteatums
 pirozhkis
 aneurins
 beef stews
@@ -606,49 +606,49 @@ papaw
 bread sauces
 hair tonic
 butternut squash
-Bletilla striatums
+bletilla striatums
 leg of lamb
 bock
 cookouts
 sparerib
-Anemone virginiana
+anemone virginiana
 scratches
 coquille
 ice lollies
 vegs
-Psychopsis kramerianas
-tea-like drinks
+psychopsis kramerianas
+tea like drinks
 foods
-Stylomecon heterophyllum
+stylomecon heterophyllum
 jumbal
 lady's tresses
 broccoli rabes
 pumpkin
-Listera cordata
+listera cordata
 powdered milk
-Staymen
+staymen
 teaspoons
-Goudas
+goudas
 matzo
 moccasin flowers
 oatmeal
 tableforks
-Gentiana pneumonanthe
+gentiana pneumonanthe
 pie shell
-Lorenzo dressing
+lorenzo dressing
 red salmon
 finnan
 savoy
 corn fritters
-Brunswick stews
+brunswick stews
 egg fu yungs
 turners
 snaps
-Pogonia roseas
+pogonia roseas
 latte
 antiperspirant
 date
-Nigella damascenas
+nigella damascenas
 delphiniums
 dove
 tea urns
@@ -670,44 +670,44 @@ potato skin
 razors
 pea flour
 bagels
-orange-blossom orchids
+orange blossom orchids
 orangeade
 fastnacht
 tiffins
 goa beans
 salt cod
 soybean milks
-Nigella sativas
-Gentiana saponariums
-Virginia crownbeards
+nigella sativas
+gentiana saponariums
+virginia crownbeards
 pastille
 raviolis
-Arctotis venusta
+arctotis venusta
 ketchup
 dried milk
 baccies
 bran muffins
-Cheiranthus asperus
+cheiranthus asperus
 chorizoes
 black teas
 cigarillo
 legume
 alfalfa sprout
-deep-dish pies
-Roquefort dressings
+deep dish pies
+roquefort dressings
 almond crescent
-Liederkranz
+liederkranz
 savarin
-adam-and-eves
+adam and eves
 hoummos
 mountain lady's slippers
-Alsobia dianthiflora
+alsobia dianthiflora
 compotes
 amaretto
 salads
 blue point
 savoy cabbage
-Silene vulgaris
+silene vulgaris
 fish house punches
 tithonia
 formula
@@ -715,91 +715,91 @@ ararobas
 orange marmalade
 linguine
 dodgers
-Gentiana crinitums
+gentiana crinitums
 multivitamins
-Veronica peregrina
+veronica peregrina
 elderberries
-Chinese anises
+chinese anises
 cheddar pink
-flannel-cakes
+flannel cakes
 sweet four o'clocks
 swizzles
 bay rum
 jumbles
-Bercy
+bercy
 pearly everlastings
 vin ordinaires
 centauries
 sour oranges
 hindshanks
-Hooker's orchid
+hooker's orchid
 face powder
-painted-leaf begonia
+painted leaf begonia
 stew meat
-Listera convallarioides
+listera convallarioides
 teatime
-Valencia orange
+valencia orange
 ascorbic acid
-Lychins chalcedonica
+lychins chalcedonica
 bite
 nigella
 stuffed mushrooms
 filet de boeuf en croute
 cayennes
-Lyonnaise sauce
+lyonnaise sauce
 apple dumpling
 double boilers
-Shortia galacifoliums
-Scotch woodcocks
+shortia galacifoliums
+scotch woodcocks
 coconut waters
 chapati
 matzo ball
-Claytonia caroliniana
+claytonia caroliniana
 pheasants
 malmseys
 carob powder
 iceberg
 breadstick
 hairdressings
-Aplectrum hyemale
+aplectrum hyemale
 nougat bars
 cinnamon roll
 winkle
 ice teas
-Siberian wall flower
+siberian wall flower
 oconee bells
 smoked eels
 turner
-Tabasco sauces
+tabasco sauces
 crape
 toilet powder
 cigarettes
 maraschino liqueur
 red pepper
 bird food
-Texas star
-Helichrysum secundiflorums
+texas star
+helichrysum secundiflorums
 coconut cream
-Manhattan clam chowder
+manhattan clam chowder
 ointments
-Emmentalers
+emmentalers
 anemones
-Last Suppers
+last suppers
 buffet
 strawberry preserves
-Newtown Wonders
+newtown wonders
 red snappers
 panoche
 commissariat
 panocha
-Florence fennels
-make-ups
-Caladenia cairnsianas
+florence fennels
+make ups
+caladenia cairnsianas
 sodas
 ravigote
 salt
-Vichy water
-Platanthera bifolia
+vichy water
+platanthera bifolia
 pyridoxines
 sugar cookies
 calamary
@@ -808,41 +808,41 @@ peaches
 swedish turnip
 coffee liqueurs
 calamari
-Orchis papilionaceae
+orchis papilionaceae
 pink paper daisy
 minestrones
 slop
 cocoa powders
 rattlesnake plantain
 oil meals
-Riesling
-Gentiana villosa
+riesling
+gentiana villosa
 cruciferous vegetable
 stream orchid
 bath oils
 fish mousses
-Chinese anise
+chinese anise
 crested coral roots
 alcoholic drinks
 clustered lady's slippers
-Rudbeckia laciniatums
+rudbeckia laciniatums
 mandarin
 duck sauce
 beluga caviar
 western sandwiches
 lansehs
-Neapolitan ice cream
+neapolitan ice cream
 quandong
 bean curd
 tortilla
 orchids
-Erysimum cheiruss
+erysimum cheiruss
 whiskies
 certified milk
 coffee ring
 draught beers
 minute steaks
-Veronica arvensis
+veronica arvensis
 culture media
 chitlings
 refresher
@@ -852,14 +852,14 @@ oriental poppies
 king begoniums
 chabazites
 tocopherol
-seafood Newburgs
+seafood newburgs
 molds
-Tokays
+tokays
 cantaloupe
 lemon balm
 icacoes
-Actinomeris alternifoliums
-demi-glazes
+actinomeris alternifoliums
+demi glazes
 homebrews
 helmet orchids
 stinking mayweeds
@@ -875,26 +875,26 @@ hand lotion
 yellow granadillas
 concentrates
 chorizo
-Cabernet Sauvignon
+cabernet sauvignon
 yak's milks
 ice water
 clam chowder
 cheroots
-Orchis masculas
+orchis masculas
 picnic shoulder
 ribier
 scrambled eggs
 sauce verte
 artichokes
 cake mix
-Anthemis arvensis
-Barbados gooseberry
+anthemis arvensis
+barbados gooseberry
 oleomargarines
-Corallorhiza maculata
+corallorhiza maculata
 yellow mombin
-Nesselrodes
+nesselrodes
 rainbow pinks
-black-eyed Susans
+black eyed susans
 headcheeses
 blowfish
 barley waters
@@ -906,21 +906,21 @@ aperitif
 frozen foods
 fish and chips
 croaker
-French pancake
+french pancake
 pinks
 challahs
 lamb roasts
-Kentucky wonder
+kentucky wonder
 coconuts
-Indian mustard
-Tanacetum coccineums
-twice-baked bread
+indian mustard
+tanacetum coccineums
+twice baked bread
 clove pink
 cotton candies
-thyme-leaved sandwort
-Mentzelia lindleyi
+thyme leaved sandwort
+mentzelia lindleyi
 eating apples
-Platystemon californicus
+platystemon californicus
 marchpanes
 rock salmon
 roulade
@@ -933,15 +933,15 @@ flashlight batteries
 coldcreams
 barbecues
 whelks
-New England clam chowders
-Merlot
+new england clam chowders
+merlot
 steamer
 bullock's hearts
 food colorings
 blazing stars
 cajan pea
-blue-eyed African daisy
-Phalaenopsis amabilis
+blue eyed african daisy
+phalaenopsis amabilis
 cilantro
 smallmouth bass
 coldcream
@@ -965,38 +965,38 @@ clam
 iced coffee
 wooden spoon
 nutrients
-Anthemis tinctoria
+anthemis tinctoria
 corn poppy
-Yellow Delicious
-Scotch malt whiskeys
+yellow delicious
+scotch malt whiskeys
 slings
 food grains
-Empires
+empires
 panicled aster
 grub
 anise seed
 horehound
-pet-foods
+pet foods
 cookie sheets
 lobster
-Waldorf salads
+waldorf salads
 pickles
-love-potion
+love potion
 stuffed eggs
 escaroles
 scampoes
-Bermuda onion
+bermuda onion
 earthenwares
 bath powders
-Oncidium papilio kramerianums
+oncidium papilio kramerianums
 onion salt
 lactoflavins
 windfalls
-Chardonnays
+chardonnays
 champagnes
 hindquarter
 wild spinach
-Vaccaria hispanica
+vaccaria hispanica
 muscat grapes
 fish meals
 calciferol
@@ -1006,26 +1006,26 @@ johnnycakes
 sandwich plates
 fritters
 rhubarb pies
-French endive
-Eupatorium coelestinum
+french endive
+eupatorium coelestinum
 buttercup squash
-date-nut bread
+date nut bread
 bubbly
 confiture
-Socotra begoniums
+socotra begoniums
 pheasants under glas
 spinach beets
 sides
 beef jerkies
 matzoes
-French omelets
-Nigella damascena
+french omelets
+nigella damascena
 sapodilla plums
 hen
 field rations
 bowtie pastums
-Ammobium alatums
-Brassia lawrenceanas
+ammobium alatums
+brassia lawrenceanas
 limeades
 pomeloes
 eating utensil
@@ -1038,9 +1038,9 @@ tripe
 terrines
 zabagliones
 grapefruits
-Primas
-Dungeness crab
-Gouda
+primas
+dungeness crab
+gouda
 dishwashing detergents
 hard roes
 garden trucks
@@ -1049,10 +1049,10 @@ sea scallops
 tenderloin
 cream
 angelica
-Emmental
+emmental
 oxheart cherries
 biriani
-Velveetums
+velveetums
 soda crackers
 beverage
 clear liquid diets
@@ -1061,56 +1061,56 @@ old maids
 tagliatelle
 casseroles
 macaroni salad
-water-soluble vitamins
+water soluble vitamins
 composite plant
-Jaffa oranges
+jaffa oranges
 schnitzels
 picnic shoulders
-Cabernet Sauvignons
+cabernet sauvignons
 pork sausages
 goa bean
-Cyclamen neopolitanum
-English runner beans
+cyclamen neopolitanum
+english runner beans
 consommes
 persimmons
 marinades
-Burgundys
-Christmas puddings
+burgundys
+christmas puddings
 mash
 mast
-Nyctaginia capitata
+nyctaginia capitata
 steak au poivres
-Centaurea moschata
+centaurea moschata
 red helleborine
 sowbellies
-Gerbera jamesonii
+gerbera jamesonii
 panetella
 costmaries
-pine-barren sandworts
+pine barren sandworts
 rissoles
 escargots
 teapot
 puff paste
 albacores
-Sazeracs
+sazeracs
 red helleborines
 dressing
 sparkling wines
-maple-leaf begonia
+maple leaf begonia
 sour salt
-Espagnole
+espagnole
 electric battery
 muscadines
 friers
-Rioja
+rioja
 foxtail orchid
 offal
 opium poppies
-Cypripedium acaules
+cypripedium acaules
 roast porks
 matzo meals
 columbine
-Cyclamen hederifolium
+cyclamen hederifolium
 soybean flmies
 herrings
 eating apple
@@ -1119,36 +1119,36 @@ prosciutto
 common speedwell
 perfumeries
 matzah meal
-Indian relishes
+indian relishes
 vinaigrettes
-Gentiana thermalis
+gentiana thermalis
 feed grain
-French loaves
+french loaves
 rum slings
 fast food
 winter flounder
 continental breakfast
-Winesap
+winesap
 huckleberries
 bialystokers
 varietals
 lamb roast
 spice cake
 hash
-Boston lettuce
+boston lettuce
 pepper steak
 twisters
-ready-mix
-split-pea soups
+ready mix
+split pea soups
 bok choys
 skim milk
 bourguignon sauce
 bacon strip
 moulds
 cotton roses
-Bordeaux wines
+bordeaux wines
 pasta sauces
-Catananche caeruleas
+catananche caeruleas
 sherbet
 dusty miller
 rusks
@@ -1157,9 +1157,9 @@ decaffeinated coffees
 saveloy
 pears
 pollock
-Worcester sauces
-Pogonia divaricata
-Coeloglossum bracteatums
+worcester sauces
+pogonia divaricata
+coeloglossum bracteatums
 tabasco
 coffee roll
 chucks
@@ -1167,15 +1167,15 @@ fruit juices
 eatable
 king salmon
 malt
-Poivrade
-Jerusalem artichoke sunflowers
+poivrade
+jerusalem artichoke sunflowers
 blue toadflax
 grey soles
 galvanic battery
 corned beef
 gentianella
-Gentiana clausa
-after-shaves
+gentiana clausa
+after shaves
 snow orchid
 omelette pans
 chocolate milk
@@ -1189,7 +1189,7 @@ salts
 petunia
 calf's brains
 viand
-Muncheners
+muncheners
 cling
 green olives
 dills
@@ -1199,17 +1199,17 @@ cocoyams
 dried apricots
 mincers
 tamarinds
-Manhattan clam chowders
+manhattan clam chowders
 tamarindo
 red peppers
-Uvularia grandifloras
-Last Supper
+uvularia grandifloras
+last supper
 chicken cordon bleus
 white fringed orchid
 frozen orange juices
-Begonia cheimantha
+begonia cheimantha
 salad dressings
-white Burgundy
+white burgundy
 white cakes
 rock sandworts
 cigarets
@@ -1227,7 +1227,7 @@ baguet
 pilafs
 plume poppy
 oreo cookies
-Habenaria albiflora
+habenaria albiflora
 blueberry pies
 rum babas
 pigeon peas
@@ -1251,13 +1251,13 @@ hotdogs
 granadilla
 majolica
 mandarins
-Swan River daisy
+swan river daisy
 courses
-Ozothamnus secundiflorus
-Stayman
+ozothamnus secundiflorus
+stayman
 dehydrated food
 metheglin
-Grimes' goldens
+grimes' goldens
 skillies
 jellies
 graham bread
@@ -1272,49 +1272,49 @@ skillet bread
 variety meat
 tiramisu
 fried rice
-Felicia bergeriana
+felicia bergeriana
 cranberry sauce
 ratafia biscuits
 confitures
 sunblock
 chili vinegar
-Christmas begoniums
+christmas begoniums
 pomatum
 clustered lady's slipper
-quiche Lorraines
+quiche lorraines
 chinook salmon
-Medocs
+medocs
 soft diets
 food grain
 hoummoes
 julienne vegetable
 folic acid
-Mexican sunflowers
+mexican sunflowers
 black caraway
 tufted gentian
-Habenaria peramoenas
+habenaria peramoenas
 oyster stews
 deviled eggs
 plasticiser
 macons
-African marigold
-beef Wellington
-John Barleycorn
+african marigold
+beef wellington
+john barleycorn
 chocolate candies
 custards
 common bean
-Pilsners
-Cabernet
+pilsners
+cabernet
 poppy seeds
 raised doughnuts
-Mirabilis multifloras
+mirabilis multifloras
 bee orchid
-Cypripedium californicums
+cypripedium californicums
 celery salts
 tortellini
 jug wines
-Victoria sponges
-Lychins floscuculi
+victoria sponges
+lychins floscuculi
 filet mignon
 pond apples
 baba au rhum
@@ -1322,18 +1322,18 @@ livers
 cranberry sauces
 water softener
 honeys
-Tom and Jerrys
+tom and jerrys
 cough drops
 mother's milk
 zebra orchid
 winter squashes
-Liederkranzs
+liederkranzs
 globe peppers
-Brussels biscuit
-Silene caroliniana
+brussels biscuit
+silene caroliniana
 sweet pickle
 sauerkrauts
-Cleistes divaricata
+cleistes divaricata
 polentums
 matzo meal
 hotchpotch
@@ -1347,15 +1347,15 @@ rib roasts
 yoghourts
 orchid
 oyster
-Chinese mustard
+chinese mustard
 cornflower aster
 tangeloes
-soft-shell clam
+soft shell clam
 vitellus
 soul food
 chowder
 butterfly orchids
-Camembert
+camembert
 coquilles
 boeuf fondu bourguignon
 frozen pudding
@@ -1367,10 +1367,10 @@ timbales
 candy egg
 fruit custards
 larkspur
-Schreiber's aster
-Liparis loeselii
-Gymnadenia conopseas
-Prima
+schreiber's aster
+liparis loeselii
+gymnadenia conopseas
+prima
 chapatti
 fruit compotes
 spring waters
@@ -1386,7 +1386,7 @@ chatterboxes
 tomato sauces
 stinking mayweed
 bluebottle
-Irish coffee
+irish coffee
 mince pie
 papaya juices
 cocoa powder
@@ -1405,13 +1405,13 @@ cannibal mounds
 fish knives
 carrot pudding
 drinking water
-Barbados gooseberries
+barbados gooseberries
 black tea
-C batteries
+c batteries
 summer crookneck
 turtle soup
 white sauce
-Ophrys insectifera
+ophrys insectifera
 whitebait
 shanks
 bin liner
@@ -1423,22 +1423,22 @@ chicken broth
 loganberries
 wild spinaches
 panfish
-Japanese plums
+japanese plums
 profiterole
 souffle
 fast foods
 hot sauces
 winter cress
-Weissbier
+weissbier
 nectarines
 mulligatawny
 stewing pans
 periwinkles
 old maid
-Worcester sauce
+worcester sauce
 creme caramel
 peppercorns
-Tetrazzinis
+tetrazzinis
 sweetbread
 marmites
 dill pickle
@@ -1456,27 +1456,27 @@ herb teas
 fibers
 refined sugars
 wild pinks
-Dianthus caryophyllus
+dianthus caryophyllus
 corn tash
 sunchokes
 mascaras
 brownie mix
 lozenges
-Habenaria hookeri
+habenaria hookeri
 salad greens
 golden everlasting
 snail
-Chardonnay
-Edam
+chardonnay
+edam
 cigar
 ziti
 chocolate egg
 citrange
 cucumber
 pimento
-beef Wellingtons
-Northern lobster
-Emmentaler
+beef wellingtons
+northern lobster
+emmentaler
 raisin bran
 common ageratum
 cholines
@@ -1487,7 +1487,7 @@ red hot
 cheddar
 crackles
 flank steaks
-French toasts
+french toasts
 fryer
 horseradish
 nail varnish
@@ -1495,15 +1495,15 @@ hooded ladies' tresses
 flatbrod
 liqueur
 butterbean
-Begonia tuberhybrida
+begonia tuberhybrida
 mammee apple
 rigatoni
 mulligan stew
 green peppers
 matelote
-prairie white-fringed orchids
-Texas stars
-bacon-lettuce-tomato sandwiches
+prairie white fringed orchids
+texas stars
+bacon lettuce tomato sandwiches
 appetiser
 snowdrop anemone
 jackfruit
@@ -1511,13 +1511,13 @@ maple syrup
 dry batteries
 ramequin
 molded salads
-Ammobium alatum
+ammobium alatum
 wheat germ
 hot cross buns
 pandowdy
-Colorado four o'clocks
+colorado four o'clocks
 sorbet
-Spiranthes romanzoffiana
+spiranthes romanzoffiana
 ratafee
 kavas
 prairie sunflowers
@@ -1526,54 +1526,54 @@ brick cheese
 gruel
 cupper
 satyr orchids
-frost-weed
+frost weed
 miraculous foods
 rugelach
 muscat
 kidney begoniums
-Galliano
+galliano
 chrysanthemums
 squash pie
 cyanocobalamin
-mangel-wurzel
+mangel wurzel
 common speedwells
 faience
 carob
 larkspurs
 bigoes
-Anemone sylvestris
+anemone sylvestris
 pink calla
 chatterbox
 corn whiskies
-Italian vermouth
-marvel-of-Peru
+italian vermouth
+marvel of peru
 penuche
 white chocolates
-Hexalectris spicatums
-French beans
+hexalectris spicatums
+french beans
 cottonweeds
 ploughman's lunch
 soda pop
 servers
-Western silvery asters
+western silvery asters
 chewing gum
 lemon curd
 blue marguerite
 snowdrop windflowers
 watercress
 mournful widow
-Tokay
+tokay
 lobster thermidors
 battercake
 choice morsel
 moth plant
-cocky-leeky
+cocky leeky
 fish steaks
 jacks
 phylloes
 crabapples
 bluefin
-Reuben
+reuben
 pleurothallis
 rock cakes
 capulins
@@ -1582,7 +1582,7 @@ health foods
 marmalade plums
 lesser celandine
 icaco
-toads-in-the-hole
+toads in the hole
 divinity fudge
 bleu cheese dressings
 curry sauce
@@ -1592,20 +1592,20 @@ decafs
 dairy products
 maxillaria
 pepperonis
-African violets
+african violets
 button pinks
 pilchards
 broad leaved centaury
 taro
 victual
 chocolate liquors
-Drambuies
-black-eyed peas
+drambuies
+black eyed peas
 tart
 carbonated waters
 potion
 tomato pastes
-French pastries
+french pastries
 common sunflower
 sea squabs
 gimlets
@@ -1621,7 +1621,7 @@ chicken cordon bleu
 birdseeds
 chillis
 scratch
-Meconopsis cambrica
+meconopsis cambrica
 courgettes
 immortelles
 dainty
@@ -1629,42 +1629,42 @@ passion fruit
 centers
 whole milks
 case knives
-Begonia rex
+begonia rex
 gherkin
-Eschscholtzia californica
-soft-shelled crabs
+eschscholtzia californica
+soft shelled crabs
 hard drinks
 curds
 candy apples
 heliophila
-Flanders poppies
+flanders poppies
 sweet basil
-violet-flowered petunia
+violet flowered petunia
 purple fringeless orchids
 gammon
 striped gentian
 squids
-French sorrels
+french sorrels
 heath asters
 stodge
 rack
 pouf pastes
-short-spurred fragrant orchid
+short spurred fragrant orchid
 dehydrated foods
 rum cocktail
 shrimps
 sausage pizzas
-nickel-cadmium accumulators
+nickel cadmium accumulators
 negus
 spaghetti
 light creams
 sauerkraut
 dessert apples
 sugar water
-Begonia heracleifolia
+begonia heracleifolia
 chymes
 chickpeas
-flat-topped white aster
+flat topped white aster
 saveloys
 lolly
 lacings
@@ -1673,13 +1673,13 @@ pachouli
 chinas
 leg
 prickly pears
-Habenaria chlorantha
+habenaria chlorantha
 punch
 benedictines
 castor sugar
-New England asters
+new england asters
 bay rums
-Sicilian pizzas
+sicilian pizzas
 vinegar
 umbrellawort
 big marigolds
@@ -1720,8 +1720,8 @@ green peas
 conditioners
 aguacate
 spring beauty
-Pogonia divaricatums
-eggs Benedicts
+pogonia divaricatums
+eggs benedicts
 hootch
 candy bar
 casserole
@@ -1739,13 +1739,13 @@ apple jelly
 quesadillas
 cutleaved coneflower
 barbecued wing
-Lactuca scariolas
+lactuca scariolas
 borshts
 chop
 mullets
 mullein pinks
 rhubarb
-Scotch pancakes
+scotch pancakes
 chocolate fondues
 earthnut
 beef patty
@@ -1753,7 +1753,7 @@ frying pan
 rugulahs
 black currant
 kohlrabi
-Clatonia lanceolatums
+clatonia lanceolatums
 round steak
 caramelized sugar
 briskets
@@ -1769,8 +1769,8 @@ napoleons
 lesser centaury
 bulgurs
 oyster cracker
-Virginian stock
-Arenaria strictums
+virginian stock
+arenaria strictums
 produces
 danish pastries
 spatula
@@ -1787,7 +1787,7 @@ lychees
 cobalamins
 wheat beer
 carissa plums
-violet-flowered petuniums
+violet flowered petuniums
 coleslaws
 detergents
 cushaw
@@ -1804,7 +1804,7 @@ rijstafels
 chevres
 celeriac
 schrods
-White Russians
+white russians
 loaf sugar
 frittata
 white chocolate
@@ -1812,78 +1812,78 @@ peppermint patty
 fringed orchids
 bacon and eggs
 aquavits
-Cape primrose
+cape primrose
 raitums
 stick cinnamon
-Habenaria nivea
+habenaria nivea
 grists
 cheddars
 edibles
 teaberry
-Spanish onions
+spanish onions
 alimentations
 herbal tea
 eyebrow pencils
-Mirabilis oblongifoliums
+mirabilis oblongifoliums
 bird foods
 clam dip
-Papaver heterophyllum
+papaver heterophyllum
 roast pork
 stick cinnamons
 koumiss
-silver-laces
+silver laces
 ramekin
 dejeuners
 chilli
 compote
-Mornay sauces
+mornay sauces
 thimbleweeds
 corn flake
 chilly
-Erysimum arkansanums
+erysimum arkansanums
 pudding
-cocky-leekies
+cocky leekies
 electric mixer
 bock beers
 unleavened bread
 salad cream
 grey sole
 feasts
-low-sodium diets
+low sodium diets
 broilers
 marrow
 bear paws
-lobster a la Newburgs
+lobster a la newburgs
 tostada
 prickly pear
 schnitzel
 lacing
 potato peels
 tunaburger
-fettuccine Alfredo
+fettuccine alfredo
 lox
-McIntoshes
+mcintoshes
 potpourri
 sourball
 runner beans
 cowberry
-K rations
+k rations
 tithoniums
 steamer clam
-tongue-flower
+tongue flower
 deodorant
 stelis
 crabmeats
-purple-fringed orchid
+purple fringed orchid
 dishes
 shepherd's pies
 waffles
 gateau
-thyme-leaved speedwells
-Chinese celery
+thyme leaved speedwells
+chinese celery
 cheese cutter
 cymbid
-Irish burgoos
+irish burgoos
 coconut milk
 swanflowers
 pastis
@@ -1897,12 +1897,12 @@ romaine
 corned beeves
 hubbard squash
 ice plants
-MSGs
+msgs
 hot dog
 frozen custards
 sour creams
-Dactylorhiza maculata fuchsii
-Sparaxis tricolors
+dactylorhiza maculata fuchsii
+sparaxis tricolors
 cocoyam
 muscadels
 oreos
@@ -1910,30 +1910,30 @@ hard liquors
 vervains
 highballs
 chocolate liquor
-Coca Cola
+coca cola
 yolks
-Michaelmas daisies
+michaelmas daisies
 tong hoes
-Welsh poppy
+welsh poppy
 jam
 jak
-French vermouths
+french vermouths
 potato peelings
 bourbon
 sun marigolds
 croquettes
-Lorenzo dressings
+lorenzo dressings
 chicken livers
-Nova Scotia loxes
+nova scotia loxes
 runner bean
 oil cake
 cheroot
 smoked salmon
 golden everlastings
 kingfish
-after-shave
+after shave
 cocozelle
-Yquems
+yquems
 victuals
 graham crackers
 rappee
@@ -1949,20 +1949,20 @@ hot toddy
 porcelains
 blue daisies
 hotcakes
-vitamin Ks
+vitamin ks
 azure asters
 zeolite
-Jamaica apples
+jamaica apples
 china pinks
 feed grains
 borscht
 green salad
 prairie sunflower
-Golden Delicious
+golden delicious
 white beers
 butty
 toner
-Chrysanthemum morifolium
+chrysanthemum morifolium
 side of pork
 butts
 hair grease
@@ -1973,38 +1973,38 @@ healing herbs
 safety razor
 pulassan
 vinifera grape
-vitamin K1
+vitamin k1
 takeout foods
-vitamin K3
+vitamin k3
 cream sauces
 cold cereal
 butter daisies
-clover-leaf rolls
+clover leaf rolls
 pigs' knuckles
 curry sauces
 crystallized gingers
 big marigold
 oregano
-Corallorhiza maculatums
+corallorhiza maculatums
 dahliums
 petite marmites
 wind poppies
-Encyclia venosas
-Papaver alpinum
-Postums
+encyclia venosas
+papaver alpinum
+postums
 large white petuniums
 sorghums
 spiny lobster
 hindquarters
 coneflower
-quiche Lorraine
+quiche lorraine
 ice plant
 bell apples
 chipotles
 onion bread
 accumulator
 frappe
-mist-flowers
+mist flowers
 stuffing
 home fries
 litchee
@@ -2027,7 +2027,7 @@ fenugreek
 green goods
 haslet
 drink
-Brussels biscuits
+brussels biscuits
 mistflower
 barley water
 delft
@@ -2045,11 +2045,11 @@ egg rolls
 bananas
 pekoes
 souchong
-purple-hooded orchis
+purple hooded orchis
 kvass
 blackheart cherries
 tansy
-B complexes
+b complexes
 sweet melon
 caldrons
 corn puddings
@@ -2063,11 +2063,11 @@ metheglins
 marinaras
 malt whisky
 ratafees
-Begonia feastiuss
+begonia feastiuss
 teriyaki
 toddies
 marzipan
-Nova Scotia lox
+nova scotia lox
 sugarloaves
 muscadelles
 pies
@@ -2077,10 +2077,10 @@ crisp
 onion
 anise cookies
 plum sauce
-Townsendia Exscapas
+townsendia exscapas
 sun plant
-semi-sweet chocolates
-Cypripedium parviflorums
+semi sweet chocolates
+cypripedium parviflorums
 enamelwares
 grids
 sparling
@@ -2088,10 +2088,10 @@ cowpea
 business lunches
 cold creams
 mammees
-Phacelia campanularia
+phacelia campanularia
 jalapeno
-European blueberries
-Irish whiskeys
+european blueberries
+irish whiskeys
 skimmed milk
 saucepan
 shortia
@@ -2100,17 +2100,17 @@ greater butterfly orchids
 comestible
 percolators
 nut butter
-Leucanthemum vulgare
+leucanthemum vulgare
 raisin bread
-Parmesan
-Cattleya citrinas
-TV dinner
-Armerican cheddars
-Swedish ryes
-Cape primroses
+parmesan
+cattleya citrinas
+tv dinner
+armerican cheddars
+swedish ryes
+cape primroses
 chocolate bars
 flat bone
-nickel-cadmium accumulator
+nickel cadmium accumulator
 sugar beet
 onion salts
 spoilables
@@ -2118,8 +2118,8 @@ corn gluten feed
 mincing machines
 scones
 maravilla
-Pernods
-Papaver rhoeas
+pernods
+papaver rhoeas
 citrins
 toasting forks
 brownies
@@ -2128,9 +2128,9 @@ caviar
 turtle beans
 capulin
 ague weeds
-thyme-leaved sandworts
+thyme leaved sandworts
 health food
-Dom Pedroes
+dom pedroes
 funnel
 vichyssoise
 potato salad
@@ -2141,15 +2141,15 @@ cheese cutters
 bortsches
 yellowtail flounder
 cordial
-Hershey bars
+hershey bars
 sirloin
-Jerusalem artichoke sunflower
+jerusalem artichoke sunflower
 ovoflavin
-Turkish tobaccoes
-Irish whiskies
+turkish tobaccoes
+irish whiskies
 marguerites
 whiskeys
-Venus's shoe
+venus's shoe
 rock lobster
 claret cup
 seed cakes
@@ -2157,7 +2157,7 @@ cuppas
 rolled biscuits
 drip coffees
 vermouth
-Irish coffees
+irish coffees
 congoes
 kitambilla
 barleycorns
@@ -2168,16 +2168,16 @@ dripping pan
 matzoh meals
 fruit salad
 agars
-Aztec marigolds
+aztec marigolds
 food color
-Muscadet
+muscadet
 prune cake
-split-pea
-B-complex vitamin
+split pea
+b complex vitamin
 fava beans
-Mirabilis uniflora
+mirabilis uniflora
 blintz
-Stylophorum diphyllum
+stylophorum diphyllum
 oncidiums
 souses
 fish cakes
@@ -2185,30 +2185,30 @@ pineapple juice
 worts
 omelet pans
 bridecakes
-Silene virginica
-vitamin B2s
+silene virginica
+vitamin b2s
 profiteroles
 summer squashes
 commelinas
 perishable
-Canada anemones
+canada anemones
 stewpan
 cudweed
 strawberry jam
 cold ducks
 coconut macaroons
-Paschal celeries
+paschal celeries
 whisk
 fruitcake
 ratafia
 haggis
-bouncing Bets
-self-raising flmies
+bouncing bets
+self raising flmies
 poppy
 sweet scabious
 scampi
 colostrum
-ready-mixes
+ready mixes
 browalliums
 bully beef
 solid foods
@@ -2225,7 +2225,7 @@ terra sigillatums
 ginger ales
 croutons
 garden peas
-raisin-nut cookie
+raisin nut cookie
 pie shells
 globe pepper
 snappers
@@ -2241,18 +2241,18 @@ chicken and rice
 coho
 homogenized milk
 pogonia
-Belgian waffle
+belgian waffle
 blush wine
 litchi nut
 corn syrups
 bean curds
 haricots verts
-Cypripedium albums
+cypripedium albums
 dehydroretinols
 poultries
 blueberry
-California poppy
-Chianti
+california poppy
+chianti
 congee
 hard candies
 puds
@@ -2260,8 +2260,8 @@ spring rolls
 pemmicans
 tempuras
 pork pies
-Aster linosyris
-chicken Tetrazzinis
+aster linosyris
+chicken tetrazzinis
 sparkling waters
 sabayons
 stock cubes
@@ -2273,27 +2273,27 @@ camomile tea
 eggdrop soups
 escallops
 lobscouse
-love-philtres
-Scotch and soda
+love philtres
+scotch and soda
 paper towel
 veggies
 camomile teas
 farce
-Berlin doughnuts
+berlin doughnuts
 brewage
 chuck short ribs
 fondant
 showy sunflower
-Catananche caerulea
+catananche caerulea
 blue cheese dressing
 fudge sauce
-Gruyeres
-Riojas
+gruyeres
+riojas
 pizza
 wedding cake
-Scotch whisky
+scotch whisky
 heart cherries
-Yorkshire puddings
+yorkshire puddings
 crackle china
 fiddlenecks
 alimentation
@@ -2303,7 +2303,7 @@ tangle orchids
 grogs
 process cheese
 tonic water
-anisette de Bordeaux
+anisette de bordeaux
 hybrid tuberous begoniums
 green
 chards
@@ -2313,27 +2313,27 @@ toddy
 star of the veldt
 rosinweeds
 muffin
-Swan River everlasting
+swan river everlasting
 westerns
 zep
-Lonas annua
-pink-and-white everlasting
+lonas annua
+pink and white everlasting
 blue crab
-rough-leaved asters
+rough leaved asters
 crown daisies
 sweet rocket
-Gentianopsis detonsa
+gentianopsis detonsa
 wood poppies
 lusterware
 apple tarts
 beef fondues
 avocado
-White Russian
+white russian
 savory
-lead-acid accumulators
+lead acid accumulators
 turban squashes
-sauce Espagnole
-Cypripedium fasciculatum
+sauce espagnole
+cypripedium fasciculatum
 shrimp cocktail
 bream
 bread
@@ -2354,7 +2354,7 @@ lanolin
 wonton soups
 giant helleborine
 hand cheese
-large-leaved asters
+large leaved asters
 sponge cakes
 anchovy sauce
 congou
@@ -2363,7 +2363,7 @@ confections
 marigold
 chocolate syrups
 giant helleborines
-Scotch whiskeys
+scotch whiskeys
 leftovers
 yoghurts
 gypsyweed
@@ -2376,35 +2376,35 @@ aerides
 egg yolk
 raisin
 goose liver
-Macleaya cordatums
+macleaya cordatums
 stewpans
 incandescent lamp
-loose-leaf lettuce
+loose leaf lettuce
 fondants
 peanut brittle
 pin bones
 sweet cider
-New England aster
-Glaucium flavums
+new england aster
+glaucium flavums
 boeufs
-Papaver argemones
+papaver argemones
 hasty pudding
 prairie aster
 timothy
 black peppers
 gooseberry
 emollients
-Silene uniflora
+silene uniflora
 paprika sauces
 tulip orchid
-Chinese date
+chinese date
 pavlovas
 dogs
 golden marguerites
 kiwi
 liquid diet
 pea beans
-B
+b
 luncheon
 sides of pork
 lobster stews
@@ -2413,16 +2413,16 @@ screw augurs
 couvertures
 praline
 scarlet runner
-Encyclia venosa
-bread-sticks
+encyclia venosa
+bread sticks
 orange marmalades
-Swan River everlastings
-California bluebells
+swan river everlastings
+california bluebells
 deodourants
 blue columbine
 soft drink
 corn gluten feeds
-Shawnee cakes
+shawnee cakes
 hydromels
 crown beards
 sun blocker
@@ -2430,9 +2430,9 @@ boeuf
 seltzer
 spearmint oil
 crabapple
-Habenaria lacera
+habenaria lacera
 eels
-Jerusalem artichokes
+jerusalem artichokes
 aquilegiums
 lattes
 toadflax
@@ -2444,17 +2444,17 @@ gravy
 hommos
 rambutan
 string cheese
-Tanacetum ptarmiciflorum
+tanacetum ptarmiciflorum
 shallots
-potage St. Germain
-Gentiana detonsa
+potage st. germain
+gentiana detonsa
 rambotans
 coffee urns
 gammons
 quiches
 duckling
 breakfast food
-T-bone steaks
+t bone steaks
 matzo balls
 jug wine
 standing rib roast
@@ -2462,17 +2462,17 @@ horse bean
 poppers
 bluepoint
 cosmeas
-Devonshire cream
+devonshire cream
 cruller
 spuds
-Chrysanthemum lacustres
+chrysanthemum lacustres
 toast
 hot cereals
-short-spurred fragrant orchids
-Moselle
+short spurred fragrant orchids
+moselle
 chocolate pudding
 pineapple guava
-chicken Marengoes
+chicken marengoes
 crapes
 columbines
 cappuccino
@@ -2485,21 +2485,21 @@ timbale cases
 rissole
 bulgur pilaf
 string bean
-Michaelmas daisy
-Rhine wine
-Mexican husk tomatoes
+michaelmas daisy
+rhine wine
+mexican husk tomatoes
 oil cakes
-Mexican black cherry
-Maximilian's sunflowers
+mexican black cherry
+maximilian's sunflowers
 steak
 cyder
-Calendula officinalis
+calendula officinalis
 frijole
 lemonade
 atoles
 food product
-Papaver somniferum
-Colberts
+papaver somniferum
+colberts
 swedes
 goulash
 lutfisks
@@ -2515,7 +2515,7 @@ cornpones
 toffee apples
 pastes
 anchovy paste
-Amberboa moschata
+amberboa moschata
 dill weed
 cos
 clothes peg
@@ -2524,7 +2524,7 @@ cheese spread
 blush wines
 hummus
 cod
-Cokes
+cokes
 bran
 triple creams
 chicken provencale
@@ -2540,12 +2540,12 @@ devil's flax
 felafel
 crabapple jelly
 food colour
-half-and-half dressings
+half and half dressings
 muskellunges
 elvers
 milk powder
 cobalamin
-Munich beer
+munich beer
 spider orchids
 cutleaved coneflowers
 double saucepans
@@ -2555,13 +2555,13 @@ savories
 clarified butter
 souse
 smorgasbord
-Filago germanica
+filago germanica
 sour mash
-Gypsophila paniculata
+gypsophila paniculata
 thymes
-Gentianopsis thermalis
+gentianopsis thermalis
 mountain daisies
-Espagnoles
+espagnoles
 fish stews
 papayas
 cowpen daisies
@@ -2575,22 +2575,22 @@ summer savouries
 petit dejeuner
 fastnachts
 giant sunflower
-Dianthus chinensis heddewigii
+dianthus chinensis heddewigii
 spaghetti squash
 condiments
 caladenia
-five-flowered gentian
-round-leaved rein orchid
+five flowered gentian
+round leaved rein orchid
 talcum powder
 borsh
 centres
 aquilege
-Jerusalem artichoke
+jerusalem artichoke
 chicken cacciatores
 saskatoons
 soya bean
 avocadoes
-Texas purple spike
+texas purple spike
 smoothies
 neck sweetbread
 porridges
@@ -2609,23 +2609,23 @@ shoofly pie
 pork loins
 mayo
 lemon peel
-Christmas cakes
-Caladenia cairnsiana
-Easter daisy
+christmas cakes
+caladenia cairnsiana
+easter daisy
 chicken stews
 arak
-Boston cream pies
+boston cream pies
 flavoring
 straw wine
-Oven Stuffer Roaster
+oven stuffer roaster
 hominy
 acerola
 shad roe
 finocchio
-pink-and-white everlastings
+pink and white everlastings
 candytuft
-Cheiranthus allioniuss
-Virginian stocks
+cheiranthus allioniuss
+virginian stocks
 taffy
 clear liquid diet
 litchis
@@ -2641,10 +2641,10 @@ horned poppies
 butternut squashes
 carob bars
 demiglaces
-Aquilegia caerulea
+aquilegia caerulea
 onion butter
 ham hocks
-ragged-fringed orchids
+ragged fringed orchids
 muscadelle
 showy lady slipper
 grape jelly
@@ -2653,11 +2653,11 @@ catchflies
 hushpuppy
 lagers
 sweet pickles
-filter-tipped cigarettes
+filter tipped cigarettes
 dragon's mouth
-Weizenbier
-Siberian wall flowers
-love-philters
+weizenbier
+siberian wall flowers
+love philters
 borsch
 chitterlings
 coral
@@ -2665,15 +2665,15 @@ black bean
 gingerbread
 octopus
 slumgullions
-Coeloglossum viride
+coeloglossum viride
 pineapples
 spring onion
-Easter daisies
+easter daisies
 loin
 whitlavia
 hamburger steaks
 bland diets
-Colorado four o'clock
+colorado four o'clock
 winter savouries
 field scabious
 lansets
@@ -2682,7 +2682,7 @@ dry mustard
 fizz
 taffies
 cowherb
-Lychnis flos-cuculi
+lychnis flos cuculi
 schrod
 flavorers
 rue anemones
@@ -2691,7 +2691,7 @@ soft diet
 horseradish sauces
 bulgur pilafs
 pilot biscuits
-toad-in-the-hole
+toad in the hole
 beigels
 sherries
 conserves
@@ -2703,17 +2703,17 @@ mole
 baguette
 mushes
 cold cream
-lace-flower vine
+lace flower vine
 layer cakes
 porgies
-Munich beers
+munich beers
 jambons
-painted-leaf begoniums
+painted leaf begoniums
 greengages
 juicer
 juices
 brew
-Spodes
+spodes
 navy bean
 hard sauce
 caraway
@@ -2724,17 +2724,17 @@ blue points
 silages
 sweet vermouths
 banquets
-Arenaria groenlandicas
+arenaria groenlandicas
 pulassans
-Mornay sauce
+mornay sauce
 bran muffin
 muscatels
 mincing machine
-Vienna roll
-swan-flower
+vienna roll
+swan flower
 carbonadoes
 liqueurs
-Rudbeckia hirta
+rudbeckia hirta
 grape
 peppermint candies
 pate de foie gras
@@ -2742,15 +2742,15 @@ purloo
 pancake turner
 damsons
 couscous
-Gazania rigens
+gazania rigens
 dusting powders
 brownie
 bottle gentians
 banana bread
 steak and kidney pie
 loxes
-Encyclia tampensis
-Vidalia onion
+encyclia tampensis
+vidalia onion
 margarita
 tacoes
 bocconiums
@@ -2763,7 +2763,7 @@ crappies
 anjous
 matzohs
 ice lolly
-Schizopetalon walkeri
+schizopetalon walkeri
 lesser centauries
 soup spoon
 muscats
@@ -2772,18 +2772,18 @@ rouge
 cupid's dart
 panicled asters
 neutral spirits
-Shortia galacifolia
+shortia galacifolia
 anise seeds
 spider
 tapioca
 cochon de laits
 roll of tobacco
-Silene dioicas
+silene dioicas
 longroots
 oenomel
-Oktoberfest
+oktoberfest
 water lemons
-Arenaria caroliniana
+arenaria caroliniana
 crown daisy
 egg noodle
 blackheart cherry
@@ -2793,7 +2793,7 @@ raw milk
 zituss
 bubble gums
 roast lambs
-Sauvignon blanc
+sauvignon blanc
 viosterols
 acerolas
 sambucas
@@ -2806,16 +2806,16 @@ inositol
 marges
 flatbreads
 slender centauries
-fettuccine Alfredoes
+fettuccine alfredoes
 paprika sauce
 bottled waters
 greasepaint
 joints
 dessert wines
 gazania
-Gentianella quinquefoliums
+gentianella quinquefoliums
 arrow leaved aster
-Lonas annuas
+lonas annuas
 sugarplum
 tea leaf
 bechamel sauces
@@ -2830,7 +2830,7 @@ jambon
 tansies
 ham sandwich
 chip
-soft-shell clams
+soft shell clams
 hysons
 granola bar
 fish cake
@@ -2839,7 +2839,7 @@ lunch meat
 breast of lamb
 stuffed mushroom
 blue crabs
-Seder
+seder
 quahaug
 spreads
 vegetable soup
@@ -2858,7 +2858,7 @@ lutefisks
 produce
 planter's punch
 heroes
-Chinese gooseberry
+chinese gooseberry
 head cabbages
 cinnamon bun
 crepe
@@ -2866,14 +2866,14 @@ falafels
 gin and tonic
 corona
 molasses
-Yquem
+yquem
 fricandeaux
 tahini
-Scotches
+scotches
 graham cracker
 sailfish
 inositols
-Gerbera jamesoniuss
+gerbera jamesoniuss
 copperwares
 hybrid tuberous begonia
 hortensia
@@ -2881,21 +2881,21 @@ common beans
 brain
 roast beeves
 cole
-vitamin Ms
+vitamin ms
 birds
 cola
 trifle
-Italian sandwiches
+italian sandwiches
 seeded raisins
 comestibles
-Habenaria niveas
+habenaria niveas
 yams
 lamb chop
 phillipsite
 golden cup
 coffee liqueur
 beefsteak tomatoes
-Rome Beauty
+rome beauty
 cane sugar
 prunes
 solanaceous vegetables
@@ -2903,7 +2903,7 @@ cetchups
 swedish turnips
 barbados cherry
 pyridoxal
-Arctotis venustums
+arctotis venustums
 caffe latte
 candy canes
 leaf lettuces
@@ -2918,8 +2918,8 @@ stock cube
 oncidium
 cut of mutton
 tong ho
-Verdicchio
-Maryland chickens
+verdicchio
+maryland chickens
 kummel
 monkfish
 buttermilk pancakes
@@ -2928,23 +2928,23 @@ liebfraumilches
 celandines
 sweet corns
 quark
-ram's-heads
+ram's heads
 varietal wines
 lemon balms
-Catasetum macrocarpums
+catasetum macrocarpums
 blue poppy
 draft beer
-V-8 juice
-baking-powder biscuits
-Japanese pinks
+v 8 juice
+baking powder biscuits
+japanese pinks
 fennel flower
 snail butter
 caldron
-Delmonico steak
+delmonico steak
 blini
-Gentianopsid proceras
+gentianopsid proceras
 green pea soup
-French dressing
+french dressing
 bliny
 soft roe
 blended whiskeys
@@ -2953,13 +2953,13 @@ potteries
 savouries
 larder
 nutrition
-B batteries
+b batteries
 angel food cakes
 perennial salt marsh asters
 brains
 toilet powders
 vermicelli
-lip-gloss
+lip gloss
 skimmers
 haslets
 flowers
@@ -2967,7 +2967,7 @@ kabob
 pansy orchid
 applesauce cakes
 durians
-boeuf Bourguignonnes
+boeuf bourguignonnes
 lobster stew
 spareribs
 cockle
@@ -2975,7 +2975,7 @@ phacelia
 apples
 mulligan
 lunches
-Spanish burgoo
+spanish burgoo
 slaw
 foremilk
 salad burnet
@@ -2984,19 +2984,19 @@ beef jerky
 whiskey sour
 pate a choux
 intoxicant
-frost-weeds
+frost weeds
 breakfast
 double boiler
 coco plum
-Hesperis matronalis
-Samian wares
+hesperis matronalis
+samian wares
 chabazite
 eggbeaters
-Aster macrophyllus
+aster macrophyllus
 fresh bean
-Scotch malt whiskies
+scotch malt whiskies
 wassail
-Brassia verrucosas
+brassia verrucosas
 herb tea
 birthday cake
 snowdrop anemones
@@ -3005,7 +3005,7 @@ red rockfish
 cachou
 blended whisky
 canary seeds
-New England clam chowder
+new england clam chowder
 fad diets
 blue orchids
 bishops
@@ -3020,11 +3020,11 @@ radicchio
 sauce vinaigrettes
 wine sauces
 tartar sauces
-angel-wing begonia
+angel wing begonia
 swamp sunflowers
-Habenaria laceras
+habenaria laceras
 chili dogs
-Pyrenees daisy
+pyrenees daisy
 cheeseburgers
 snack
 kippered herrings
@@ -3037,25 +3037,25 @@ toffee
 pastrami
 cornmeals
 agatewares
-fat-soluble vitamin
+fat soluble vitamin
 cows' milks
-Nigella hispanica
-French toast
-Mexican tulip poppy
+nigella hispanica
+french toast
+mexican tulip poppy
 cherrystone clam
 lesser butterfly orchid
 chili con carne
 lollies
 beef loin
-Holland gin
+holland gin
 medlar
 quahogs
 red wines
 sirloin steak
 gingerbread men
-Nova Scotia salmon
+nova scotia salmon
 breasts of veal
-Silene virginicas
+silene virginicas
 beef goulash
 chocolate puddings
 ginger snaps
@@ -3067,28 +3067,28 @@ china pink
 pomade
 crawfish
 coffee urn
-Centaurea moschatums
+centaurea moschatums
 hoecakes
 coffee cream
 timbale case
 tongueflower
 herbal
-Irishes
+irishes
 beurre noisettes
 ground beeves
 rum baba
 finnan haddocks
-Conoclinium coelestinum
+conoclinium coelestinum
 beef necks
 purees
 fragrant orchid
-Begonia rexes
+begonia rexes
 barbecued wings
-white-topped asters
-Vaccaria pyramidatums
-cracked-wheat bread
-Antirrhinum filipes
-California bluebell
+white topped asters
+vaccaria pyramidatums
+cracked wheat bread
+antirrhinum filipes
+california bluebell
 brats
 side of meat
 olives
@@ -3101,7 +3101,7 @@ double cream
 jerky
 remoulade sauces
 phytonadiones
-Parmesans
+parmesans
 muskmelons
 ragged robins
 retinol
@@ -3128,83 +3128,83 @@ bog rose
 puffed wheat
 hens
 helmet orchid
-baked Alaska
+baked alaska
 hot pots
 media
 bitter chocolates
-Cypripedium parviflorum
+cypripedium parviflorum
 eau de colognes
 sapodilla
-Valeriana officinalis
+valeriana officinalis
 old fashioneds
 devil's flaxes
 foreshanks
 mountain anemone
-sweet William
+sweet william
 puff
 caladeniums
 ague weed
 puffed wheats
 burrito
 star anises
-Boston lettuces
+boston lettuces
 yellow horned poppies
 puree
-B vitamin
+b vitamin
 globe artichokes
 hair mousses
-Pippins
+pippins
 pimentoes
 benniseed
 cardamums
 cornmeal mushes
-Melba toasts
+melba toasts
 jellyroll
 wedge bone
 bread and butter pickle
-Sally Lunns
+sally lunns
 citranges
 screwdrivers
 sausage rolls
 celeriacs
 ashcake
 scollops
-Anemone tetonensis
-Stayman Winesaps
+anemone tetonensis
+stayman winesaps
 pastils
 guacamoles
 zebra orchids
 fines herbes
-Amberboa moschatums
+amberboa moschatums
 leek
 pigwashes
 blackberry
 clambake
 bouillon cubes
-Habenaria psycodes
+habenaria psycodes
 chicken sandwiches
 cisco
 ryes
 bubble gum
-vitamin Cs
+vitamin cs
 vanilla pudding
 feijoas
-cock-a-leekies
+cock a leekies
 majolicas
-Chrysanthemum maxima
+chrysanthemum maxima
 forks
-Kentucky wonder beans
+kentucky wonder beans
 sobraliums
 rappees
 wheat
-Anemone Canadensis
+anemone canadensis
 golden ironweeds
-Papaver californicums
+papaver californicums
 cooking utensils
 diet
 smoked haddocks
 choc
-Maine lobster
+maine lobster
 paints
 ruddles
 gums
@@ -3214,17 +3214,17 @@ chow
 snow orchids
 field ration
 ambrosia
-Worcestershires
+worcestershires
 chicken cacciatoras
 tortilla chip
-shrimp Newburg
+shrimp newburg
 honey crisp
 dendrobium
-Himantoglossum hircinums
+himantoglossum hircinums
 grater
 shags
-Eupatorium coelestinums
-Claytonia carolinianas
+eupatorium coelestinums
+claytonia carolinianas
 straight razor
 premix
 bock beer
@@ -3241,34 +3241,34 @@ buttermilk pancake
 cornmeal
 satyr orchid
 prickly poppies
-low-fat diets
+low fat diets
 blintzes
 aioli sauce
 stiff aster
 mustard sauce
 malt whiskeys
 lesser butterfly orchids
-lobster Newburg
-Scandinavian lox
+lobster newburg
+scandinavian lox
 farfalle
 marjorams
 calendulas
 purloos
 wheatflakes
-Emmenthals
-Toll House cookies
+emmenthals
+toll house cookies
 rolling pins
 canned meat
 chicory roots
 talcum powders
 creme de fraise
-Aquilegia caeruleas
-Mirabilis jalapa
+aquilegia caeruleas
+mirabilis jalapa
 longheaded thimbleweeds
 pear
 peas
 taro roots
-Caesar salad
+caesar salad
 aspartames
 compass plant
 roasters
@@ -3277,16 +3277,16 @@ congou teas
 veal parmesans
 hindshank
 blood sausage
-Corallorhiza trifidas
-English soles
-Conoclinium coelestinums
-Chrysanthemum leucanthemums
+corallorhiza trifidas
+english soles
+conoclinium coelestinums
+chrysanthemum leucanthemums
 edible beans
 potpie
 vanilla bean
 blueberries
 mueslis
-Anemone cylindrica
+anemone cylindrica
 dumpling
 lizard orchids
 croquette
@@ -3294,36 +3294,36 @@ canned foods
 red hots
 seckel pears
 ginger ale
-Sally Lunn
+sally lunn
 screwdriver
 macaronis
-Victoria plums
+victoria plums
 ham hock
 icicle plants
-red Bordeaux
-pheasant's-eye
+red bordeaux
+pheasant's eye
 canapes
 winged everlasting
-Dianthus chinensis heddewigiuss
+dianthus chinensis heddewigiuss
 fenugreek seeds
 depilator
 liquidizer
-Gentiana holopetalas
+gentiana holopetalas
 mountain sandworts
 strudels
-Pernod
+pernod
 arethusa
 cookies
 blood meal
-Meuniere butter
-Dianthus deltoides
+meuniere butter
+dianthus deltoides
 wintergreen oil
-hot-fudge sauces
+hot fudge sauces
 ails
 bomber
 pottles
 cherrystones
-Nantua
+nantua
 celtuce
 scallops
 nans
@@ -3333,75 +3333,75 @@ toilet waters
 girasol
 electric mixers
 sardines
-Octoberfest
-Philadelphia pepper pot
+octoberfest
+philadelphia pepper pot
 golden glows
-Leucanthemum superbums
+leucanthemum superbums
 shaddocks
 bog asters
 pincushion flowers
 rib roast
-vitamin A2s
+vitamin a2s
 pilaws
 globe amaranth
 castor sugars
 light whipping cream
 evaporated milk
 hot cake
-Eccles cakes
+eccles cakes
 saccharins
 cosmetic
-Alaska king crab
+alaska king crab
 chocolate fondue
-Corallorhiza trifida
+corallorhiza trifida
 pabulums
 corn chamomile
-Begonia dregeis
+begonia dregeis
 golden cups
 phillipsites
-calf's-foot jellies
-Mesembryanthemum crystallinum
+calf's foot jellies
+mesembryanthemum crystallinum
 titbit
 fondues
 voltaic piles
-Bercy butter
+bercy butter
 diabetic diets
-Virginia stock
+virginia stock
 squid
 tourtiere
 cubeb cigarette
 saddle of lamb
 scallions
 honey cakes
-ox-eyed daisies
+ox eyed daisies
 combination salads
 chicken taco
 hog plum
 raisin cookie
 pollack
 risottoes
-Caesar salads
+caesar salads
 icebox cake
 sherberts
 mombins
 old maid flower
 ginger pop
 alfalfa sprouts
-Sauvignon blancs
+sauvignon blancs
 bittersweet chocolate
 masts
 scorpion weeds
 beef
 chops
-Hungarian goulashes
+hungarian goulashes
 wood cudweeds
 blood agar
 menus
 corn poppies
 whole meal bread
-Arctotis stoechadifoliums
+arctotis stoechadifoliums
 emollient
-Schizopetalon walkeruss
+schizopetalon walkeruss
 maple syrups
 mineral water
 hoagies
@@ -3411,7 +3411,7 @@ chicken paprikash
 herbals
 shrimp cocktails
 bean tostada
-lead-acid battery
+lead acid battery
 veal parmesan
 corn cakes
 eggdrop soup
@@ -3421,24 +3421,24 @@ red onions
 sour milks
 bitok
 spathe flower
-three-decker
+three decker
 beignet
 wiener
 redfish
 snowdrop
 catananches
 submarine sandwich
-Pilsener
-Welsh rabbits
+pilsener
+welsh rabbits
 cigarilloes
 corn dodger
 tartar steak
 food
 brandyballs
 black puddings
-Aster falcatus
+aster falcatus
 cupcake
-Pepsi Cola
+pepsi cola
 coffeepots
 tea makers
 silenes
@@ -3448,7 +3448,7 @@ herring salad
 cut of pork
 allemande sauce
 common fennel
-Veronica officinalis
+veronica officinalis
 mousses
 kai apples
 anchovy pizza
@@ -3458,7 +3458,7 @@ chocolate ice creams
 lusterwares
 everlasting flowers
 food colmies
-Crock Pots
+crock pots
 omelette pan
 ulcer diet
 chocolate eggs
@@ -3469,8 +3469,8 @@ bass
 blancmanges
 pud
 sweet basils
-hard-boiled eggs
-Japanese crab
+hard boiled eggs
+japanese crab
 morello
 green fringed orchis
 vanilla ice cream
@@ -3478,22 +3478,22 @@ round
 daisy
 mangosteen
 claret cups
-Cotula coronopifolia
+cotula coronopifolia
 olla podridas
 miso
 buffaloes
-vitamin As
+vitamin as
 potato peel
 doughnuts
-Neapolitan ice creams
+neapolitan ice creams
 heavy whipping creams
-Swiss chards
-French omelet
+swiss chards
+french omelet
 lambchop
 uglis
-Chrysanthemum lacustre
+chrysanthemum lacustre
 horn poppy
-Silene acaulis
+silene acaulis
 garlic chive
 journey cake
 edda
@@ -3506,10 +3506,10 @@ egg noodles
 aqua vitae
 curacoa
 cocktail sauce
-vitamin A1
+vitamin a1
 cruciferous vegetables
 veloutes
-bouncing Bet
+bouncing bet
 clingstones
 burritoes
 wheat beers
@@ -3519,7 +3519,7 @@ haddock
 wildfowls
 prickly lettuce
 bell apple
-Epidendrum tampense
+epidendrum tampense
 pot liquor
 coleslaw
 genipap fruit
@@ -3536,8 +3536,8 @@ organs
 carbohydrate loadings
 coelogynes
 crownbeards
-Limburgers
-vitamin A2
+limburgers
+vitamin a2
 eyeshadows
 beef roast
 bottled water
@@ -3549,7 +3549,7 @@ potato pancake
 mace
 friedcake
 blood puddings
-Aster shortiuss
+aster shortiuss
 stiff gentian
 hot peppers
 molasses taffies
@@ -3559,7 +3559,7 @@ asters
 cafe noir
 arroz con polloes
 cubeb cigarettes
-Papaver argemone
+papaver argemone
 speedwell
 ratafia biscuit
 candied citrus peel
@@ -3578,16 +3578,16 @@ kales
 cos lettuces
 kaiser rolls
 hardbake
-Gentiana detonsas
-Vichy waters
-Sparaxis tricolor
+gentiana detonsas
+vichy waters
+sparaxis tricolor
 potables
 cinnamons
 pale coral roots
 julienne
 fluffy omelet
 bourguignons
-Saint Emilions
+saint emilions
 schizopetalon
 devil's food cakes
 vermouths
@@ -3601,22 +3601,22 @@ potato salads
 mutton chop
 lemon meringue pies
 crackle
-Leucanthemum vulgares
+leucanthemum vulgares
 ripe olive
 mushroom sauces
 meringue kiss
 port wines
 compass flowers
 patties
-Anemone cylindricas
-Nesselrode pudding
+anemone cylindricas
+nesselrode pudding
 burgoo
 celery stick
 talcums
-Tanacetum coccineum
+tanacetum coccineum
 nasturtium
 bulgur
-Bordeaux wine
+bordeaux wine
 rigatonis
 dishwasher detergents
 main course
@@ -3645,63 +3645,63 @@ ice coffees
 hedge pink
 hepatoflavins
 ploughman's lunches
-Helianthus tuberosus
+helianthus tuberosus
 colorings
-Newtown Wonder
+newtown wonder
 cosmetics
 mirasols
-Dubonnets
+dubonnets
 rhubarb pie
 chowchow
-Lord's Suppers
+lord's suppers
 scabiosas
 lima beans
 liver
 immortelle
-Silene unifloras
+silene unifloras
 poached eggs
 pie crusts
 golden syrups
-French dressings
+french dressings
 cologne water
 spotted coral root
 white sauces
 green mayonnaise
 bartlett pears
 steamed puddings
-Alsobia dianthifloras
+alsobia dianthifloras
 honey bun
 seasoners
 candied apples
 pantothen
 sea biscuits
-American cheese
-French bread
-Gymnadenia odoratissimas
+american cheese
+french bread
+gymnadenia odoratissimas
 cheese souffles
 old fashioned
 dark meat
 nutmegs
 kippers
-Chartreuses
+chartreuses
 pearl hominies
 shag
 shad
 corn speedwells
 vanilla beans
 weakfish
-Maryland chicken
+maryland chicken
 chicken purloos
 pomegranate
 pieplant
 oyster stuffings
 corn muffin
 pasta salad
-Rhenish
+rhenish
 olla podrida
 campion
-Nigella sativa
-Roman corianders
+nigella sativa
+roman corianders
 dietary supplements
 wedges
 pot likker
@@ -3713,62 +3713,62 @@ tabbouleh
 hotpot
 dry cereals
 schizopetalons
-Spanish paprikas
+spanish paprikas
 frozen desserts
 malt liquors
 cherries
 turban squash
-Catawba
+catawba
 alewife
 manicottuss
 sandwiches
-low-salt diets
+low salt diets
 double cremes
 girasols
-Veronica peregrinas
-Mirabilis californica
-Toll House cookie
-Eburophyton austinae
+veronica peregrinas
+mirabilis californica
+toll house cookie
+eburophyton austinae
 game
 vanda
-Eburophyton austinas
+eburophyton austinas
 marcs
 tradescant's asters
-Spiranthes cernua
+spiranthes cernua
 potherbs
 mincer
 minces
 ceramic ware
 eel
-soft-shell crabs
+soft shell crabs
 oxeye daisies
 oxeye daisy
 turtle bean
-Cypripedium fasciculatums
-Oven Stuffer Roasters
+cypripedium fasciculatums
+oven stuffer roasters
 pilchard
 tufted centauries
 wintergreen
 sapodillas
 aliment
-Guinness
-Cognacs
+guinness
+cognacs
 yolk
 escargot
-orange-blossom orchid
+orange blossom orchid
 saddles
 brisling
-Mirabilis laevis
+mirabilis laevis
 coffee substitutes
 calathian violets
 rosinweed
 clam chowders
-Venus' slipper
+venus' slipper
 reefer
 funnels
 taroes
 matzoh balls
-Alaska rein orchid
+alaska rein orchid
 great yellow gentian
 halals
 rum
@@ -3776,10 +3776,10 @@ cheddar pinks
 rue
 caramel apples
 stew
-Vaccaria hispanicas
+vaccaria hispanicas
 sinkers
 raspberry
-ice-cream cones
+ice cream cones
 beefsteak
 cigarette
 cilantroes
@@ -3797,17 +3797,17 @@ commissariats
 chicken casseroles
 sourdough bread
 cornflower asters
-Mirabilis multiflora
+mirabilis multiflora
 leeks
 syllabub
-Zantedeschia aethiopicas
-Madeira cake
-Devonshire creams
+zantedeschia aethiopicas
+madeira cake
+devonshire creams
 sugar candy
 schneckens
 crisphead lettuce
 corn syrup
-Spanish rice
+spanish rice
 pizza pies
 dips
 edible corn
@@ -3815,7 +3815,7 @@ mulberry
 steamed pudding
 hares
 bitter lemons
-Irish
+irish
 yoghurt
 cheddar cheese
 ethyl alcohols
@@ -3826,21 +3826,21 @@ winter crookneck squashes
 black olives
 dry battery
 white onion sauce
-Brie
+brie
 deodorants
 creme de cacaos
-ragged-fringed orchid
-vitamin Gs
+ragged fringed orchid
+vitamin gs
 bialies
-Jewish rye bread
+jewish rye bread
 garlic cloves
 hooches
 western wall flowers
 nan
 kippered herring
-French bean
+french bean
 lime juice
-Gentiana villosas
+gentiana villosas
 florest's cinerariums
 mamey
 knishes
@@ -3849,13 +3849,13 @@ corn marigold
 kibbles
 butterbeans
 flatbrods
-Moehringia laterifloras
+moehringia laterifloras
 jumping orchid
 macaroni and cheese
 soy sauce
-Himantoglossum hircinum
+himantoglossum hircinum
 chicken cacciatore
-As
+as
 oyster plant
 chicken cacciatora
 scouses
@@ -3864,11 +3864,11 @@ artichoke heart
 quantongs
 drinking chocolate
 powdered gingers
-Thompson Seedless
+thompson seedless
 desserts
 cappuccinoes
 barbecue
-French marigold
+french marigold
 pogoniums
 meat pie
 triple sec
@@ -3876,7 +3876,7 @@ leechee
 fodders
 navel oranges
 sweet rockets
-Linosyris vulgaris
+linosyris vulgaris
 field soybean
 pigswill
 bear claws
@@ -3888,14 +3888,14 @@ lobster butter
 apricot bars
 broad bean
 electric lights
-Sazerac
+sazerac
 sultana
 nonfat dry milks
 lanolins
 rumps
-Swiss cheese
+swiss cheese
 dewberries
-Tagetes erecta
+tagetes erecta
 hydromel
 brussels sprouts
 sausage
@@ -3903,24 +3903,24 @@ cupcakes
 aspirin powder
 tartar steaks
 loaves of bread
-BLTs
+blts
 dandelion green
 butterfly flower
 applesauce
 potherb
 collins
-Italian rice
+italian rice
 flavourings
 cornmeal mush
 broccolis
 liverwursts
 calves' feet
 raspberries
-Centaurea imperialis
+centaurea imperialis
 sesame seed
 club steaks
 caraways
-Virgin Marys
+virgin marys
 soymilk
 garambulla
 custard apple
@@ -3928,7 +3928,7 @@ clabbers
 sprats
 checkerberries
 green adder's mouths
-Verbesina virginica
+verbesina virginica
 mountain anemones
 buckwheat
 mocha coffees
@@ -3937,65 +3937,65 @@ celeries
 common spotted orchid
 claro
 cotton candy
-Carolina spring beauties
+carolina spring beauties
 bread dough
-salt-free diets
+salt free diets
 starters
 canape
 bath oil
 rose moss
-Gentiana procera
+gentiana procera
 longheaded thimbleweed
 short ribs
 crab
 cherimollas
 oolongs
-filter-tipped cigarette
+filter tipped cigarette
 blueberry pie
 fennels
 tangerine
 popper
-Lactuca serriola
-Mentzelia lindleyis
+lactuca serriola
+mentzelia lindleyis
 bulghurs
 starter
 whisky
-vitamin-deficiency diet
-baking-powder biscuit
+vitamin deficiency diet
+baking powder biscuit
 salad
 mostaccioli
 citrus fruit
 bolognas
-Hooker's orchids
+hooker's orchids
 cooking apples
 cottage pies
 hero sandwiches
-annual salt-marsh asters
+annual salt marsh asters
 suds
-Scotch malt whisky
+scotch malt whisky
 hero sandwich
 kishkes
-Nova style salmon
+nova style salmon
 alfalfas
 liebfraumilch
 coconut water
-Jaffa orange
-Gentiana clausas
+jaffa orange
+gentiana clausas
 nard
 fare
 entree
-Habenaria greenei
-Postum
+habenaria greenei
+postum
 gluten bread
 yogurts
 natrolite
-Irish whiskey
+irish whiskey
 black pepper
 dolphinfish
 hashes
 candytufts
-demi-glaze
-Jell-Os
+demi glaze
+jell os
 firm omelet
 cocktail sauces
 eggwhisks
@@ -4005,26 +4005,26 @@ sambuca
 quick bread
 antihemorrhagic factors
 red herrings
-Virginia hams
+virginia hams
 hamburgers
 congou tea
 pouf paste
 brittle
 hock
 pet foods
-Erysimum allionii
+erysimum allionii
 chrysarobin
 field soybeans
 onion rolls
 filets
-beef Bourguignonne
-Saratoga chips
+beef bourguignonne
+saratoga chips
 cola extracts
 frozen orange juice
 electric shaver
 florists' chrysanthemums
 sweets
-Hosts
+hosts
 stout
 wax bean
 foie gras
@@ -4047,7 +4047,7 @@ special
 marigolds
 button pink
 lettuces
-brown Bettys
+brown bettys
 kidney pie
 stokes' asters
 stews
@@ -4056,26 +4056,26 @@ soochongs
 pilot biscuit
 shaving cream
 candy eggs
-Phacelia minors
+phacelia minors
 kumquats
 yak's milk
-Mexican sunflower
+mexican sunflower
 ragged orchids
-Madeiras
+madeiras
 tortillas
 bouchees
 potato chips
 bulgur wheat
 vermicellis
-Anthemis cotula
-Bletilla striata
+anthemis cotula
+bletilla striata
 ciders
 congo
 cherry tomatoes
-old-field toadflaxes
+old field toadflaxes
 safety razors
 frozen yogurts
-Rudbeckia serotina
+rudbeckia serotina
 pralines
 corn liquor
 egg foo yongs
@@ -4083,35 +4083,35 @@ soupspoons
 moutons
 dewberry
 genipap
-lobster a la Newburg
-Florence fennel
-Anaphalis margaritacea
+lobster a la newburg
+florence fennel
+anaphalis margaritacea
 molasses cookies
 whole milk
 five spice powder
-home-fried potatoes
+home fried potatoes
 marsh orchid
-Pericallis hybridas
-Dianthus barbatus
+pericallis hybridas
+dianthus barbatus
 silage
-Cuban sandwich
+cuban sandwich
 peanut bars
 cinnamon rolls
-Persian melon
+persian melon
 pink wine
 ouzoes
-old-field toadflax
+old field toadflax
 filagoes
 cheese pizza
-Canary wines
+canary wines
 bilberry
 cascade everlastings
 tomato concentrates
 carrots
-Zinnia acerosa
+zinnia acerosa
 nougat bar
 halal
-Grand Marnier
+grand marnier
 nutmeg melons
 red meat
 eyeshadow
@@ -4121,7 +4121,7 @@ generic wine
 polonies
 celandine
 carissa plum
-Gentiana quinquefolia
+gentiana quinquefolia
 seasonings
 sand dabs
 blades
@@ -4135,23 +4135,23 @@ patchouly
 cherrystone
 mimosa
 caramel buns
-California lady's slipper
+california lady's slipper
 patchouli
-Pogonia rosea
+pogonia rosea
 dairy product
 sides of meat
-pousse-cafes
+pousse cafes
 forequarters
-English muffin
+english muffin
 steamer clams
 elixirs of life
-Brachycome Iberidifoliums
+brachycome iberidifoliums
 stuffed dermas
 soda cracker
-babies'-breath
-vitamin Es
-Orchis papilionaceas
-Encyclia citrina
+babies' breath
+vitamin es
+orchis papilionaceas
+encyclia citrina
 petit fmies
 satsumas
 mocha coffee
@@ -4179,46 +4179,46 @@ joint
 beefsteak tomato
 claroes
 tobacco
-Habenaria leucophaea
+habenaria leucophaea
 chickpea
 nutmeg
 milk punches
 globe artichoke
 depilatories
 milk punch
-Drambuie
-Victoria plum
+drambuie
+victoria plum
 powder
 coconut cake
 loins of lamb
 carbonaras
-Anaphalis margaritaceas
+anaphalis margaritaceas
 tulip orchids
-Chinese cabbages
+chinese cabbages
 scorpionweeds
 spathiphyllum
 tabooli
 rijsttaffels
-Aquilegia scopulorum calcarea
+aquilegia scopulorum calcarea
 chili pepper
-Gentianella quinquefolia
+gentianella quinquefolia
 sparkling water
 wheat berries
 proof spirits
-lady-slipper
+lady slipper
 chili vinegars
 spritzer
 gingers
-African daisy
+african daisy
 iced coffees
-crooked-stemmed asters
+crooked stemmed asters
 porcupine balls
 peanut butter
-ice-cream cake
+ice cream cake
 portulacas
 spliff
 refreshers
-white Burgundys
+white burgundys
 pancake turners
 pineapple guavas
 peach melbas
@@ -4227,7 +4227,7 @@ veal scallopinis
 candy apple
 aquilegia
 amarettoes
-Texas purple spikes
+texas purple spikes
 yam
 fruit drink
 treat
@@ -4237,7 +4237,7 @@ blade apples
 wonton soup
 double golds
 varietal
-Goa powders
+goa powders
 borshches
 broccoli raabs
 phaius
@@ -4254,18 +4254,18 @@ black cherries
 stogie
 corn chamomiles
 tisanes
-Cephalanthera rubras
+cephalanthera rubras
 poilu
 sustenance
 freshwater bream
-Gentiana calycosas
-Swedish rye
+gentiana calycosas
+swedish rye
 saskatoon
 lambs
 huitre
 pease pudding
 fondu
-Seville oranges
+seville oranges
 panatelas
 rump roasts
 generic
@@ -4291,35 +4291,35 @@ coffee royal
 biryanis
 sorb apples
 mixers
-lobster Newburgs
+lobster newburgs
 wild pink
 hairdressing
-Petunia hybrida
+petunia hybrida
 langoustine
 cymbids
 cuts of veal
 pearly everlasting
-Brunswick stew
+brunswick stew
 atole
 bitter oranges
-Salisbury steaks
+salisbury steaks
 haricots
 eclairs
 beach plums
 lithia water
 knish
 marmalades
-Arctotis stoechadifolia
+arctotis stoechadifolia
 luncheons
-Coeloglossum virides
+coeloglossum virides
 raisin cookies
 shasta daisy
-Habenaria orbiculatums
+habenaria orbiculatums
 okras
 fringed pink
 incandescent lamps
-loose-leaf lettuces
-Passover suppers
+loose leaf lettuces
+passover suppers
 chiffon cake
 pteroylmonoglutamic acid
 candy
@@ -4332,10 +4332,10 @@ sour gourds
 lager
 rat cheese
 roasts
-Nyctaginia capitatums
-Epidendrum venosums
+nyctaginia capitatums
+epidendrum venosums
 green olive
-Malaxis-unifolia
+malaxis unifolia
 copra
 snuffs
 pineapple juices
@@ -4353,12 +4353,12 @@ sukiyaki
 willow asters
 gelatin dessert
 ladyfingers
-Jamaica apple
+jamaica apple
 butterfish
 large yellow lady's slippers
 mother's milks
 pirogi
-Bavarian blues
+bavarian blues
 bloody shames
 breadsticks
 tonics
@@ -4368,20 +4368,20 @@ delicacies
 green soybeans
 cranberry
 spearmint oils
-Bavarian cream
+bavarian cream
 sirloins
 early spider orchids
 pink paper daisies
 pastries
 tea balls
 syllabubs
-Saponaria officinalis
+saponaria officinalis
 citron
 disas
-heart-leaved aster
+heart leaved aster
 celery seed
 mushrooms
-Rhone wines
+rhone wines
 near beers
 wheat germs
 bladder campions
@@ -4394,7 +4394,7 @@ fish fry
 cocozelles
 stiff asters
 bloaters
-make-up
+make up
 taffy apples
 strawberries
 valerian
@@ -4412,8 +4412,8 @@ medlars
 sea poppies
 sugar loaf
 deodourant
-triple-deckers
-Gymnadenia odoratissima
+triple deckers
+gymnadenia odoratissima
 mayweeds
 epilating wax
 urns
@@ -4421,34 +4421,34 @@ slaws
 toilet articles
 soda water
 penne
-MSG
+msg
 pikes
 xeranthemum
-Irish whisky
+irish whisky
 gingerbread man
 corn flakes
 ingredients
 old maid flowers
-Consolida ambiguas
+consolida ambiguas
 pattypan squash
 ginger pops
-Sicilian pizza
-Grand Marniers
+sicilian pizza
+grand marniers
 fodder
 root beers
-Armerican cheddar
+armerican cheddar
 refreshments
 gorgonzola
 layer cake
 candyfloss
-hard-cooked eggs
+hard cooked eggs
 allemandes
-crepe Suzettes
+crepe suzettes
 cassareep
 pilaf
-Scotch kiss
+scotch kiss
 pate a chouxes
-lamb-chops
+lamb chops
 mackerel
 sweet melons
 powders
@@ -4456,33 +4456,33 @@ koshers
 taters
 linguini
 crappie
-hard-shell clams
+hard shell clams
 common sunflowers
-Host
-Calopogon tuberosums
+host
+calopogon tuberosums
 hardtack
 teaspoon
-Italian dressings
+italian dressings
 spring beauties
-Stilton
+stilton
 paprikas
 head cabbage
-Aster dumosus
-orange-juice concentrates
+aster dumosus
+orange juice concentrates
 blackheart
 earthnuts
-Mirabilis californicas
+mirabilis californicas
 skilly
 pasturages
-Rhenishes
-sweet Williams
-Cheiranthus cheiruss
+rhenishes
+sweet williams
+cheiranthus cheiruss
 sugar waters
-Tellima affinis
-Virginia crownbeard
-McIntosh
+tellima affinis
+virginia crownbeard
+mcintosh
 hotchpotches
-Orchis spectabilis
+orchis spectabilis
 cut of veal
 slumgullion
 juneberries
@@ -4492,57 +4492,57 @@ jacket potato
 calla lily
 cymbidiums
 soybean milk
-Oktoberfests
-Anemone ripariums
+oktoberfests
+anemone ripariums
 fugu
 enchiladas
 scabious
-grape-leaf begonia
-Gallianoes
-Japanese crabs
+grape leaf begonia
+gallianoes
+japanese crabs
 foodstuffs
 albacore
 pancake batter
 litchi
-Phacelia whitlavia
+phacelia whitlavia
 hommoes
-nickel-iron accumulator
+nickel iron accumulator
 pickle relishes
 pancakes
 kedgeree
 celery sticks
 golden honey plant
-Gentiana quinquefoliums
+gentiana quinquefoliums
 suet pudding
-Spiranthes cernuas
+spiranthes cernuas
 jams
-ice-cream sundae
+ice cream sundae
 chicken soup
 helmetflower
 vintages
 acetums
 sweet pepper
 cough drop
-ice-cream sundas
-flannel-cake
+ice cream sundas
+flannel cake
 lip rouges
 coco plums
 salsifies
 acidophilus milks
 soybean
-Vanilla planifolia
+vanilla planifolia
 veal scallopini
 veaux
 whole meal flmies
 brown rice
-Mediterranean snapdragon
+mediterranean snapdragon
 chef's salad
 pincushion flower
 smooth asters
 delfts
-Scandinavian loxes
+scandinavian loxes
 composite
-Gentianopsis crinitums
+gentianopsis crinitums
 confits
 bialystoker
 oil meal
@@ -4565,7 +4565,7 @@ honey
 sugarloaf
 varietal wine
 ceramic wares
-Aquilegia vulgaris
+aquilegia vulgaris
 fish meal
 jacket potatoes
 scallopine
@@ -4573,7 +4573,7 @@ sieva bean
 souvlakia
 chafing dish
 rib
-Chrysanthemum coccineum
+chrysanthemum coccineum
 scallopini
 confit
 screw augur
@@ -4589,20 +4589,20 @@ molasses cookie
 hot toddies
 dark chocolate
 hooch
-Habenaria orbiculata
+habenaria orbiculata
 crabapple jellies
 herba impiums
-Alaska rein orchids
+alaska rein orchids
 chyme
 dika bread
 gray sole
-English runner bean
+english runner bean
 white cockles
 jack
 banger
 maraschino
 refined sugar
-Ophrys musciferas
+ophrys musciferas
 decaffeinated coffee
 table salts
 beach plum
@@ -4618,7 +4618,7 @@ beef tongues
 natrolites
 fruit cocktails
 onion bagel
-Arenaria stricta
+arenaria stricta
 aneurin
 ilamas
 dejeuner
@@ -4648,31 +4648,31 @@ toasting fork
 field poppies
 kiwis
 lesser twayblades
-Spanish onion
-Flanders poppy
-Hexalectris warnockiuss
+spanish onion
+flanders poppy
+hexalectris warnockiuss
 tipsy cakes
-purple-fringed orchids
-Persian melons
+purple fringed orchids
+persian melons
 leaf lettuce
 horseradish sauce
 essences
 mint juleps
 club sodas
-Tabascoes
+tabascoes
 chocolate cakes
 bechamels
 seedcakes
 lettuce
-Psychopsis krameriana
+psychopsis krameriana
 picnic hams
 popsicles
 bath salts
 cranberry juice
 spinach
-Ximenesia encelioides
+ximenesia encelioides
 bonito
-swan-flowers
+swan flowers
 sweet cups
 periwinkle
 garlic sauce
@@ -4685,34 +4685,34 @@ wieners
 herba impia
 nicotinic acids
 fishpastes
-fibrous-rooted begonia
+fibrous rooted begonia
 crooknecks
-Petunia integrifolia
+petunia integrifolia
 mountain cranberries
 liver sausage
 chapatuss
 borschts
-fairy-slipper
+fairy slipper
 ginger
 congous
 chef's salads
 dragee
-Papaver nudicaule
+papaver nudicaule
 mint
 espressoes
 poached egg
 johnny cakes
-Chrysanthemum maximum maximum
+chrysanthemum maximum maximum
 oyster dressings
 frozen custard
 consomme
 steak au poivre
 grenadine
 lemon oils
-Limburger
+limburger
 malted milk
 pteroylglutamic acids
-Ophrys apifera
+ophrys apifera
 compass plants
 mashes
 striped gentians
@@ -4724,27 +4724,27 @@ cake mixes
 dog
 garlic salts
 antiperspirants
-French pastry
+french pastry
 aliments
 doves
 littleneck
-Colbert
+colbert
 sugar apples
-Reubens
+reubens
 comfort food
 alcohols
 divinity
-Lobularia maritimas
+lobularia maritimas
 spaghetti sauces
-Diangus gratianopolitanus
+diangus gratianopolitanus
 scented ferns
 sugar
 celery
 sugar shells
-Oncidium papilios
+oncidium papilios
 gefilte fish
 golden crown beards
-Aster arenosus
+aster arenosus
 chopsteak
 whorled aster
 appetizer
@@ -4752,8 +4752,8 @@ almond cookie
 apple sauce
 watermelon
 muscat grape
-Epidendrum tampenses
-raisin-nut cookies
+epidendrum tampenses
+raisin nut cookies
 bap
 jelloes
 applesauce cake
@@ -4762,7 +4762,7 @@ sinker
 puffers
 stinger
 bushy aster
-Nesselrode
+nesselrode
 cohoes
 cos lettuce
 common ageratums
@@ -4774,8 +4774,8 @@ snuff
 laeliums
 duff
 cyclamen
-lace-flower vines
-Verbesina alternifolia
+lace flower vines
+verbesina alternifolia
 plonks
 body lotions
 shaver
@@ -4783,19 +4783,19 @@ staff of life
 scrag
 soy flour
 tuberous begonia
-C
+c
 acetum
 vitamin
 lotion
 plum duffs
 codfish cakes
-Life Savers
+life savers
 eggnog
 viosterol
 quahaugs
 xeranthemums
 fettuccines
-Barberton daisy
+barberton daisy
 aspics
 nigellas
 chicory escarole
@@ -4821,7 +4821,7 @@ ugli
 crab legs
 scarlet runner bean
 chowders
-Cs
+cs
 lemon peels
 hot sauce
 roast veal
@@ -4834,21 +4834,21 @@ saucepot
 snap beans
 chicken liver
 wallflowers
-Scotch marigolds
+scotch marigolds
 beef tenderloin
 goulashes
 antipernicious anemia factor
 buffalo wing
 phaceliums
-Gentiana luteas
+gentiana luteas
 corn chowder
-Liparis loeseliuss
+liparis loeseliuss
 striped bass
 mixtures
 vegetable
 puttyroots
 puttyroot
-Virginia stocks
+virginia stocks
 garlic
 pomatums
 rolled oats
@@ -4864,15 +4864,15 @@ achimenes
 lobster tails
 sugar apple
 jalapenoes
-Centaurea cyanus
-shrimp Newburgs
+centaurea cyanus
+shrimp newburgs
 green teas
-Coeloglossum bracteatum
-blooming-fool begoniums
+coeloglossum bracteatum
+blooming fool begoniums
 carrot juice
 pork and beans
 pitahayas
-Vienna sausages
+vienna sausages
 reefers
 wafers
 aquileges
@@ -4887,37 +4887,37 @@ blazing star
 mozzarellas
 chives
 hard sauces
-alpha-tocopherals
-orange-juice concentrate
-Mentzelia livicaulis
+alpha tocopherals
+orange juice concentrate
+mentzelia livicaulis
 rice beer
 boysenberry
 shoulder
-Welsh poppies
-Soubises
+welsh poppies
+soubises
 ambrosiums
 lekvars
 soursop
 diabetic diet
 zombies
 friedcakes
-Cypripedium montanums
+cypripedium montanums
 perennial salt marsh aster
 white cake
-Soave
+soave
 clementine
-common four-o'clocks
+common four o'clocks
 pepper sauces
 corn liquors
 murphies
 wild snapdragons
-Roquefort dressing
+roquefort dressing
 ammobiums
-Sarcochilus falcatus
+sarcochilus falcatus
 stone crabs
 quarks
 flounder
-oysters Rockefeller
+oysters rockefeller
 jujube
 demiglace
 honeydews
@@ -4929,17 +4929,17 @@ germander speedwell
 spathiphyllums
 muscatel
 red currants
-Ranunculus ficaria
-Spanish limes
+ranunculus ficaria
+spanish limes
 oreo
 ribs
 stockpots
-Pinot noirs
+pinot noirs
 hors d'oeuvre
-Aster ptarmicoides
+aster ptarmicoides
 subs
 formulae
-Saint-John's-bread
+saint john's bread
 galvanic batteries
 brown sugar
 oolong
@@ -4951,13 +4951,13 @@ everlasting flower
 spiceberries
 blue cheese
 macaroni
-Parker House roll
+parker house roll
 hog plums
 apple fritters
 fork
 salmagundi
 farina
-Gypsophila paniculatums
+gypsophila paniculatums
 sea bass
 marinara
 piccalilli
@@ -4965,11 +4965,11 @@ german pancake
 nail varnishes
 cat food
 dill seeds
-broad-leaved twayblade
-Papaver heterophyllums
+broad leaved twayblade
+papaver heterophyllums
 whiskey
-Helianthus giganteus
-Pyrenees daisies
+helianthus giganteus
+pyrenees daisies
 tangerines
 soft roll
 continental breakfasts
@@ -4982,7 +4982,7 @@ odontoglossums
 genoise
 mayoes
 muffins
-Japanese pink
+japanese pink
 nonpareil
 creme anglais
 plasticizers
@@ -4999,31 +4999,31 @@ champagne cups
 coronas
 calceolaria
 hardtacks
-Chelidonium majus
+chelidonium majus
 calf's tongue
 pizzas
-double Gloucester
+double gloucester
 sugar syrups
-A battery
+a battery
 bluefish
 potato
 spring water
 high teas
 ovoflavins
 pea flmies
-Darjeelings
+darjeelings
 flapjacks
 milt
 mountain cranberry
 butter cookie
 orangeades
-Gnaphalium sylvaticum
+gnaphalium sylvaticum
 cheese dips
 teaberries
 claret
 candy corn
 wheat flmies
-Marsalas
+marsalas
 milk
 green groceries
 simnel
@@ -5036,31 +5036,31 @@ celery seeds
 enamelware
 western omelets
 peppermint candy
-Nesselrode puddings
-European ladies' tresses
+nesselrode puddings
+european ladies' tresses
 cholecalciferol
 charlotte russes
-C-rations
-boeuf Bourguignonne
+c rations
+boeuf bourguignonne
 wood poppy
 nougats
 sillabub
 refections
 nectar
 limes
-Bavarian blue
+bavarian blue
 pilaffs
-Mirabilis oblongifolia
+mirabilis oblongifolia
 loganberry
 specials
 small white aster
 dip
 nut bar
-Antirrhinum majus
-eggs Benedict
+antirrhinum majus
+eggs benedict
 candy bars
 seasoning
-Weissbiers
+weissbiers
 condensed milks
 currant
 caster sugar
@@ -5069,18 +5069,18 @@ garlic bread
 dog food
 chewing gums
 filler
-Vaccaria pyramidata
+vaccaria pyramidata
 snack foods
 arrow leaved asters
-Erysimum asperums
-Tabasco
+erysimum asperums
+tabasco
 lady's slippers
 star aniseed
 popcorns
 pinole
 mussels
 makeup
-Pippin
+pippin
 key lime
 stogies
 bonbon
@@ -5088,17 +5088,17 @@ tartar sauce
 titbits
 strudel
 forages
-Baldwin
-Phacelia minor
-Cortlands
+baldwin
+phacelia minor
+cortlands
 kebab
 cooking pans
-pheasant's-eyes
+pheasant's eyes
 brompton stocks
 home brew
 takeout food
 rabbit food
-barley-sugar
+barley sugar
 rose apple
 paeonies
 saki
@@ -5106,12 +5106,12 @@ saltine
 romaines
 sloe
 sake
-after-shave lotion
+after shave lotion
 spaghettinis
-Scotch whiskey
+scotch whiskey
 spreading pogoniums
 creams
-Tetrazzini
+tetrazzini
 talcum
 drinkable
 repast
@@ -5120,19 +5120,19 @@ limpas
 olive
 rolled biscuit
 drip coffee
-Silene carolinianas
-soft-shelled crab
+silene carolinianas
+soft shelled crab
 soya milks
-Tanacetum vulgares
+tanacetum vulgares
 pot likkers
-Rhone wine
+rhone wine
 soup
 sour
 bluefin tuna
 adoboes
 venisons
 bites
-Leucanthemum superbum
+leucanthemum superbum
 marchand de vins
 cat foods
 porcupine ball
@@ -5140,10 +5140,10 @@ face cream
 chili peppers
 gentianella amarellas
 babkas
-Jell-O
+jell o
 pink
-low-fat milks
-Coke
+low fat milks
+coke
 sundae
 water ices
 sundas
@@ -5159,17 +5159,17 @@ rickey
 neck
 pecan pie
 sashimis
-Oncidium papilio
-Matthiola incana
+oncidium papilio
+matthiola incana
 netted melons
 slipper orchid
 cherry tomato
-roly-poly pudding
+roly poly pudding
 grapefruit peel
 cuts
 marshmallows
 goats' milk
-Habenaria greeneis
+habenaria greeneis
 sunfish
 rickeys
 smoothie
@@ -5179,7 +5179,7 @@ kabobs
 garden heliotrope
 sugar syrup
 tonic
-Dover's powders
+dover's powders
 lunch
 cold stuffed tomato
 coffee cappuccino
@@ -5188,17 +5188,17 @@ piece de resistance
 quandangs
 fudge
 tortilla chips
-Delmonico steaks
+delmonico steaks
 treacles
 rock
 angel food cake
-Bramley's Seedling
-Papaver alpinums
+bramley's seedling
+papaver alpinums
 brews
 scrumpies
 tuna salad
-Chartreuse
-Listera ovata
+chartreuse
+listera ovata
 naphthoquinone
 horehounds
 rechewed foods
@@ -5208,20 +5208,20 @@ rolls
 mess
 bubble and squeaks
 brompton stock
-Psychopsis papilios
+psychopsis papilios
 tuna salads
 tidbits
 smoking mixture
 pantothenic acid
 nutmeg melon
-showy lady's-slippers
+showy lady's slippers
 chines
 porterhouse
 cross bun
-Amontilladoes
+amontilladoes
 chiles
 coffee break
-Dianthus chinensis
+dianthus chinensis
 aioli
 zombi
 horsefleshes
@@ -5230,7 +5230,7 @@ rattlesnake orchid
 paper towels
 grist
 pigweed
-pet-food
+pet food
 pepperoni
 macon
 cheese
@@ -5238,16 +5238,16 @@ dried milks
 gin and they
 nipas
 double gold
-Lychnis coronaria
+lychnis coronaria
 swallow worts
 vanilla ice creams
-B battery
+b battery
 ice tea
 corn sugar
 beef patties
 egg cream
 clary sage
-Meconopsis betonicifolia
+meconopsis betonicifolia
 rock candies
 ground beef
 lingcod
@@ -5267,9 +5267,9 @@ server
 fruit bar
 coconut
 bread sauce
-Veronica serpyllifolia
+veronica serpyllifolia
 allemande
-Linaria vulgaris
+linaria vulgaris
 pastry
 aioli sauces
 sieva beans
@@ -5282,13 +5282,13 @@ pea soups
 pollacks
 squab
 demerara sugars
-Ds
+ds
 coffee rings
 chocolate bar
 cheesecake
 litchi nuts
 lemon extracts
-Townsendia Exscapa
+townsendia exscapa
 umbrellaworts
 kails
 demerara sugar
@@ -5298,12 +5298,12 @@ matzoh ball
 gyro
 meat pies
 raw milks
-NADA daiquiruss
-Indian relish
+nada daiquiruss
+indian relish
 zeps
 coelogyne
 lozenge
-Gentiana lutea
+gentiana lutea
 netted melon
 popsicle
 arrack
@@ -5313,7 +5313,7 @@ nerveroots
 alimentary pastes
 plums
 soya milk
-Chrysanthemum ptarmiciflorums
+chrysanthemum ptarmiciflorums
 gin and tonics
 spurred gentian
 flmies
@@ -5333,20 +5333,20 @@ comfreys
 copras
 boxberry
 frumenties
-Helianthus laetiflorus
+helianthus laetiflorus
 flavourers
 mixed drink
 stockfish
-Belgian endive
+belgian endive
 peony
-vitamin Ps
+vitamin ps
 puff batters
 liquorices
 cocktails
-Beaujolais
+beaujolais
 tofus
-half-and-half dressing
-Montrachet
+half and half dressing
+montrachet
 folic acids
 peace lily
 carving forks
@@ -5354,22 +5354,22 @@ little golden zinniums
 dried apricot
 brown sauce
 striped coral root
-barley-sugars
-Mentzelia laevicaulis
+barley sugars
+mentzelia laevicaulis
 rosita
-Tagetes patula
+tagetes patula
 snowy orchid
 sweet cherry
 cowberries
 orchidaceous plants
 tall sunflower
-chicken Marengo
+chicken marengo
 dates
 granulated sugars
-Dutch-processed cocoa
+dutch processed cocoa
 tuck
-rough-leaved aster
-Coca Colas
+rough leaved aster
+coca colas
 frangipanes
 pinoles
 chocolate ice cream
@@ -5377,50 +5377,50 @@ breakfasts
 sweet alyssums
 tobaccoes
 shortbread cookie
-Zinnia grandifloras
+zinnia grandifloras
 oxtail soup
 soupspoon
 mournful widows
-California four o'clocks
+california four o'clocks
 zabaglione
 marc
 stuffed tomato
 ghees
 small white asters
 hoisin sauce
-Aster linarifolius
+aster linarifolius
 tangelo
 sapotes
 southern asters
 squash
-Mesembryanthemum crystallinums
+mesembryanthemum crystallinums
 wild rice
 rump roast
-Scotch
+scotch
 rose wines
 large white petunia
 five spice powders
-flat-topped white asters
+flat topped white asters
 buttercrunch
 masher
 wax begoniums
 scorpion weed
 scrapple
-Pilseners
+pilseners
 store cheese
 drip pans
-baked Alaskas
+baked alaskas
 coffee
 axerophthols
-Muscadets
+muscadets
 minestrone
 lobster tail
 potpourruss
-Irish stews
+irish stews
 borsht
 blackhearts
-halves-and-halves
-Alaska crab
+halves and halves
+alaska crab
 light bread
 corn tashes
 catsups
@@ -5430,20 +5430,20 @@ pan
 rice beers
 spurred gentians
 squeezers
-European lobster
+european lobster
 dasheens
 whisks
 lady's slipper
-Spiranthes porrifolia
+spiranthes porrifolia
 fettuccinis
 calathian violet
 rack of lamb
 triple cream
-Cattleya citrina
+cattleya citrina
 chicken stew
 gravelweed
-Mirabilis jalapas
-Consolida ambigua
+mirabilis jalapas
+consolida ambigua
 alfalfa
 akees
 knackwursts
@@ -5451,14 +5451,14 @@ vodka martinis
 garlic sauces
 bridecake
 griddle
-Amontillado
+amontillado
 fish steak
 lightbulbs
 kummels
 wiener roasts
 cayenne
 edible fruit
-Worcestershire sauces
+worcestershire sauces
 pile
 wax begonia
 cloisonnes
@@ -5469,7 +5469,7 @@ alcoholic beverage
 liver puddings
 jaks
 moth orchid
-Venus' slippers
+venus' slippers
 double saucepan
 coral roots
 water biscuit
@@ -5477,10 +5477,10 @@ poor boy
 stars of the veldt
 manhattan
 macrobiotic diet
-Nova loxes
+nova loxes
 panochas
 nosh
-Eastersn silvery asters
+eastersn silvery asters
 sultanas
 eatages
 moo goo gai pan
@@ -5494,27 +5494,27 @@ pasture
 sunblocks
 toners
 soured creams
-Oncidium papilio kramerianum
+oncidium papilio kramerianum
 fondue
-Lychnis dioicas
+lychnis dioicas
 cowherbs
 gardener's delight
 prairie asters
 fondus
 dragees
 crouton
-New York strips
-Aster ericoides
-vitamin K3s
+new york strips
+aster ericoides
+vitamin k3s
 bullshot
 tomato concentrate
 hunter's chickens
 mixer
 mixes
-Easter eggs
-Gentianopsid procera
+easter eggs
+gentianopsid procera
 corals
-Swiss steak
+swiss steak
 tomato ketchup
 petfood
 bay scallop
@@ -5523,7 +5523,7 @@ brown sauces
 red onion
 jerked meat
 forcemeat
-Kahluas
+kahluas
 skillet
 poulettes
 pastures
@@ -5538,17 +5538,17 @@ tabboulehs
 skillet corn bread
 pot marigold
 curly endive
-vitamin Bcs
+vitamin bcs
 butter bean
 pansy orchids
 spice
 shun gikus
 stuffings
-Rhine wines
+rhine wines
 salmis
 ovalbumins
 strawberry
-fibrous-rooted begoniums
+fibrous rooted begoniums
 pekoe
 moles
 edible bean
@@ -5557,7 +5557,7 @@ pan gravies
 voltaic battery
 clotted cream
 pimiento
-Gentianopsis crinita
+gentianopsis crinita
 vanishing creams
 club soda
 bechamel
@@ -5567,13 +5567,13 @@ painted daisies
 perishables
 meeting house
 cowpeas
-Tom and Jerry
+tom and jerry
 celandine poppy
 bear claw
 hunter's chicken
-Baldwins
+baldwins
 aster
-Lychnis coronariums
+lychnis coronariums
 brandy
 swan orchids
 horseradishes
@@ -5582,7 +5582,7 @@ streptocarpus
 sardine
 teriyakis
 pepper pot
-fat-soluble vitamins
+fat soluble vitamins
 caviares
 fritter batters
 four o'clocks
@@ -5602,10 +5602,10 @@ niacin
 liquid diets
 preserves
 daiquiruss
-Gentiana andrewsii
+gentiana andrewsii
 cold stuffed tomatoes
 sashimi
-Roman coriander
+roman coriander
 sugar pea
 white bread
 burgoos
@@ -5613,14 +5613,14 @@ puffs
 turnips
 pink wines
 chocolate fudges
-Rudbeckia laciniata hortensia
+rudbeckia laciniata hortensia
 vinegars
 chop steak
 black olive
 chocolate chip cookies
 turnip greens
 sushis
-escalope de veau Orloff
+escalope de veau orloff
 sea scallop
 clotted creams
 grubs
@@ -5636,18 +5636,18 @@ salad fork
 burger
 bloomers
 valerians
-Habenaria leucophaeas
+habenaria leucophaeas
 cigars
 chicken salad
 powdered milks
 sea starworts
 nut bread
-French fritters
+french fritters
 fixings
 everlasting
 knockwurst
-Maximilian's sunflower
-BLT
+maximilian's sunflower
+blt
 crab apples
 bordelaises
 birthday cakes
@@ -5656,48 +5656,48 @@ frijoles refritoes
 oleomargarine
 frangipane
 seltzers
-Virginia ham
-Gnaphalium sylvaticums
-English daisy
+virginia ham
+gnaphalium sylvaticums
+english daisy
 lasagne
 maraschino cherry
 lasagna
 delphinium
-Centaurium calycosums
+centaurium calycosums
 milks
-Malaxis ophioglossoides
+malaxis ophioglossoides
 fish balls
 branch water
 anchovy sauces
-Mexican black cherries
+mexican black cherries
 leaf mustard
-Ophrys apiferas
+ophrys apiferas
 black cherry
-Oven Stuffers
-Kentucky wonders
+oven stuffers
+kentucky wonders
 cut of meat
 alphabet soup
 seckel
 tea bags
 winter squash
-Jewish rye
+jewish rye
 bolognese pasta sauces
 healing herb
-Gentiana calycosa
+gentiana calycosa
 western omelet
 shadberries
 lemons
 loquat
-Tanacetum vulgare
+tanacetum vulgare
 granulated sugar
-beef Stroganoffs
-split-pea soup
+beef stroganoffs
+split pea soup
 alcoholic drink
 schizanthus
 cattleya
-Seville orange
+seville orange
 fryers
-Spiranthes spiralis
+spiranthes spiralis
 hamburger
 cochon de lait
 cusks
@@ -5711,13 +5711,13 @@ ice milks
 rye
 calceolariums
 quesadilla
-Smitanes
+smitanes
 pastry dough
 pap
 divinities
 dragon's eye
 star aniseeds
-Xeranthemum annuum
+xeranthemum annuum
 maiolica
 absinth
 liver sausages
@@ -5725,13 +5725,13 @@ hominies
 toiletries
 tea maker
 eats
-Leucanthemum maximum
+leucanthemum maximum
 hybrid petunia
 retsina
 common fennels
-Hexalectris warnockii
+hexalectris warnockii
 coho salmon
-Christmas pudding
+christmas pudding
 turmeric
 finnans
 savoys
@@ -5740,25 +5740,25 @@ car batteries
 scrod
 dough
 lager beer
-tutti-frutti
-nosh-ups
+tutti frutti
+nosh ups
 langoustes
 bullock's heart
 nail polishes
-Lithophragma affines
-wish-wash
+lithophragma affines
+wish wash
 flageolet
 pesto
 pandowdies
 anisette
 stoneware
-Phacelia tanacetifoliums
+phacelia tanacetifoliums
 neck sweetbreads
 limpet
 fedelline
 coffeecake
 soys
-Matthiola incanas
+matthiola incanas
 bone marrow
 cappellettuss
 soya
@@ -5770,8 +5770,8 @@ clams
 succade
 popovers
 hare
-Madeira sponge
-Anthemis cotulas
+madeira sponge
+anthemis cotulas
 bee orchids
 sarsaparilla
 sweet cicelies
@@ -5780,7 +5780,7 @@ pyridoxamine
 samovars
 perry
 curacao
-Uruguay potatoes
+uruguay potatoes
 granola
 quince
 soft ice creams
@@ -5788,21 +5788,21 @@ rechewed food
 electric razor
 cherimoya
 confectionery
-high-vitamin diet
+high vitamin diet
 poppy seed
 lactoflavin
 bog aster
 coconut cakes
 dessert spoon
 coffee breaks
-Es
+es
 vegetable oysters
-Lychnis albas
+lychnis albas
 misoes
-wavy-leaved asters
+wavy leaved asters
 orzoes
 single creams
-Petunia axillaris
+petunia axillaris
 pot liquors
 cups
 batter bread
@@ -5812,15 +5812,15 @@ rijstaffel
 paint
 scorpionweed
 canary seed
-Centaurium scilloides
+centaurium scilloides
 obesity diet
 baked eggs
 stone crab
-Papaver orientale
+papaver orientale
 common valerian
 kumis
 golden crownbeards
-vitamin K1s
+vitamin k1s
 forequarter
 blinis
 culture medium
@@ -5844,11 +5844,11 @@ billy buttons
 zucchini
 kibble
 volailles
-Centranthus ruber
+centranthus ruber
 eggs
 salmon
 crawdads
-Lyonnaise sauces
+lyonnaise sauces
 griddlecakes
 iceberg lettuces
 moonshines
@@ -5864,13 +5864,13 @@ jaboticaba
 chocs
 zeolites
 espresso
-Acroclinium roseum
+acroclinium roseum
 green tea
 pea soup
 electric frying pans
 frozen yogurt
 phytonadione
-Gruyere
+gruyere
 chicken feeds
 matelotes
 bin liners
@@ -5879,18 +5879,18 @@ orange peels
 mutton chops
 porterhouse steaks
 kitembilla
-sauce Espagnoles
-Centaurium minus
+sauce espagnoles
+centaurium minus
 white bean
 tabascoes
 baked potatoes
-Weizenbock
+weizenbock
 horsemeat
 batter
-chop-suey greens
+chop suey greens
 pemican
 golden marguerite
-B-complex vitamins
+b complex vitamins
 bouillon cube
 brown onion sauces
 crabmeat
@@ -5899,11 +5899,11 @@ calamaruss
 afternoon teas
 pickle relish
 vino
-Saint Emilion
+saint emilion
 souffles
 hand creams
 butter daisy
-Helianthus angustifolius
+helianthus angustifolius
 flummeries
 quiche
 rotguts
@@ -5919,40 +5919,40 @@ lemon oil
 cooking pan
 champagne
 florists' chrysanthemum
-Zinnia acerosas
+zinnia acerosas
 brandies
-high-protein diet
-Nova lox
-Turkish coffees
+high protein diet
+nova lox
+turkish coffees
 gentians
-Zantedeschia aethiopica
-Emmenthal
+zantedeschia aethiopica
+emmenthal
 baby's breath
 salsas
 brunches
-Listera ovatums
+listera ovatums
 soft rolls
-Papaver orientales
+papaver orientales
 devil's foods
 cubeb
 cakes
 pancake
-Epipactis helleborine
+epipactis helleborine
 dietary
 ginger beers
 hyson
 starved asters
 bean sprouts
-Arenaria serpyllifolia
+arenaria serpyllifolia
 food caches
-Tabasco sauce
+tabasco sauce
 apple sauces
 strip steaks
 peppers
-upside-down cake
+upside down cake
 carob powders
 orange toasts
-elegant Habenaria
+elegant habenaria
 orange juices
 lobscuse
 water biscuits
@@ -5961,18 +5961,18 @@ seafood sauces
 cafe noirs
 polony
 demerara rums
-Poivrades
+poivrades
 whitlaviums
 stokes' aster
 garden pinks
-Nantuas
+nantuas
 grains
-Chenin blancs
+chenin blancs
 mimosas
 field peas
 strawberry ice creams
 omelettes
-salt-free diet
+salt free diet
 bread doughs
 fish fingers
 garden heliotropes
@@ -5990,32 +5990,32 @@ concoction
 sauerbratens
 strawberry daiquiruss
 speckled trout
-yellow lady-slippers
-Fordhooks
-Swan River daisies
+yellow lady slippers
+fordhooks
+swan river daisies
 golden syrup
 sweet vermouth
 butterfly flowers
 sea asters
 parfait
-Harvey Wallbanger
+harvey wallbanger
 biltongs
-Gentiana crinita
+gentiana crinita
 lasagnas
-Pinot blanc
+pinot blanc
 wintergreens
 bubblies
 grid
 guinea hens
 teakettle
 nards
-Indian rice
+indian rice
 fen orchids
-Burgundy
+burgundy
 porkholts
 sweet corn
 pork loin
-Belgian beef stew
+belgian beef stew
 cut
 cup
 retsinas
@@ -6023,7 +6023,7 @@ king crabs
 kishke
 snap
 kumquat
-Marsala
+marsala
 groats
 pink ladies
 flat bones
@@ -6032,17 +6032,17 @@ tiramisus
 turkey stuffings
 semolina
 akvavit
-Centranthus rubers
+centranthus rubers
 coriander seeds
 spatchcock
 calypso
-silver-lace
-California poppies
-clover-leaf roll
+silver lace
+california poppies
+clover leaf roll
 griddlecake
 lekvar
 composites
-Pearmain
+pearmain
 weenie roasts
 apple fritter
 seeders
@@ -6051,22 +6051,22 @@ frijoles refritos
 shun giku
 falafel
 hand cream
-Lithophragma affine
-Aquilegia canadensis
+lithophragma affine
+aquilegia canadensis
 pink callas
 crystallized fruit
-Helianthus annuus
+helianthus annuus
 pea
 butterscotches
 power breakfast
 storage batteries
 juice reamer
 almond cookies
-Chrysanthemum ptarmiciflorum
-French loaf
+chrysanthemum ptarmiciflorum
+french loaf
 flanks
 boiled dinners
-Erysimum arkansanum
+erysimum arkansanum
 semolinas
 coffee cappuccinoes
 piles
@@ -6077,9 +6077,9 @@ rollmops
 liquid detergent
 beans
 gherkins
-Adonis annua
+adonis annua
 daisies
-Filago germanicas
+filago germanicas
 seed cake
 wood anemones
 wood aster
@@ -6090,14 +6090,14 @@ fortune cookie
 tea biscuit
 grapefruit juice
 taco sauces
-Chinese jujubes
+chinese jujubes
 breadfruit
 hard candy
 charlotte russe
 bog roses
 nougat
 jelly beans
-Dendranthema grandifloruoms
+dendranthema grandifloruoms
 cream sauce
 murphy
 beet greens
@@ -6116,7 +6116,7 @@ curd
 seeded raisin
 necks
 puff batter
-Chinese brown sauces
+chinese brown sauces
 anchovy butter
 satsuma
 groupers
@@ -6126,13 +6126,13 @@ ursinia
 tablespoon
 roes
 paps
-low-sodium diet
+low sodium diet
 sapote
 single cream
 certified milks
-Clatonia lanceolata
+clatonia lanceolata
 cooker
-Roquefort
+roquefort
 common marigolds
 chutneys
 marble cakes
@@ -6142,7 +6142,7 @@ cassiri
 dog foods
 whiting
 apricot sauces
-Lychnis dioica
+lychnis dioica
 tonic waters
 raised doughnut
 boxberries
@@ -6156,12 +6156,12 @@ ingredient
 creme de fraises
 dessert
 samovar
-Alpine anemone
+alpine anemone
 petuniums
 wassails
 lowbush cranberry
 chili dog
-Epidendrum venosum
+epidendrum venosum
 greenhood
 tunnies
 corn fritter
@@ -6169,13 +6169,13 @@ dolmas
 patchoulies
 basils
 coffin nail
-Sauterne
-Wiener schnitzel
+sauterne
+wiener schnitzel
 hamburger bun
 shirred eggs
-New York strip
+new york strip
 chocolate mousses
-Rob Roys
+rob roys
 giblet
 instant coffee
 brown sugars
@@ -6183,13 +6183,13 @@ dowdy
 donut
 dopes
 cookwares
-Philadelphia pepper pots
+philadelphia pepper pots
 peppered steak
 thimbleweed
 beigel
 nail enamel
 nacho
-Indian potatoes
+indian potatoes
 ration
 beef goulashes
 dandelion greens
@@ -6198,45 +6198,45 @@ cola extract
 osso bucoes
 taboolis
 begonia
-Swiss steaks
+swiss steaks
 frog orchids
 goose livers
 luncheon meat
-Chrysanthemum segetum
-Edams
+chrysanthemum segetum
+edams
 moss campion
-Swedish meatballs
+swedish meatballs
 grey mullet
 peach melba
 bean dip
 chocolate truffle
 allergy diet
-Nigella hispanicas
+nigella hispanicas
 griddles
 manna
-Christmas begonia
+christmas begonia
 pepperoni pizzas
 stuffed egg
-Dutch ovens
+dutch ovens
 hoagy
 lime
-Norwegian lobsters
+norwegian lobsters
 leechees
 icebox cakes
 aubergines
 summer savory
 jelly bean
-Pinot blancs
+pinot blancs
 tournedoes
 hakes
-Calypso bulbosa
-low-calorie diets
+calypso bulbosa
+low calorie diets
 shaving soap
-Spams
+spams
 nail enamels
 straight razors
 bulghur
-French honeysuckles
+french honeysuckles
 cookware
 matzoh meal
 kasha
@@ -6244,22 +6244,22 @@ breadstuff
 muttons
 mudcats
 staffs of life
-Thousand Island dressings
+thousand island dressings
 scampuss
 seafoods
 fluffy omelets
-Gentiana pneumonanthes
-Begonia erythrophylla
-Gouda cheese
+gentiana pneumonanthes
+begonia erythrophylla
+gouda cheese
 snacks
 lobster tart
 closed gentians
 winter melons
-sauce Louis
+sauce louis
 western ladies' tresses
 retinols
 food colors
-A batteries
+a batteries
 syrups
 lamb
 dinners
@@ -6279,23 +6279,23 @@ cardamon
 table wines
 saucepots
 beef burrito
-Pablum
+pablum
 wildfowl
 bombers
-narrow-leaved white-topped asters
+narrow leaved white topped asters
 chow meins
 granola bars
 baked egg
 fillets of sole
 poacher
-Swiss rolls
-purple-fringed orchis
+swiss rolls
+purple fringed orchis
 shaddock
-Helianthus petiolaris
+helianthus petiolaris
 seabeach sandworts
 eggplants
 hake
-Gentiana saponaria
+gentiana saponaria
 ricer
 turkey stuffing
 soda biscuits
@@ -6308,25 +6308,25 @@ calves' livers
 hoisin sauces
 rabbit foods
 pawpaw
-Aster novae-anglias
-Chrysanthemum morifoliums
+aster novae anglias
+chrysanthemum morifoliums
 whites
 sillabubs
 moon daisy
-Aster novae-angliae
-Petunia integrifoliums
+aster novae angliae
+petunia integrifoliums
 baguets
-Roqueforts
+roqueforts
 gelatin desserts
 swordfish
-Swiss roll
+swiss roll
 pfannkuchen
 pork roast
 panetellas
 gum ball
 crystallized ginger
 cider
-Rome Beautys
+rome beautys
 timbale
 food colourings
 cane sugars
@@ -6337,31 +6337,31 @@ light cream
 submarine sandwiches
 dixie
 carbonado
-Saponaria vaccariums
+saponaria vaccariums
 collations
 temple orange
 river prawns
 beef neck
-vitamin B12s
-Jewish ryes
+vitamin b12s
+jewish ryes
 delicatessen foods
 lentil
 baby powder
 hunter's sauce
 fish chowders
-Dianthus supurbus
+dianthus supurbus
 bully beeves
 cappuccino coffee
 nicotinic acid
 crookneck
 sweet alisons
-Barberton daisies
+barberton daisies
 beef tenderloins
 quinine water
 mate
 heavy cream
-hard-boiled egg
-Stayman Winesap
+hard boiled egg
+stayman winesap
 scampo
 hasty puddings
 peonies
@@ -6373,35 +6373,35 @@ coes
 mountain four o'clocks
 light diet
 eyebrow pencil
-patty-pans
+patty pans
 barley candies
-Corallorhiza striatums
+corallorhiza striatums
 rations
-Vanda caeruleas
+vanda caeruleas
 aniseeds
 baby's breaths
 vandas
-Pilsner
+pilsner
 bing cherries
 sack
 franks
 streusels
-Canary wine
+canary wine
 teacake
-lamb-chop
+lamb chop
 birianis
 vegetable marrows
 fenugreeks
 tuberous begoniums
-Cypripedium arietinum
+cypripedium arietinum
 boscs
 bologna
 pots
 blintze
 sour cherries
-Cotes de Provence
+cotes de provence
 swan orchid
-electric-light bulb
+electric light bulb
 gobbet
 aquavit
 blintzs
@@ -6410,23 +6410,23 @@ bolognese pasta sauce
 baklavas
 boysenberries
 fortune cookies
-Bordeaux
+bordeaux
 prune
 crown beard
 bathtub gins
 pruno
 sweet cicely
-Burton
+burton
 premixes
 lake herrings
 pumpkin pies
 wienerwursts
-after-shave lotions
-Rock Cornish hens
+after shave lotions
+rock cornish hens
 cutlery
 terrine
 sidecar
-Vanda caerulea
+vanda caerulea
 noodles
 rosefish
 cranberry juices
@@ -6435,35 +6435,35 @@ wheat flour
 souvlakiums
 poteens
 mulligan stews
-Swiss chard
+swiss chard
 fruit punches
 puffed rice
 white cockle
 cold cuts
-Cotes de Provences
+cotes de provences
 strawberry jams
-Veronica chamaedries
-Bellis perennis
+veronica chamaedries
+bellis perennis
 starches
 alphabet soups
-Russian mayonnaise
+russian mayonnaise
 mustard seeds
-Camemberts
+camemberts
 pebble plant
 yellow lady's slipper
 vervain
-Hershey bar
+hershey bar
 beets
-Turkish coffee
-Muensters
-adam-and-eve
+turkish coffee
+muensters
+adam and eve
 southern aster
 terra cottums
 calla lilies
 doughs
 natal plums
 spoons
-Paschal celery
+paschal celery
 chevre
 coloring
 sun marigold
@@ -6472,10 +6472,10 @@ sun tea
 frostweed
 capons
 steak sauce
-Medoc
+medoc
 bottom round
-African marigolds
-California four o'clock
+african marigolds
+california four o'clock
 blender
 gulyas
 freshwater fish
@@ -6486,30 +6486,30 @@ akee
 lager beers
 gingersnaps
 babas
-Scotch woodcock
+scotch woodcock
 crabs
 patty shells
 western wall flower
 pie crust
 nutriment
 salad burnets
-hot-fudge sauce
+hot fudge sauce
 mascara
 salmon trout
 sunchoke
 licorices
 turkeys
-all-day sucker
+all day sucker
 kohlrabis
 roughage
 graham flour
 sweetmeats
 black currants
-Turkish Delight
+turkish delight
 foxtail orchids
 toadflaxes
-Dom Pedro
-Scabiosa atropurpurea
+dom pedro
+scabiosa atropurpurea
 juniper berries
 plum duff
 club steak
@@ -6520,78 +6520,78 @@ white peppers
 poilus
 aspartame
 cauliflower
-Rhodanthe manglesiuss
+rhodanthe manglesiuss
 dressings
 triple creme
 potluck
 zinfandels
 sassafras
-Callistephus chinensis
+callistephus chinensis
 blind gentians
 drip pot
 gimlet
 winged everlastings
 sugar peas
 bannocks
-Weizenbocks
+weizenbocks
 succotash
 tater
 fringed pinks
 pieplants
-Delicious
-Petunia hybridas
+delicious
+petunia hybridas
 schnecken
 marjoram
 dry milk
-Ageratum houstonianums
+ageratum houstonianums
 sea starwort
 honeysuckle
-Aster shortii
-Moehringia mucosas
+aster shortii
+moehringia mucosas
 sauce chausseur
 vanilla puddings
 seasoner
-Arenaria peploides
+arenaria peploides
 potato skins
 highball
 rump
 bosc
 white rice
-Hollands
+hollands
 caffe lattes
 lump sugar
 root vegetable
-vitamin K
-nickel-iron accumulators
+vitamin k
+nickel iron accumulators
 sausages
-patty-pan
+patty pan
 bulb
 napoleon
-black-eyed pea
+black eyed pea
 rosemaries
 splits
 fruit cocktail
-Arethusa bulbosa
+arethusa bulbosa
 plume poppies
 agar
-low-salt diet
+low salt diet
 painted daisy
 snowy orchids
 potato pancakes
 white fringed orchids
-Arethusa bulbosas
+arethusa bulbosas
 hoagie
 chafeweeds
 cereals
 farfalles
 dark chocolates
-bacon-lettuce-tomato sandwich
+bacon lettuce tomato sandwich
 scarlet runners
 frostweeds
 fags
 golden calla
-Cleistes roseas
-Arenaria serpyllifoliums
+cleistes roseas
+arenaria serpyllifoliums
 grinder
 lemon meringue pie
 absinthe
@@ -6599,51 +6599,51 @@ diets
 loin of lamb
 homogenized milks
 absinths
-purple-stemmed aster
+purple stemmed aster
 oleos
 butterfly plant
 cosmea
-V-8 juices
+v 8 juices
 croissants
 cocoa butter
 center
 panetela
 beef broth
-Veronica serpyllifoliums
+veronica serpyllifoliums
 borsches
 vinaigrette
-Chrysanthemum coronarium spatiosums
-Maine lobsters
+chrysanthemum coronarium spatiosums
+maine lobsters
 kirsches
-Virginia thimbleweed
+virginia thimbleweed
 electric shavers
 chicories
-crab Louis
+crab louis
 celery cabbages
 pantothenic acids
-Belgian endives
+belgian endives
 mixed drinks
 scrumpy
-vitamin B12
+vitamin b12
 ade
 ghee
 highlighters
 persimmon
 oxheart
 cantaloup
-Chinese brown sauce
+chinese brown sauce
 greenhoods
-Victoria sandwiches
+victoria sandwiches
 cerimen
 intoxicants
 romaine lettuce
-Lychnis alba
+lychnis alba
 lovage
-Chenin blanc
-thyme-leaved speedwell
-Bologna sausage
-Aster novi-belgii
-vitamin B1s
+chenin blanc
+thyme leaved speedwell
+bologna sausage
+aster novi belgii
+vitamin b1s
 marijuana cigarette
 slipper orchids
 fettuccini
@@ -6654,14 +6654,14 @@ epilating waxes
 bulgur wheats
 escallop
 epidendron
-Veronica chamaedrys
+veronica chamaedrys
 red valerians
 windflower
 mandarin orange
 pepper
-Bloody Marys
+bloody marys
 takeaway
-Victoria sponge
+victoria sponge
 snapper
 cohoe
 sukiyakis
@@ -6673,16 +6673,16 @@ herbs
 pigs' feet
 storage battery
 tuna fish salads
-Kahlua
+kahlua
 citrin
 plumcot
 bouillabaisses
-French vermouth
-Actinomeris alternifolia
+french vermouth
+actinomeris alternifolia
 bletia
 wingstem
-nickel-iron battery
-beef Stroganoff
+nickel iron battery
+beef stroganoff
 earthenware
 custard
 larders
@@ -6690,47 +6690,47 @@ vegetables
 white wood asters
 fish loaves
 summer crooknecks
-Chiantuss
-Orchis mascula
-Spanish lime
+chiantuss
+orchis mascula
+spanish lime
 almond crescents
-Newburg sauces
+newburg sauces
 mint candies
 fringed orchis
 savarins
-Macleaya cordata
+macleaya cordata
 bun
 corn cake
-Begonia cocchineas
+begonia cocchineas
 fringed orchid
-Aster divaricatus
+aster divaricatus
 brans
 little golden zinnia
 marrowfat peas
 flip
-vitamin Hs
+vitamin hs
 pteroylglutamic acid
-Malcolmia maritima
+malcolmia maritima
 orchidaceous plant
-Belgian waffles
+belgian waffles
 condiment
 confect
-Antirrhinum coulterianum
+antirrhinum coulterianum
 rabbits
 egg whites
 wiener roast
 pie
-long-neck clams
+long neck clams
 blue succories
-Silene dioica
-marvels-of-Peru
+silene dioica
+marvels of peru
 radicchios
 wandflower
-Platanthera bifoliums
+platanthera bifoliums
 hard roll
 oat
 tinned meat
-Arenaria groenlandica
+arenaria groenlandica
 whipping cream
 feijoa
 brass buttons
@@ -6738,37 +6738,37 @@ divinity fudges
 wine sauce
 soapwort gentian
 angrecums
-pork-and-veal goulashes
+pork and veal goulashes
 mustard greens
 pilau
 pilaw
-Emmenthaler
+emmenthaler
 kail
 ribiers
 stodges
 sweetening
 red cabbage
-Indian crocus
+indian crocus
 grape juice
 martinis
 whole wheat flmies
 nasturtiums
-Scotch marigold
+scotch marigold
 hyssop
 smooth aster
 arctic poppies
-ram's-head
+ram's head
 soup du jmies
 chop suey
 softener
 pinto bean
-Gentianopsis detonsas
+gentianopsis detonsas
 bonbons
 salt pork
 nachoes
-French marigolds
+french marigolds
 bush violets
-Verbesina alternifoliums
+verbesina alternifoliums
 pyridoxals
 smies
 tapiocas
@@ -6777,28 +6777,28 @@ clothes pins
 cocoa plums
 paellas
 corn whiskeys
-Northern lobsters
+northern lobsters
 date bars
 tea breaks
 zinniums
 orzo
-Venus's slipper
+venus's slipper
 bourguignon sauces
 crudites
-maple-leaf begoniums
+maple leaf begoniums
 folacin
 evening lychnis
-K ration
+k ration
 chicken provencales
 fava bean
 sherbets
 cottonweed
 table wine
-Lane's Prince Albert
+lane's prince albert
 maiden pinks
-Papaver somniferums
+papaver somniferums
 utensil
-Aster tripolium
+aster tripolium
 savoy cabbages
 mints
 marsh orchids
@@ -6808,13 +6808,13 @@ business lunch
 brown bread
 chili powder
 ackee
-Alaska crabs
-Erysimum asperum
-Emmenthalers
+alaska crabs
+erysimum asperum
+emmenthalers
 pate
 graters
 mozzarella
-Saratoga chip
+saratoga chip
 bottle gentian
 menadiones
 date bread
@@ -6825,24 +6825,24 @@ snow pea
 veal parmigiana
 bloomer
 brandy slings
-Episcia dianthifloras
+episcia dianthifloras
 cayenne pepper
 pound cake
-Soaves
+soaves
 giant sunflowers
-Pinot noir
-Platanthera chlorantha
+pinot noir
+platanthera chlorantha
 husk tomato
 hush puppies
 pate feuilletes
-Eccles cake
+eccles cake
 tomato juice
 broth
 refection
-Waldorf salad
+waldorf salad
 mush
 deviled egg
-Venus's slippers
+venus's slippers
 white turnip
 sausage meat
 coffee rolls
@@ -6851,13 +6851,13 @@ langoustines
 cloisonne
 butter cookies
 spice cookie
-Calopogon pulchellum
+calopogon pulchellum
 potage
 purslane speedwells
 blue orchid
 grated cheese
 beluga caviars
-Boston brown bread
+boston brown bread
 pork tenderloin
 chicken feed
 garden pink
@@ -6867,7 +6867,7 @@ johnny cake
 jumble
 showy lady slippers
 terra cotta
-Bavarian creams
+bavarian creams
 hair oil
 gentian
 buns
@@ -6875,9 +6875,9 @@ ulcer diets
 popover
 blended whiskies
 kebabs
-Encyclia citrinas
+encyclia citrinas
 eggbeater
-Begonia cheimanthas
+begonia cheimanthas
 firewater
 delicacy
 sponge cake
@@ -6885,7 +6885,7 @@ grey mullets
 sweetsops
 linguicas
 galvanic piles
-Chrysanthemum leucanthemum
+chrysanthemum leucanthemum
 salsa
 alligator pear
 beet sugar
@@ -6894,47 +6894,47 @@ almond extract
 garbanzoes
 croissant
 mountain four o'clock
-Dactylorhiza fuchsiuss
-Newburg sauce
-Victoria sandwich
-Pepsi Colas
+dactylorhiza fuchsiuss
+newburg sauce
+victoria sandwich
+pepsi colas
 blade roasts
 alewives
 oysters
 fillers
-Pericallis hybrida
+pericallis hybrida
 florist's chrysanthemums
-roly-polies
-double Gloucesters
+roly polies
+double gloucesters
 sprout
 mahimahis
 pantothens
 scups
 winter savory
 penoches
-crooked-stemmed aster
+crooked stemmed aster
 soda waters
-pork-and-veal goulash
+pork and veal goulash
 lima bean
-European lobsters
-Dungeness crabs
+european lobsters
+dungeness crabs
 whips
-heart-leaved asters
+heart leaved asters
 ratatouilles
-Aster novi-belgiuss
+aster novi belgiuss
 fillet of sole
-Epipactis helleborines
+epipactis helleborines
 carnation
-Polianthes tuberosa
+polianthes tuberosa
 frankfurter bun
-salt-rising bread
+salt rising bread
 coffee substitute
-TV dinners
+tv dinners
 babka
 petit dejeuners
-Gymnadenia conopsea
+gymnadenia conopsea
 eatage
-Rhodanthe manglesii
+rhodanthe manglesii
 potatoes
 gingerroot
 toffy
@@ -6943,12 +6943,12 @@ duck pates
 filling
 milk chocolate
 baccy
-Dahlia pinnata
+dahlia pinnata
 shepherd's pie
 cappelletti
 chipolatums
 waffle
-Cognac
+cognac
 coconut milks
 beefburger
 stogy
@@ -6959,13 +6959,13 @@ poor boys
 butterfly orchid
 honey cake
 marang
-T-bone steak
+t bone steak
 rock lobsters
-Moehringia mucosa
+moehringia mucosa
 cinnamon toast
 dodger
 teatimes
-Anemone riparia
+anemone riparia
 soda
 coconut creams
 field poppy
@@ -6977,7 +6977,7 @@ schnaps
 tamarind
 green onions
 crown roast
-Sloppy Joes
+sloppy joes
 pabulum
 licorice
 rush asters
@@ -6985,48 +6985,48 @@ fruit compote
 saffrons
 coral root
 rose campion
-Gentiana holopetala
+gentiana holopetala
 poor man's orchids
 porter's beer
 agueweeds
-Scotch broth
+scotch broth
 western
 hot cereal
-Dactylorhiza maculata fuchsiuss
-Cheiranthus allionii
+dactylorhiza maculata fuchsiuss
+cheiranthus allionii
 red currant
-Cuban sandwiches
+cuban sandwiches
 french fries
 lemon juices
 black caraways
 bone chinas
-Dahlia pinnatums
+dahlia pinnatums
 masdevallia
 roast lamb
 bloater
 frypans
-Begonia erythrophyllas
-Belgian beef stews
+begonia erythrophyllas
+belgian beef stews
 sweet four o'clock
 haddocks
 altar wine
 buckwheat cake
 nutritions
-Zantedeschia rehmaniuss
+zantedeschia rehmaniuss
 canned food
 ravigottes
-Cornish pasty
+cornish pasty
 electric frying pan
-Rock Cornish hen
+rock cornish hen
 sustenances
-crown-beards
+crown beards
 rouxes
 cookout
 faiences
 nonpareils
 pinto beans
 ursiniums
-New York asters
+new york asters
 peppercorn
 sapodilla plum
 tortes
@@ -7043,9 +7043,9 @@ dill seed
 buttermilks
 spaghetti squashes
 sage
-Turkish tobacco
+turkish tobacco
 pops
-Virginia thimbleweeds
+virginia thimbleweeds
 curacaos
 kale
 shellfish
@@ -7053,16 +7053,16 @@ chocolate milks
 ocean perches
 onion bagels
 refreshment
-ice-cream cone
+ice cream cone
 spaghetti and meatballs
 rambutans
 chipotle
 strawflower
 tortellinis
-Spiranthes porrifoliums
+spiranthes porrifoliums
 mixture
-Pepsi
-Catasetum macrocarpum
+pepsi
+catasetum macrocarpum
 rijsttaffel
 green corns
 electric light
@@ -7077,7 +7077,7 @@ swanflower
 paddies
 yellow ageratum
 beeves
-English breakfast teas
+english breakfast teas
 whitefish
 pickled herring
 hotdog buns
@@ -7095,19 +7095,19 @@ nutrient agar
 allspices
 heath aster
 veronicas
-Glaucium flavum
-Grimes' golden
+glaucium flavum
+grimes' golden
 mum
 shaving creams
-ox-eyed daisy
+ox eyed daisy
 bitter lemon
 toothbrush
-Eschscholtzia californicas
+eschscholtzia californicas
 sugar cookie
-Valencia oranges
+valencia oranges
 colostrums
-Mirabilis unifloras
-high-protein diets
+mirabilis unifloras
+high protein diets
 loaf of bread
 jelly
 margarin
@@ -7116,19 +7116,19 @@ electric razors
 games
 veal roast
 jello
-Swedish rye bread
+swedish rye bread
 scrods
-Gomphrena globosa
+gomphrena globosa
 proof spirit
 round clams
 intermixtures
-Chinese dates
-Phacelia campanulariums
+chinese dates
+phacelia campanulariums
 sweeteners
 cannibal mound
 galantine
-Aster turbinellis
-Spam
+aster turbinellis
+spam
 curries
 submarine
 beer
@@ -7140,14 +7140,14 @@ frog orchid
 tradescant's aster
 western poppies
 black beans
-Winesaps
+winesaps
 egg yolks
 pink lady
-Concord grapes
+concord grapes
 kingfisher daisy
 cracker
 carambola
-Chinese gooseberries
+chinese gooseberries
 spatchcocks
 sauce chausseurs
 barbecued spareribs
@@ -7166,10 +7166,10 @@ swallowworts
 polished rice
 chilis
 hominy grits
-three-deckers
+three deckers
 dried fruit
 florest's cineraria
-Oven Stuffer
+oven stuffer
 prune whips
 ketembillas
 criollo
@@ -7186,7 +7186,7 @@ cuckoo flowers
 goldilocks aster
 fresh beans
 yellow twining snapdragon
-Twinkies
+twinkies
 milts
 loblolly
 molasses kiss
@@ -7204,68 +7204,68 @@ tablefork
 tongueflowers
 stream orchids
 partridge
-Calvadoes
+calvadoes
 lobscuses
 corn chip
 cherry
 oxtail soups
 mustard seed
-Dover's powder
+dover's powder
 spiny lobsters
-Burgundy wine
+burgundy wine
 straw wines
 flavorings
 spotted dicks
-tutti-fruttuss
+tutti fruttuss
 aubergine
 cold duck
-D
+d
 ginger nut
 epilators
 checkerberry
 sirloin tips
 hot pepper
-low-calorie diet
+low calorie diet
 roulades
 scarlet musk flower
 swill
-Indian meals
+indian meals
 cooler
 snap bean
 mescal
-water-soluble vitamin
+water soluble vitamin
 cinnamon bread
-Mirabilis longifloras
+mirabilis longifloras
 tomatillo
 swamp sunflower
-Hungarian sauce
-Aster tripoliums
+hungarian sauce
+aster tripoliums
 sponge
 cottage pie
-common lady's-slippers
+common lady's slippers
 dishwashing detergent
 cheese pizzas
 ice
 greengage plums
 grapefruit
 loins
-Manzanillas
+manzanillas
 pepper steaks
 plantain
 pigeon pea
 cuts of meat
 bisque
 turkey stew
-Granny Smith
+granny smith
 corn
 rhodanthes
-Habenaria hookeruss
+habenaria hookeruss
 crackle chinas
 hot cross bun
 breadfruits
 cheese spreads
 ingesta
-deep-dish pie
+deep dish pie
 strong drink
 green salads
 plum
@@ -7276,17 +7276,17 @@ slipperwort
 convenience food
 food cache
 curry
-French fritter
+french fritter
 oxheart cherry
-hard-shell clam
+hard shell clam
 bread and butter pickles
-Jamaica rum
+jamaica rum
 cauldron
 rolling pin
 javas
 phylloquinone
 rounds
-Gentiana acaulis
+gentiana acaulis
 cafe royales
 eau de vie
 flapcakes
@@ -7298,13 +7298,13 @@ medium
 ceriman
 drip pots
 mineral waters
-Zinnia grandiflora
+zinnia grandiflora
 cardamum
 poitrine d'agneau
 porks
 matzah balls
 coneflowers
-roly-poly puddings
+roly poly puddings
 green turtle soups
 sour cherry
 phosphate
@@ -7312,23 +7312,23 @@ vanilla orchids
 ice waters
 urn
 hams
-Cleistes divaricatums
-French sorrel
-crown-beard
+cleistes divaricatums
+french sorrel
+crown beard
 cobbler
-Verdicchios
-NADA daiquiri
+verdicchios
+nada daiquiri
 sour orange
 lichis
-Verbesina helianthoides
-Cypripedium acaule
+verbesina helianthoides
+cypripedium acaule
 blind gentian
-tongue-flowers
+tongue flowers
 wintergreen oils
-iced-tea spoons
-Bessera elegans
+iced tea spoons
+bessera elegans
 lump sugars
-Aquilegia scopulorum calcareas
+aquilegia scopulorum calcareas
 whey
 panatela
 prickly poppy
@@ -7340,40 +7340,40 @@ makeups
 melon ball
 soul foods
 radishes
-Chateaubriand
+chateaubriand
 sacks
 field marigolds
 dry cereal
 sides of beef
-self-raising flour
+self raising flour
 pawpaws
 roe
 large yellow lady's slipper
-choc-ices
-pot-au-feu
+choc ices
+pot au feu
 guava
-Italian bread
+italian bread
 cantaloupes
-Atlantic salmon
+atlantic salmon
 flame tokays
-American smelts
+american smelts
 tournedos
 melon
 genoises
-Norwegian lobster
+norwegian lobster
 zinnia
 bechamel sauce
 bladder campion
 greengage plum
-Veronica agrestis
-Pericallis cruentums
+veronica agrestis
+pericallis cruentums
 mums
 littleneck clams
 linguica
 horse thistle
 pea bean
 broad leaved centauries
-Weizenbiers
+weizenbiers
 baklava
 fruit punch
 eclair
@@ -7382,7 +7382,7 @@ top round
 nutmeg flower
 stingers
 angelicas
-Silene latifolia
+silene latifolia
 piece de resistances
 porc
 bamboo shoot
@@ -7393,8 +7393,8 @@ drinks
 chili powders
 jambalaya
 pin bone
-Wiener schnitzels
-Soubise
+wiener schnitzels
+soubise
 oreganoes
 multivitamin pills
 carbohydrate loading
@@ -7405,7 +7405,7 @@ water
 anisettes
 scalded milk
 early spider orchid
-Claytonia virginica
+claytonia virginica
 azure aster
 maconnais
 blue succory
@@ -7417,19 +7417,19 @@ coastal rein orchid
 potable
 entrees
 beetroots
-Episcia dianthiflora
+episcia dianthiflora
 humous
 soybeans
-Rieslings
+rieslings
 soft pretzel
-Psychopsis papilio
+psychopsis papilio
 onion roll
 rattlesnake plantains
 tinned goods
 tequilas
 mammee apples
 bulbs
-Fanny Adams
+fanny adams
 celtuces
 garden pea
 picnic ham
@@ -7437,11 +7437,11 @@ citrous fruit
 apple juice
 hard ciders
 cologne waters
-Danish blues
+danish blues
 pot roast
-Muenster
-Alpine anemones
-electric-light bulbs
+muenster
+alpine anemones
+electric light bulbs
 depilatory
 beers
 liquidizers
@@ -7449,8 +7449,8 @@ depilators
 malt whiskey
 stuffed cabbage
 edible
-Begonia dregei
-Schreiber's asters
+begonia dregei
+schreiber's asters
 eyeliners
 bouchee
 stovers
@@ -7459,10 +7459,10 @@ pickle
 slipskin grape
 garlics
 melon balls
-iced-tea spoon
+iced tea spoon
 honey buns
 bioflavinoids
-Burgundy wines
+burgundy wines
 collards
 bigos
 penuches
@@ -7470,74 +7470,74 @@ flavorer
 seabeach sandwort
 steak knives
 beef stew
-vitamin A1s
+vitamin a1s
 finger foods
 spud
-tea-like drink
+tea like drink
 flitches
 near beer
 whole meal flour
 cocktail
 pitums
 willow aster
-gluten-free diet
-angel-wing begoniums
+gluten free diet
+angel wing begoniums
 slivovitz
 piccalillis
 fruit bars
 peanut bar
 hocks
 blue poppies
-Arenaria carolinianas
-Indian potato
+arenaria carolinianas
+indian potato
 pastilles
-Transvaal daisies
+transvaal daisies
 marguerite
 codfish balls
 iced tea
 ducklings
-Cypripedium arietinums
+cypripedium arietinums
 fox grapes
 dog fennels
-American smelt
-upside-down cakes
-Bramley's Seedlings
+american smelt
+upside down cakes
+bramley's seedlings
 water softeners
 spice cookies
 appetizers
-Chrysanthemum coronarium spatiosum
+chrysanthemum coronarium spatiosum
 pyridoxine
 samosas
 ananas
-bread-stick
+bread stick
 wax beans
-European smelts
+european smelts
 rockfish
 rolls of tobacco
 porters
 grouses
 fen orchis
-Gentianopsis holopetalas
+gentianopsis holopetalas
 cider vinegar
 cow cockles
-French endives
+french endives
 picnics
-Macouns
+macouns
 fen orchid
 soybean flour
-Hungarian sauces
-lamb's-quarter
+hungarian sauces
+lamb's quarter
 volaille
-Octoberfests
+octoberfests
 meat loaf
 witloofs
-Leucanthemum maxima
+leucanthemum maxima
 frijoles
 ice cream
 strawberry ice cream
 side dish
-Bletia striata
-Salisbury steak
+bletia striata
+salisbury steak
 high tea
 leafy vegetables
 kiwi fruit
@@ -7548,7 +7548,7 @@ calf's livers
 shortbread cookies
 aspirin powders
 coolers
-annual salt-marsh aster
+annual salt marsh aster
 cloves
 tempura
 early purple orchids
@@ -7558,22 +7558,22 @@ side of bacon
 mad apples
 gazaniums
 apple tart
-Tagetes erectums
+tagetes erectums
 schnapps
 white snapdragons
-Wedgwood
-alpha-tocopheral
+wedgwood
+alpha tocopheral
 chocolate sauces
 barbecue sauces
 tea leaves
-Calopogon tuberosum
+calopogon tuberosum
 scollop
 table knife
 hard cider
 costmary
 petit four
 hair tonics
-Verbesina virginicas
+verbesina virginicas
 squashes
 whisky smies
 white
@@ -7582,19 +7582,19 @@ inebriant
 gray soles
 legumes
 jelly doughnuts
-Swedish meatball
+swedish meatball
 red herring
 wandflowers
 shadberry
-Mirabilis longiflora
-Silene latifoliums
+mirabilis longiflora
+silene latifoliums
 chous
 oats
 solid food
 mince pies
-Senecio cruentus
+senecio cruentus
 sidecars
-Gentianopsis holopetala
+gentianopsis holopetala
 rhizomatous begonia
 drop biscuits
 gingerbreads
@@ -7609,10 +7609,10 @@ desert four o'clock
 vin ordinaire
 mulled wine
 remoulade sauce
-Pericallis cruenta
+pericallis cruenta
 spring roll
 dancing lady orchids
-Sauternes
+sauternes
 malts
 bok choy
 bog rein orchids
@@ -7620,7 +7620,7 @@ danish pastry
 bok choi
 crested coral root
 teapots
-Scotch whiskies
+scotch whiskies
 scouse
 yellow paper daisies
 seafood
@@ -7630,15 +7630,15 @@ wine vinegars
 seedless raisins
 stemless daisies
 masdevalliums
-vitamin B complex
-New York aster
+vitamin b complex
+new york aster
 perch
-french-fried potatoes
+french fried potatoes
 forage
 noshes
 cocoas
-Chrysanthemum maximum
-Cleistes rosea
+chrysanthemum maximum
+cleistes rosea
 slops
 quandang
 crab cocktail
@@ -7661,67 +7661,67 @@ fatback
 savoury
 scrags
 fly orchid
-choc-ice
+choc ice
 fish loaf
-elegant Habenariums
+elegant habenariums
 finnan haddie
 milk powders
 picnic
-Dame's violet
+dame's violet
 prickly lettuces
-vitamin B2
+vitamin b2
 hyssops
-vitamin B1
-vitamin B6
+vitamin b1
+vitamin b6
 grissino
-Rudbeckia serotinas
+rudbeckia serotinas
 whisky sour
 string beans
 mushy peas
 reducing diets
 clayware
-lead-acid batteries
+lead acid batteries
 elixir of life
 doughboys
 turbot
-vitamin Bc
+vitamin bc
 rump steaks
-Pablums
+pablums
 arctic poppy
-vitamin Bs
+vitamin bs
 fried egg
 orange juice
 lamb chops
 brook trout
 calanthes
 berry
-Listera cordatums
+listera cordatums
 plain flmies
 farinas
-New England boiled dinners
-showy lady's-slipper
+new england boiled dinners
+showy lady's slipper
 butties
 jerkies
 journey cakes
-Lithophragma affinis
-Iceland poppies
+lithophragma affinis
+iceland poppies
 souvlaki
 poi
 raw vegetable
 stinking chamomiles
 jawbreakers
 turkey
-Brachycome Iberidifolia
+brachycome iberidifolia
 aperitifs
 hamburger buns
-Layia platyglossa
+layia platyglossa
 brittles
-Granny Smiths
+granny smiths
 agueweed
 apple jellies
 ravioli
 pale coral root
-Rudbeckia laciniata
+rudbeckia laciniata
 field marigold
 soy sauces
 claywares
@@ -7737,12 +7737,12 @@ punches
 parsleys
 candies
 helleborines
-chicken Tetrazzini
-Burtons
+chicken tetrazzini
+burtons
 riboflavins
 pomades
 chervils
-West Indian cherry
+west indian cherry
 tartlet
 desert four o'clocks
 cudweeds
@@ -7755,79 +7755,79 @@ celandine poppies
 canistel
 submarines
 fowls
-Begonia feastii
+begonia feastii
 daiquiri
 ragout
 drop biscuit
 dehydroretinol
 omelette
-Uruguay potato
+uruguay potato
 breasts of lamb
-Bletia striatums
+bletia striatums
 tapenade
 hot dogs
-cock-a-leekie
+cock a leekie
 grappa
 vanillas
 gin sling
-Scotch pancake
+scotch pancake
 electric toothbrush
 cockles
-Munchener
-ice-cream cakes
-Boston baked beans
+munchener
+ice cream cakes
+boston baked beans
 salad creams
-Indian meal
+indian meal
 philter
-Socotra begonia
+socotra begonia
 rose
-Xeranthemum annuums
+xeranthemum annuums
 fritter batter
 aiolis
 late purple asters
 pottages
 curacoas
 cottage cheese
-vitamin B complexes
+vitamin b complexes
 cuppers
 tartare sauce
-purple-stemmed asters
+purple stemmed asters
 callas
-Adonis annuas
+adonis annuas
 couverture
 commelina
-Canada anemone
-Corallorhiza striata
+canada anemone
+corallorhiza striata
 creep feeds
 rum cocktails
 creme brulee
 red campion
 goldilocks
-English breakfast tea
+english breakfast tea
 potlucks
 kitambillas
 root vegetables
 gateaux
 lentils
-Lychins chalcedonicas
+lychins chalcedonicas
 upland white asters
 candied citrus peels
-B vitamins
+b vitamins
 pork tenderloins
-blue-eyed African daisies
-Nova salmon
+blue eyed african daisies
+nova salmon
 avocado pears
 porter
-pot-au-feus
+pot au feus
 pascal celery
-Burgundy sauce
+burgundy sauce
 pasturage
 moth plants
 bluefins
-roly-poly
+roly poly
 dasheen
 fillings
-Cabernets
+cabernets
 cuds
 fish chowder
 shrimp
@@ -7837,7 +7837,7 @@ bourguignon
 wontons
 jackfruits
 common marigold
-Berlin doughnut
+berlin doughnut
 graham flmies
 sweet cup
 rues
@@ -7847,59 +7847,59 @@ felworts
 oyster stuffing
 rosebud orchid
 voltaic batteries
-Northern Spy
+northern spy
 prunoes
 stuffed cabbages
 vegetable marrow
 common daisies
 fish
 nourishments
-black-eyed Susan
+black eyed susan
 scorzonera
 brownie mixes
 gray mullet
 herring salads
-Platanthera chloranthas
+platanthera chloranthas
 porkchop
 plumcots
 coddled egg
 anchovies
-Short's asters
+short's asters
 bouillon
-European blueberry
+european blueberry
 grass
 tostadas
 freestone
-Chinese parsley
+chinese parsley
 western poppy
 lichee
 bishop
-mist-flower
+mist flower
 hortensiums
-bouncing Bess
+bouncing bess
 roses
 fox grape
 calico asters
-Alaskan king crab
+alaskan king crab
 jewel orchids
 chowchows
-Aztec marigold
+aztec marigold
 paddy
 caper sauces
 jooks
-love-potions
+love potions
 concoctions
 flower
-Felicia bergerianas
+felicia bergerianas
 stocks
-Ophrys muscifera
+ophrys muscifera
 chows
 calla
-star-leaf begonia
-large-leaved aster
-Montrachets
+star leaf begonia
+large leaved aster
+montrachets
 ricottums
-Catawbas
+catawbas
 jellyrolls
 ale
 reamers
@@ -7909,13 +7909,13 @@ dish
 pennes
 brunch
 pyrethrum
-funnel-crest rosebud orchids
+funnel crest rosebud orchids
 bell peppers
 coffee royals
-Lactuca scariola
+lactuca scariola
 car battery
 cress
-Venus's shoes
+venus's shoes
 caraway seeds
 vanilla extract
 rein orchid
@@ -7926,32 +7926,32 @@ snapdragons
 lime juices
 soles
 fag
-Cotula coronopifoliums
+cotula coronopifoliums
 porgy
 pimientoes
-Yorkshire pudding
-May wines
+yorkshire pudding
+may wines
 star begoniums
 cider vinegars
 beefsteak begonia
 eggwhisk
-Erysimum allioniuss
+erysimum allioniuss
 beefsteak geraniums
 wallflower
 fringed gentians
 tea
-Felicia amelloides
+felicia amelloides
 confects
 lye hominy
 spritzers
-Claytonia virginicas
+claytonia virginicas
 cannellonis
 rein orchis
 sub
 musts
 sun blockers
 cream puffs
-triple-decker
+triple decker
 freestones
 porcelain
 treasure flowers
@@ -7973,11 +7973,11 @@ guacamole
 wild plums
 birdseed
 horse thistles
-Hexalectris spicata
-Ophrys insectiferas
+hexalectris spicata
+ophrys insectiferas
 plonk
 muscadine
-Sporks
+sporks
 pizza pie
 herring
 spoon bread
@@ -7986,12 +7986,12 @@ donuts
 panetelas
 brandy sling
 rainbow pink
-Epipactis gigantea
+epipactis gigantea
 food turners
 pinwheel rolls
 crab cocktails
 bran flakes
-Short's aster
+short's aster
 spruce beer
 honey crisps
 pales ales
@@ -8001,44 +8001,44 @@ food colouring
 green bean
 flan
 cattle cake
-Malaxis-unifoliums
-Armagnac
+malaxis unifoliums
+armagnac
 crumb cakes
 petite marmite
 matzah ball
-low-fat diet
+low fat diet
 white wood aster
 granadillas
 cream puff
 ragged orchis
-Bibb lettuce
-Lonas inodora
+bibb lettuce
+lonas inodora
 sunscreen
-soft-shell crab
+soft shell crab
 calf's liver
 cuts of mutton
 mushroom wine sauces
 pone
-Shawnee cake
+shawnee cake
 spoilable
 lotions
 durian
-Tom Collins
+tom collins
 dixies
-Hunnemania fumariifolia
+hunnemania fumariifolia
 golden honey plants
 cannelloni
-potage St. Germains
+potage st. germains
 veloute
 mould
-English muffins
+english muffins
 sandwich
-Chinese jujube
+chinese jujube
 seckel pear
 nutriments
 shads
 garlic salt
-Polianthes tuberosas
+polianthes tuberosas
 tarragons
 halibut
 multivitamin
@@ -8054,16 +8054,16 @@ weenie roast
 soapworts
 demitasses
 mullein pink
-Easter egg
+easter egg
 mirasol
 boiled eggs
 broths
-Passover supper
+passover supper
 marsh gentian
-French honeysuckle
+french honeysuckle
 lichees
 blenders
-Anthemis tinctoriums
+anthemis tinctoriums
 anise cookie
 yellow twining snapdragons
 liquorice
@@ -8078,7 +8078,7 @@ cross buns
 pastramis
 dry milks
 plain flour
-Spork
+spork
 river pears
 gnocchis
 agateware
@@ -8088,25 +8088,25 @@ spaghettuss
 julienne vegetables
 bottom rounds
 bitter chocolate
-Parker House rolls
+parker house rolls
 gerardiums
 fennel seed
 side dishes
-Scotch malt whiskey
-John Barleycorns
+scotch malt whiskey
+john barleycorns
 alcohol
 poachers
 condensed milk
 parfaits
-semi-skimmed milk
+semi skimmed milk
 edible corns
 soft roes
 fiber
 cookie
 green soybean
 hedge pinks
-Dianthus plumarius
-Habenaria dilatata
+dianthus plumarius
+habenaria dilatata
 gruels
 pilot bread
 white prairie aster
@@ -8114,13 +8114,13 @@ ladies' slipper
 yellow paper daisy
 percolator
 buckwheat cakes
-pousse-cafe
+pousse cafe
 fry bread
 repasts
 feed
 croakers
-babies'-breaths
-Helianthus maximilianiuss
+babies' breaths
+helianthus maximilianiuss
 pork
 apple turnover
 stripers
@@ -8133,18 +8133,18 @@ sweet sultan
 brisket
 scallion
 celery cabbage
-Pinot Chardonnays
+pinot chardonnays
 syrup
 celery salt
 baguettes
 sausage roll
 slugs
-ram's-head lady's slippers
+ram's head lady's slippers
 micronutrient
 milk chocolates
 choice morsels
 axerophthol
-Habenaria fimbriata
+habenaria fimbriata
 white potatoes
 littlenecks
 spiceberry
@@ -8165,34 +8165,34 @@ marzipans
 coffee bean
 sherry
 sandwort
-Vidalia onions
+vidalia onions
 clothespin
 coddled eggs
 orange peel
 brioche
-Italian sandwich
-Hunnemania fumariifoliums
+italian sandwich
+hunnemania fumariifoliums
 pigweeds
 sowbread
 carbonnade flamandes
 wood anemone
 swallow wort
 naphthoquinones
-Cornish pasties
-Cyclamen neopolitanums
+cornish pasties
+cyclamen neopolitanums
 solanaceous vegetable
 calf's tongues
 honeydew melons
 felafels
-Cypripedium montanum
+cypripedium montanum
 pompanoes
 miraculous food
-Brassia verrucosa
+brassia verrucosa
 vodkas
 drinking waters
-hard-cooked egg
+hard cooked egg
 casaba melons
-butter-and-eggs
+butter and eggs
 tocopherols
 sweet ciders
 pigwash
@@ -8200,33 +8200,33 @@ cyanocobalamins
 frittatums
 almond extracts
 glogg
-common four-o'clock
+common four o'clock
 red wine
-broad-leaved twayblades
+broad leaved twayblades
 banquet
 whipping creams
 halibuts
-Scabiosa atropurpureas
+scabiosa atropurpureas
 brandyball
 pot marigolds
 collard greens
 sour cream
-Cyclamen hederifoliums
+cyclamen hederifoliums
 bouillabaisse
 longroot
 marchand de vin
-five-flowered gentians
+five flowered gentians
 jalapeno pepper
-Lobularia maritima
-Chinese cabbage
+lobularia maritima
+chinese cabbage
 sapotums
 rhubarbs
 afters
 spun sugars
 pavlova
-B complex
+b complex
 roughages
-wavy-leaved aster
+wavy leaved aster
 sorrels
 baked goods
 sole
@@ -8234,16 +8234,16 @@ aspic
 takeouts
 liquors
 fricassees
-Spanish burgoos
+spanish burgoos
 saddles of lamb
 sweet oranges
-love-philtre
+love philtre
 fennel seeds
 dahls
 vitamin pill
 tamale pie
 kirsch
-Life Saver
+life saver
 sweet
 bartletts
 whelk
@@ -8252,27 +8252,27 @@ strip steak
 gravies
 crisps
 muesli
-Pinot Chardonnay
-Meconopsis cambricas
+pinot chardonnay
+meconopsis cambricas
 ensilage
 purple onion
 champagne cup
-Goa powder
+goa powder
 java
 body lotion
 stemless daisy
-Chinese parsleys
+chinese parsleys
 explorer's gentian
 buttermilk
 damask violets
-long-neck clam
-Leucanthemum lacustres
+long neck clam
+leucanthemum lacustres
 arum lilies
 headcheese
 kaiser roll
-Bs
+bs
 balanced diets
-Delphinium ajacis
+delphinium ajacis
 green adder's mouth
 perries
 hamburger rolls
@@ -8282,15 +8282,15 @@ sticky buns
 stonewares
 lemon drop
 maraschinoes
-Melba toast
+melba toast
 fruit salads
-semi-sweet chocolate
-Eastern silvery aster
-Hungarian goulash
+semi sweet chocolate
+eastern silvery aster
+hungarian goulash
 field chamomile
 yellow turnip
 surinam cherries
-vitamin-deficiency diets
+vitamin deficiency diets
 sirup
 plum pudding
 runcible spoon
@@ -8308,30 +8308,30 @@ creamcups
 seasoned salts
 entrecote
 sabayon
-Gentiana proceras
+gentiana proceras
 monsteras
 slipskin grapes
 quandongs
 scarlet runner beans
 bartlett
-Begonia socotranas
-Platanthera leucopheas
-Dactylorhiza fuchsii
-love-philter
+begonia socotranas
+platanthera leucopheas
+dactylorhiza fuchsii
+love philter
 chickens
-C battery
+c battery
 pulque
 fresh foods
 marchpane
 hotdog
 icing sugar
-Erysimum cheiri
+erysimum cheiri
 custard apples
 pates
-Concord grape
+concord grape
 mascarpones
-Cypripedium album
-Tanacetum ptarmiciflorums
+cypripedium album
+tanacetum ptarmiciflorums
 margarins
 icecreams
 marrowfat pea
@@ -8344,10 +8344,10 @@ tables
 automobile batteries
 treacle
 mulberries
-English sole
+english sole
 temple oranges
-escalope de veau Orloffs
-common lady's-slipper
+escalope de veau orloffs
+common lady's slipper
 plum tomatoes
 golden ironweed
 bean tostadas
@@ -8356,14 +8356,14 @@ cape marigold
 mescals
 malted milks
 cut of lamb
-Chinese fried rice
+chinese fried rice
 round clam
 delicatessens
 gumdrop
 hors d'oeuvres
 marmalade
 sages
-Worcestershire
+worcestershire
 butterscotch
 sauces
 cooking chocolates
@@ -8372,7 +8372,7 @@ boeuf fondu bourguignons
 pepperoni pizza
 rock cake
 capon
-African violet
+african violet
 pimento butter
 saltwater fish
 star fruit
@@ -8383,34 +8383,34 @@ sour bread
 zombis
 aitchbones
 phantom orchids
-vitamin B6s
+vitamin b6s
 zombie
 wedge bones
 peach ice cream
 jewel orchid
 elixir
-Moselles
+moselles
 spikenards
-Cox's Orange Pippins
+cox's orange pippins
 clove pinks
 comfits
-Epipactis giganteas
-European smelt
+epipactis giganteas
+european smelt
 hair spray
-ram's-head lady's slipper
-Begonia tuberhybridas
+ram's head lady's slipper
+begonia tuberhybridas
 laundry detergents
 beef roasts
 ethyl alcohol
 fricandeau
-Colbert butter
+colbert butter
 rye bread
 kosher
 spotted coral roots
 bone marrows
-calf's-foot jelly
+calf's foot jelly
 side
-funnel-crest rosebud orchid
+funnel crest rosebud orchid
 linguines
 cold cereals
 common salts
@@ -8418,7 +8418,7 @@ parsnip
 combination salad
 whole wheat flour
 green pea soups
-West Indian cherries
+west indian cherries
 codfish ball
 pork pie
 vanilla extracts
@@ -8426,14 +8426,14 @@ pasteurized milk
 casabas
 plasticizer
 ginger beer
-love-in-a-mist
+love in a mist
 filet
 coastal rein orchids
 raisins
 cypripediums
-Cypripedium californicum
+cypripedium californicum
 kitchenware
-Antirrhinum coulterianums
+antirrhinum coulterianums
 catananche
 apricot
 mangosteens
@@ -8442,14 +8442,14 @@ frier
 peppermint
 pulasans
 hot water plants
-Lindheimera texanas
+lindheimera texanas
 spliffs
 fire pinks
 whole wheat bread
 dill
 hotpots
 four o'clock
-Wedgwoods
+wedgwoods
 crepes
 graham
 nectars
@@ -8457,7 +8457,7 @@ meatloaf
 lemon
 peach
 grouper
-pine-barren sandwort
+pine barren sandwort
 saffron
 matzahs
 sweetbreads
@@ -8466,15 +8466,15 @@ osso buco
 mustard
 chicken stocks
 smoked herrings
-Saintpaulia ionantha
+saintpaulia ionantha
 fish house punch
 sauce vinaigrette
 native peach
 chocolate
 pottery
 wonton
-Lychnis flos-cuculis
-brown Betty
+lychnis flos cuculis
+brown betty
 farm cheese
 ice creams
 ragged robin
@@ -8485,23 +8485,23 @@ buffalo
 waldmeisters
 sun teas
 sweet potatoes
-Samian ware
+samian ware
 ginger snap
 birch beers
 bonitoes
 tisane
-African daisies
+african daisies
 cuppa
 jelly doughnut
 sowbelly
 sour gourd
-Holland gins
+holland gins
 devil's food
 beef loins
 golden buttons
 cracked wheat
-Vouvrays
-Silphium laciniatum
+vouvrays
+silphium laciniatum
 spoon
 duffs
 genips
@@ -8511,22 +8511,22 @@ perches
 sparkling wine
 headache powders
 amarelle
-Meconopsis betonicifoliums
+meconopsis betonicifoliums
 coffee cake
 rock candy
 quahog
 snails
-Carolina spring beauty
+carolina spring beauty
 goodies
 fatbacks
 bilberries
 bleu cheese dressing
 marinade
-Bries
+bries
 sweetenings
 black pudding
 white daisy
-Saponaria vaccaria
+saponaria vaccaria
 light beers
 tarragon
 peanut brittles
@@ -8535,12 +8535,12 @@ fiddleneck
 ramekins
 crookneck squash
 carbonara
-mangel-wurzels
+mangel wurzels
 cracked wheats
 dill weeds
 anchovy dressings
 sugar candies
-Madeira cakes
+madeira cakes
 field pea
 vegetarianism
 carbo loading
@@ -8574,15 +8574,15 @@ ices
 white prairie asters
 lemonades
 pasta salads
-Chinese celeries
+chinese celeries
 creme de menthe
-Irish stew
+irish stew
 cuts of pork
-Ophrys sphegodes
+ophrys sphegodes
 sea trout
 tufted centaury
 cow cockle
-nosh-up
+nosh up
 latke
 cinnamon snail
 cream soda
@@ -8591,16 +8591,16 @@ sorb
 cheese sauces
 egg white
 porcs
-Bologna sausages
-prairie white-fringed orchis
+bologna sausages
+prairie white fringed orchis
 blade roast
 cut of beef
 seeder
 vichyssoises
-Uvularia grandiflora
-prairie white-fringed orchid
+uvularia grandiflora
+prairie white fringed orchid
 annon
-Aster cordifolius
+aster cordifolius
 caraway seed bread
 black salsify
 red valerian
@@ -8611,8 +8611,8 @@ male orchis
 cheese fondue
 kai apple
 onions
-Cypripedium calceolus pubescens
-Danish blue
+cypripedium calceolus pubescens
+danish blue
 beet green
 shaving soaps
 biryani
@@ -8623,17 +8623,17 @@ eatables
 smoking mixtures
 birch beer
 coq au vins
-Stokesia laevis
+stokesia laevis
 chicken purloo
-Sloppy Joe
+sloppy joe
 taco
 laelia
-Canadian bacon
+canadian bacon
 tongue
 cetchup
 wind poppy
 bluepoints
-Irish potatoes
+irish potatoes
 beef stock
 chicken salads
 martini
@@ -8642,46 +8642,46 @@ flans
 suet puddings
 fizzs
 bog rein orchid
-Cheiranthus cheiri
+cheiranthus cheiri
 brandysnap
 pulses
 cheesecakes
 perfumes
-Gomphrena globosas
+gomphrena globosas
 tidytips
-vitamin P
+vitamin p
 gloggs
-fairy-slippers
+fairy slippers
 cape marigolds
 kickshaw
 manna from heaven
-vitamin C
-vitamin B
-vitamin A
-vitamin G
-vitamin E
-vitamin D
+vitamin c
+vitamin b
+vitamin a
+vitamin g
+vitamin e
+vitamin d
 orange
 ricotta
-vitamin H
-vitamin M
+vitamin h
+vitamin m
 bachelor's button
-vitamin Ds
+vitamin ds
 blackberries
 citrus
 flour
 oranges
 coral drops
-Irish potato
+irish potato
 bartlett pear
 delicatessen
-Ranunculus ficariums
+ranunculus ficariums
 cocoa
 salmagundis
 ratatouille
 shell beans
 feast
-Spiranthes romanzoffianas
+spiranthes romanzoffianas
 corned beef hashes
 net melon
 macaroons
@@ -8692,7 +8692,7 @@ loblollies
 largemouth bass
 navel orange
 lesser twayblade
-blooming-fool begonia
+blooming fool begonia
 baba au rhums
 summer squash
 grits
@@ -8706,11 +8706,11 @@ sweet alyssum
 cayenne peppers
 kipper
 bialy
-China aster
+china aster
 plasticisers
 zwieback
 oxhearts
-Bercys
+bercys
 sacramental wines
 corianders
 bordelaise
@@ -8718,19 +8718,19 @@ war paints
 spun sugar
 tossed salads
 salad nicoises
-Malcolm stocks
+malcolm stocks
 ugli fruit
 seafood sauce
 automobile battery
 anchovy pizzas
-Scotch broths
-Virgin Mary
+scotch broths
+virgin mary
 taro root
-narrow-leaved white-topped aster
+narrow leaved white topped aster
 blade apple
 skillet cakes
 greater butterfly orchid
-Stylophorum diphyllums
+stylophorum diphyllums
 tidbit
 shallot
 late purple aster
@@ -8738,28 +8738,28 @@ orange pekoe
 ageratum
 gazpacho
 compass flower
-Turkish Delights
+turkish delights
 colas
-Christmas bells
+christmas bells
 tagliatelles
 raw vegetables
 brassavolas
 nutrient agars
-Alaska king crabs
+alaska king crabs
 star anise
 fowl
 caviars
 hand lotions
 beef fondue
-vol-au-vent
+vol au vent
 graniteware
 calf's brain
-Centaurium calycosum
+centaurium calycosum
 pork belly
 caviare
 phantom orchid
 clove
-Chrysanthemum coccineums
+chrysanthemum coccineums
 lentil soups
 shank
 roux
@@ -8767,23 +8767,23 @@ scone
 guavas
 bagel
 oyster stew
-Bloody Mary
+bloody mary
 hard liquor
 troches
-sauce Albert
-Anemonella thalictroides
+sauce albert
+anemonella thalictroides
 pretzels
 centre
-Cypripedium calceolus
+cypripedium calceolus
 damson plums
 yellow bean
 spikenard
 lemonade mixes
 anchovy pastes
 summer savoury
-Brassia lawrenceana
+brassia lawrenceana
 vitamins
-Chrysanthemum maxima maxima
+chrysanthemum maxima maxima
 porterhouse steak
 drawn butter
 tamales
@@ -8794,7 +8794,7 @@ sparlings
 witloof
 omelet pan
 oyster dressing
-Madeira sponges
+madeira sponges
 cambric teas
 bratwurst
 cinnamon toasts
@@ -8818,27 +8818,27 @@ early coral roots
 dope
 marijuana cigarettes
 mombin
-Scotch egg
+scotch egg
 lovages
 chips
-Begonia heracleifoliums
+begonia heracleifoliums
 won ton
-Dame's violets
+dame's violets
 nutmeg flowers
 manhattans
 pilaff
-Phacelia whitlaviums
+phacelia whitlaviums
 baby powders
 bannock
 raw meat
 butterhead lettuce
-Begonia cocchinea
-Boston cream pie
+begonia cocchinea
+boston cream pie
 celery roots
 windflowers
 oil of wintergreen
 peppered steaks
-Portulaca grandifloras
+portulaca grandifloras
 mashed potato
 manicotti
 monosodium glutamates
@@ -8850,7 +8850,7 @@ chili con carnes
 meatballs
 petfoods
 benedictine
-California wines
+california wines
 torpedo
 scented fern
 barbeque
@@ -8862,15 +8862,15 @@ beverages
 cake
 homebrew
 marrows
-Darjeeling
+darjeeling
 common sorrels
 purple orchis
 egg en cocottes
 grain
 latkes
-high-vitamin diets
+high vitamin diets
 viands
-Crock Pot
+crock pot
 sausage pizza
 pottage
 stuffed derma
@@ -8881,10 +8881,10 @@ corn chowders
 table
 pate feuillete
 iceberg lettuce
-grape-leaf begoniums
+grape leaf begoniums
 minute steak
 sugar beets
-Scotch eggs
+scotch eggs
 twayblade
 herbal teas
 cardamoms
@@ -8892,7 +8892,7 @@ greater celandine
 lipsticks
 mountain lady's slipper
 genipaps
-Mediterranean snapdragons
+mediterranean snapdragons
 lambchops
 pond apple
 hair gel
@@ -8907,32 +8907,32 @@ sugar snap peas
 streusel
 ragouts
 philtres
-open-face sandwich
-Vienna sausage
+open face sandwich
+vienna sausage
 brioches
 eyeliner
 heavy creams
-Lindheimera texana
+lindheimera texana
 bird feeds
 chafeweed
 pyridoxamines
-Red Delicious
-round-leaved rein orchids
+red delicious
+round leaved rein orchids
 basters
-Phacelia tanacetifolia
+phacelia tanacetifolia
 seedcake
 white zinnia
 dry vermouth
 vintage
-Helichrysum secundiflorum
+helichrysum secundiflorum
 throat sweetbreads
 fennel flowers
 corydalis
 phyllo
 shaving foam
-American lobster
+american lobster
 tomatoes
-Cypripedium reginae
+cypripedium reginae
 cassareeps
 mameys
 mint sauces
@@ -8940,37 +8940,37 @@ white pepper
 corn marigolds
 sautes
 white daisies
-Cypripedium reginas
+cypripedium reginas
 corn dabs
 hootches
 pork sausage
 beefsteaks
 antipasto
 taffy apple
-lamb's-quarters
+lamb's quarters
 opium poppy
 grenadines
 green onion
 lightbulb
 black salsifies
-Calopogon pulchellums
+calopogon pulchellums
 ciscoes
 sweet rolls
 coffeepot
 king begonia
-Scabiosa arvensis
+scabiosa arvensis
 batteries
 hot water plant
-American lobsters
-Italian vermouths
+american lobsters
+italian vermouths
 pirogis
-Merlots
+merlots
 branch waters
 spinaches
 tall sunflowers
 dry vermouths
 frozen puddings
-oysters Rockefellers
+oysters rockefellers
 provisions
 araroba
 bismarks
@@ -8980,8 +8980,8 @@ baps
 creme de cacao
 scallop
 mountain daisy
-split-peas
-Japanese plum
+split peas
+japanese plum
 ladies' tresses
 everlastings
 hair gels
@@ -8992,28 +8992,28 @@ skim milks
 madrilene
 muscadel
 pease puddings
-Manzanilla
+manzanilla
 chabasites
-Jonathan
+jonathan
 salmon loaf
 pachoulis
 coffee berry
 detergent
 hair greases
-Papaver nudicaules
+papaver nudicaules
 seaside centauries
-Habenaria bifolia
+habenaria bifolia
 trout
 pasty
 vanilla orchid
-Vanilla planifoliums
-Northern Spys
+vanilla planifoliums
+northern spys
 green turtle soup
 biotins
 pomelo
 allemande sauces
 pasta
-Irish burgoo
+irish burgoo
 paste
 slug
 hot cakes
@@ -9026,21 +9026,21 @@ entremets
 cheese sauce
 sides of bacon
 sakes
-Iceland poppy
+iceland poppy
 wheats
 ergocalciferols
-Anemone quinquefoliums
+anemone quinquefoliums
 emperor
 altar wines
 upland white aster
 soybean meals
 hotcake
 cassiruss
-beef Bourguignonnes
+beef bourguignonnes
 liver pudding
 cornflowers
 dancing lady orchid
-self-rising flmies
+self rising flmies
 apple dumplings
 cinnamon buns
 tapioca puddings
@@ -9052,12 +9052,12 @@ mushroom wine sauce
 catsup
 ship biscuit
 salad dressing
-Habenaria albifloras
-semi-skimmed milks
-New England boiled dinner
+habenaria albifloras
+semi skimmed milks
+new england boiled dinner
 gingerroots
 battercakes
-Malcolm stock
+malcolm stock
 accumulators
 mashers
 windfall
@@ -9066,27 +9066,27 @@ gelatins
 egg en cocotte
 sticky bun
 monosodium glutamate
-Spanish mackerel
+spanish mackerel
 light bulbs
 hamburger roll
 breadstuffs
-lead-acid accumulator
+lead acid accumulator
 flannel cakes
 potages
 clothes pin
-Cortland
+cortland
 mock turtle soup
 quails
 pfannkuchens
 gobbets
-Bibb lettuces
+bibb lettuces
 epilator
 wood asters
 coffees
 spatulas
 drip pan
-Habenaria dilatatums
-Leucanthemum lacustre
+habenaria dilatatums
+leucanthemum lacustre
 nourishment
 toasts
 corn dodgers
@@ -9097,7 +9097,7 @@ latakia
 flatfish
 boiled egg
 riboflavin
-Habenaria elegans
+habenaria elegans
 eau de cologne
 soft pretzels
 rue anemone
