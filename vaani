@@ -97,10 +97,10 @@ if(telltext) {
         voice: 'en-US_AllisonVoice',
         accept: 'audio/wav'
     });
-    audio.on('error', (error) => fail('Problem with TTS service.'));
+    audio.on('error', (error) => fail('Problem with TTS service.\n\n' + error));
 } else if(audiofile) {
     audio = (audiofile == '-') ? process.stdin : fs.createReadStream(audiofile);
-    audio.on('error', (error) => fail('Problem reading from audio file.'));
+    audio.on('error', (error) => fail('Problem reading from audio file.\n\n' + error));
 } else {
     program.help();
 }
