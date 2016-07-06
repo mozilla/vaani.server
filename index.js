@@ -119,7 +119,7 @@ module.exports = {
                     try {
                         product = parser.parse(command);
                     } catch (ex) {
-                        console.log('Problem interpreting: ' + command + ': '   );
+                        console.log('Problem interpreting: ' + command);
                         answer(ERROR_PARSING, sorryUnderstand, command, confidence);
                         return;
                     }

@@ -57,12 +57,8 @@ module.exports.load = (callback) => {
                     const jison = require('jison');
                     var parser = new jison.Parser(fs.readFileSync(sljison, utf8));
                     console.log('generating parser (write)...');
-                    writer = fs.createWriteStream(slparser);
-                    writer.write(parser.generate(), utf8);
-                    writer.on('finish', () => {
-                        callback && callback(parser);
-                    });
-                    writer.end();
+                    fs.writeFileSync(slparser, parser.generate());
+                    callback && callback(parser);
                 });
                 writer.end();
             });

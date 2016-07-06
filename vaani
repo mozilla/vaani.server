@@ -17,7 +17,7 @@ var program = require('commander'),
     audiofile,
     audio;
 
-config.port = 8080; // for development and testing, as port 80 is typically blocked
+config.port = 8585; // for development and testing, as port 80 is typically blocked
 config.secure = false; // no security required for development and testing
 
 program
@@ -51,13 +51,28 @@ const fail = (message) => { console.log(message); process.exit(1); }
 
 const call = (command, params) => child_process.spawn(command, params.split(' '));
 
-const send = (audio, server) => {
+const send = (server) => {
     var response,
         vs = new WebSocket(
             server + '/?authtoken=' + config.evernote.authtoken,
             null,
             { rejectUnauthorized: false }
-        );
+        ),
+        audio;
+
+    if(telltext) {
+        audio = text_to_speech.synthesize({
+            text: telltext,
+            voice: 'en-US_AllisonVoice',
+            accept: 'audio/wav'
+        });
+        audio.on('error', (error) => fail('Problem with TTS service.\n\n' + error));
+    } else if(audiofile) {
+        audio = (audiofile == '-') ? process.stdin : fs.createReadStream(audiofile);
+        audio.on('error', (error) => fail('Problem reading from audio file.\n\n' + error));
+    } else {
+        program.help();
+    }
 
     vs.on('open', () => {
         var sox = call('sox', '-t wav - -t raw -b 16 -e signed -c 1 -r 16k -');
@@ -91,22 +106,8 @@ const send = (audio, server) => {
     }
 }
 
-if(telltext) {
-    audio = text_to_speech.synthesize({
-        text: telltext,
-        voice: 'en-US_AllisonVoice',
-        accept: 'audio/wav'
-    });
-    audio.on('error', (error) => fail('Problem with TTS service.\n\n' + error));
-} else if(audiofile) {
-    audio = (audiofile == '-') ? process.stdin : fs.createReadStream(audiofile);
-    audio.on('error', (error) => fail('Problem reading from audio file.\n\n' + error));
-} else {
-    program.help();
-}
-
 if(program.server) {
-    send(audio, program.server);
+    send(program.server);
 } else {
-    vaani.serve(config, () => send(audio, 'ws://localhost:8080'));
+    vaani.serve(config, () => send((config.secure ? 'wss' : 'ws') + '://localhost:' + config.port));
 }
