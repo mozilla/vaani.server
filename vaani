@@ -5,7 +5,6 @@
 
 'use strict';
 
-const vaani = require('./');
 const WebSocket = require('ws');
 const watson = require('watson-developer-cloud');
 const child_process = require('child_process');
@@ -13,10 +12,10 @@ const fs = require('fs');
 const url = require('url');
 
 var program = require('commander'),
-    config = vaani.getConfig(),
     telltext,
     audiofile,
-    audio;
+    audio,
+    config = JSON.parse(process.env.VAANI_CONFIG || fs.readFileSync("config.json"));
 
 config.port = 8585; // for development and testing, as port 80 is typically blocked
 config.secure = false; // no security required for development and testing
@@ -103,5 +102,5 @@ const send = (server) => {
 if(program.server) {
     send(program.server);
 } else {
-    vaani.serve(config, () => send((config.secure ? 'wss' : 'ws') + '://localhost:' + config.port));
+    require('./').serve(config, () => send((config.secure ? 'wss' : 'ws') + '://localhost:' + config.port));
 }
