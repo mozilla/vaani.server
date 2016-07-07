@@ -78,12 +78,10 @@ const send = (server) => {
         program.help();
     }
 
-    var p1 = call('play', '-t wav -');
     vs.on('open', () => {
         var sox = call('sox', '-t wav - -t raw -b 16 -e signed -c 1 -r 16k -');
         sox.stdout.on('data', (data) => vs.send(data));
         sox.stdout.on('close', () => vs.send('EOS'));
-        audio.pipe(p1.stdin);
         audio.pipe(sox.stdin);
     });
 
@@ -93,6 +91,8 @@ const send = (server) => {
         vs.on('message', (data) => response || console.dir(response = JSON.parse(data)));
         vs.on('close', () => process.exit(response ? response.status : 1));
     } else {
+        var p1 = call('play', '-t wav -');
+        audio.pipe(p1.stdin);
         var p2 = call('play', '-t wav -');
         vs.on('message', (data) => response ? p2.stdin.write(data) : console.dir(response = JSON.parse(data)));
         vs.on('close', () => p2.stdin.end());
