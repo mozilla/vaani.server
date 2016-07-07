@@ -82,8 +82,8 @@ const send = (server) => {
         var sox = call('sox', '-t wav - -t raw -b 16 -e signed -c 1 -r 16k -');
         sox.stdout.on('data', (data) => vs.send(data));
         sox.stdout.on('close', () => vs.send('EOS'));
+        sox.stdin .on('error', (error) => fail('Problem recognizing or converting audio format.'));
         audio.pipe(sox.stdin);
-
         if(program.mute) {
             vs.on('message', (data) => response || console.dir(response = JSON.parse(data)));
             vs.on('close', () => process.exit(response ? response.status : 1));
