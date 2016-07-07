@@ -1,11 +1,18 @@
+
+[![Build Status](https://travis-ci.org/mozilla/vaani.server.svg?branch=master)](https://travis-ci.org/mozilla/vaani.server)
+
 Vaani server
 ------------
+This is the back-end service for the Mozilla's Connected Devices project [Vaani local](https://wiki.mozilla.org/Vaani).
+It provides all required functionality for the [Vaani client](https://github.com/mozilla/vaani.client).
 
-This is the Vaani server project. It provides all required back-end functionality for the [Vaani client](https://github.com/mozilla/vaani.client).
+Prerequisites
+-----------
+- Linux or OSX based system
+- Node.js >= 4.0
 
 Preparation
 -----------
-
 To be able to run the Vaani server, you need the following:
 - A running instance of a [Kaldi speech to text (STT) gstreamer server](https://github.com/alumae/kaldi-gstreamer-server).
 - An access token to the IBM Watson Text to speech (TTS) service. You can get one from [bluemix](https://bluemix.net).

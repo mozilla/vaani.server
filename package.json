@@ -26,7 +26,6 @@
   },
   "engine": "node 6.2.2",
   "scripts": {
-    "test": "node test/tests.js Add marmalade to my shopping list.",
     "start": "node app.js"
   },
   "config": {
