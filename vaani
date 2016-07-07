@@ -10,6 +10,7 @@ const WebSocket = require('ws');
 const watson = require('watson-developer-cloud');
 const child_process = require('child_process');
 const fs = require('fs');
+const url = require('url');
 
 var program = require('commander'),
     config = vaani.getConfig(),
@@ -25,6 +26,8 @@ program
     .description('Vaani command line client.')
     .option('-s, --server [url]',         'Vaani server URL. If not specified, starts a local server and connects to it.')
     .option('-w, --watson [credentials]', 'Watson service credentials of the form <username>:<password>. By default it uses credentials from the config.json file.')
+    .option('-e, --evernote [token]',     'Evernote access token. By default it uses the token from the config.json file.')
+    .option('-v, --validate',             'Validate Vaani server certificate.')
     .option('-m, --mute',                 'No audio output.');
 
 program
@@ -47,17 +50,18 @@ config.watsontts.version = 'v1';
 
 const text_to_speech = watson.text_to_speech(config.watsontts);
 
-const fail = (message) => { console.log(message); process.exit(1); }
+const fail = (message) => { console.error(message); process.exit(1); }
 
 const call = (command, params) => child_process.spawn(command, params.split(' '));
 
 const send = (server) => {
+    server = url.parse(server, true, false);
+    server.query.authtoken = program.evernote || config.evernote.authtoken;
+    server.pathname = server.pathname || '/';
+    server = url.format(server);
+
     var response,
-        vs = new WebSocket(
-            server + '/?authtoken=' + config.evernote.authtoken,
-            null,
-            { rejectUnauthorized: false }
-        ),
+        vs = new WebSocket(server, null, { rejectUnauthorized: program.validate }),
         audio;
 
     if(telltext) {
@@ -74,35 +78,25 @@ const send = (server) => {
         program.help();
     }
 
+    var p1 = call('play', '-t wav -');
     vs.on('open', () => {
         var sox = call('sox', '-t wav - -t raw -b 16 -e signed -c 1 -r 16k -');
         sox.stdout.on('data', (data) => vs.send(data));
         sox.stdout.on('close', () => vs.send('EOS'));
+        audio.pipe(p1.stdin);
         audio.pipe(sox.stdin);
     });
 
-    vs.on('error', (error) => fail('Problem connecting to server.'));
+    vs.on('error', (error) => fail('Problem connecting to Vaani server.\n\n' + error));
 
     if(program.mute) {
-        vs.on('close', (code, message) => {
-            process.exit(response ? response.status : 1);
-        });
-        vs.on('message', (data, flags) => {
-            if(!response) {
-                console.log(response = JSON.parse(data));
-            }
-        });
+        vs.on('message', (data) => response || console.dir(response = JSON.parse(data)));
+        vs.on('close', () => process.exit(response ? response.status : 1));
     } else {
-        var player = call('play', '-t wav -');
-        vs.on('message', (data, flags) => {
-            if(response) {
-                player.stdin.write(data);
-            } else {
-                console.log(response = JSON.parse(data));
-            }
-        });
-        vs.on('close', (code, message) => player.stdin.end());
-        player.stdout.on('close', () => process.exit(response ? response.status : 1));
+        var p2 = call('play', '-t wav -');
+        vs.on('message', (data) => response ? p2.stdin.write(data) : console.dir(response = JSON.parse(data)));
+        vs.on('close', () => p2.stdin.end());
+        p2.stdout.on('close', () => process.exit(response ? response.status : 1));
     }
 }
 

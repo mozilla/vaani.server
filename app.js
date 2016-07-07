@@ -4,21 +4,8 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 'use strict';
-const vaani = require('.');
-const fs = require('fs');
 
-const logit = (message) => {
-    console.log(message);
-    fs.appendFileSync('./server.log', message + '\n');
-};
-
-const logger = {
-    info: (message) => logit('INFO: ' + message),
-    warn: (message) => logit('WARN: ' + message),
-    FAIL: (message) => logit('FAIL: ' + message)
-}
-
-logger.info('starting server...');
-vaani.serve(null, () => {
-    logger.info('server ready');
+console.log('starting server...');
+require('.').serve(null, () => {
+    console.log('server ready');
 });
