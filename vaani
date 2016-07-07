@@ -83,21 +83,21 @@ const send = (server) => {
         sox.stdout.on('data', (data) => vs.send(data));
         sox.stdout.on('close', () => vs.send('EOS'));
         audio.pipe(sox.stdin);
+
+        if(program.mute) {
+            vs.on('message', (data) => response || console.dir(response = JSON.parse(data)));
+            vs.on('close', () => process.exit(response ? response.status : 1));
+        } else {
+            var p1 = call('play', '-t wav -');
+            audio.pipe(p1.stdin);
+            var p2 = call('play', '-t wav -');
+            vs.on('message', (data) => response ? p2.stdin.write(data) : console.dir(response = JSON.parse(data)));
+            vs.on('close', () => p2.stdin.end());
+            p2.stdout.on('close', () => process.exit(response ? response.status : 1));
+        }
     });
 
     vs.on('error', (error) => fail('Problem connecting to Vaani server.\n\n' + error));
-
-    if(program.mute) {
-        vs.on('message', (data) => response || console.dir(response = JSON.parse(data)));
-        vs.on('close', () => process.exit(response ? response.status : 1));
-    } else {
-        var p1 = call('play', '-t wav -');
-        audio.pipe(p1.stdin);
-        var p2 = call('play', '-t wav -');
-        vs.on('message', (data) => response ? p2.stdin.write(data) : console.dir(response = JSON.parse(data)));
-        vs.on('close', () => p2.stdin.end());
-        p2.stdout.on('close', () => process.exit(response ? response.status : 1));
-    }
 }
 
 if(program.server) {
