@@ -1,0 +1,57 @@
+#!/usr/bin/env node
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+'use strict';
+
+const fs = require('fs');
+const vaani = require('./');
+const readline = require('readline');
+const watson = require('watson-developer-cloud');
+
+var program = require('commander'),
+    speechCorpusDirectory = "./resources/stt/wav/",
+    config = vaani.getConfig();
+
+program
+    .version('0.0.1')
+    .description('Speech corpus generator.')
+    .option('-f, --file [file]', 'The path to the text corpus file used to create the speech corpus')
+    .option('-w, --watson [credentials]', 'Watson service credentials of the form <username>:<password>. By default it uses credentials from the config.json file.')
+
+program.parse(process.argv);
+
+if(program.watson) {
+    var parts = program.watson.split(':');
+    config.watsontts = { username: parts[0], password: parts[0] };
+}
+config.watsontts.version = 'v1';
+
+const text_to_speech = watson.text_to_speech(config.watsontts);
+
+const fail = (message) => { console.log(message); process.exit(1); }
+
+const generateWAV = (line) => {
+  var audio = text_to_speech.synthesize({
+      text: line,
+      voice: 'en-US_AllisonVoice',
+      accept: 'audio/wav'
+  });
+  audio.on('error', (error) => fail('Problem with TTS service.\n\n' + error));
+  var writerStream = fs.createWriteStream(speechCorpusDirectory + line.replace(/ /g,"_") + ".wav");
+  audio.pipe(writerStream);
+}
+
+const generateCorpus = () => {
+  var lineReader = readline.createInterface({
+    input: fs.createReadStream(program.file)
+  });
+
+  lineReader.on('line', function (line) {
+    generateWAV(line);
+    console.log(line);
+  });
+}
+
+generateCorpus();
