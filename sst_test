@@ -1,0 +1,19 @@
+#!/bin/bash
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+# Run wav's through STT engine
+for wavFilename in `find  resources/stt/wav -name '*.wav'`; do
+  ./vaani -m -s ws://venv.us-west-2.elasticbeanstalk.com send $wavFilename > ${wavFilename/%.wav/.json};
+done
+
+# Calculate STT statistics
+sentence_result_count=`grep -l "status:" resources/stt/wav/*.json | wc -l`
+sentence_error_count=`grep -l "status: 1" resources/stt/wav/*.json | wc -l`
+sentence_error_rate=`echo print $sentence_error_count/$sentence_result_count. | python`
+
+# Print STT statistics
+echo "sentence result count" $sentence_result_count
+echo "sentence error count" $sentence_error_count
+echo "sentence error rate" $sentence_error_rate
