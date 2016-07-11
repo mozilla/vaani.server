@@ -11,6 +11,8 @@ const child_process = require('child_process');
 const fs = require('fs');
 const url = require('url');
 
+const ssldir = './resources/ssl/';
+
 var program = require('commander'),
     telltext,
     audiofile,
@@ -18,7 +20,7 @@ var program = require('commander'),
     config = JSON.parse(process.env.VAANI_CONFIG || fs.readFileSync("config.json"));
 
 config.port = 8585; // for development and testing, as port 80 is typically blocked
-config.secure = false; // no security required for development and testing
+config.secure = true; // no security required for development and testing
 
 program
     .version('0.0.1')
@@ -59,8 +61,18 @@ const send = (server) => {
     server.pathname = server.pathname || '/';
     server = url.format(server);
 
+    var options = {
+        rejectUnauthorized: !!program.validate
+    };
+    if (config.secure) {
+        options.key =  fs.readFileSync(ssldir + 'client-key.pem');
+        options.cert = fs.readFileSync(ssldir + 'client-crt.pem');
+        options.ca =   fs.readFileSync(ssldir + 'ca-crt.pem');
+        options.passphrase = config.passphrase;
+    }
+
     var response,
-        vs = new WebSocket(server, null, { rejectUnauthorized: program.validate }),
+        vs = new WebSocket(server, null, options),
         audio;
 
     if(telltext) {
@@ -97,7 +109,7 @@ const send = (server) => {
     });
 
     vs.on('error', (error) => fail('Problem connecting to Vaani server.\n\n' + error));
-}
+};
 
 if(program.server) {
     send(program.server);

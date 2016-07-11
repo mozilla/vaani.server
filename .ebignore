@@ -1,6 +1,6 @@
 node_modules
 /resources/shoppinglist.jison
-/resources/*.pem
+/resources/stt
 
 /.git/*
 *.log
