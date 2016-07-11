@@ -9,11 +9,11 @@ for wavFilename in `find  resources/stt/wav -name '*.wav'`; do
 done
 
 # Calculate STT statistics
-sentence_count=`find resources/stt/wav -name "*.json" | wc -l`
-sentence_error_count=`grep -lv "status: 0" resources/stt/wav/*.json | wc -l`
-sentence_error_rate=`echo print $sentence_error_count/$sentence_count. | python`
+sentence_result_count=`grep -l "status:" resources/stt/wav/*.json | wc -l`
+sentence_error_count=`grep -l "status: 1" resources/stt/wav/*.json | wc -l`
+sentence_error_rate=`echo print $sentence_error_count/$sentence_result_count. | python`
 
 # Print STT statistics
-echo "sentence count" $sentence_count
+echo "sentence result count" $sentence_result_count
 echo "sentence error count" $sentence_error_count
 echo "sentence error rate" $sentence_error_rate
