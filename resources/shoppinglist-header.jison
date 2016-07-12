@@ -57,4 +57,10 @@
     | "to" "my" "list" "please"
     | "to" "my" "grocery" "list"
     | "to" "my" "grocery" "list" "please"
+    | "to" "the" "shopping" "list"
+    | "to" "the" "shopping" "list" "please"
+    | "to" "the" "list"
+    | "to" "the" "list" "please"
+    | "to" "the" "grocery" "list"
+    | "to" "the" "grocery" "list" "please"
     ;
