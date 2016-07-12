@@ -137,13 +137,11 @@ const serve = (config, callback) => {
                     answer(ERROR_PARSING, sorryUnderstand, command, confidence);
                     return;
                 }
-                evernote.addNoteItem(query.authtoken, product);
-                answer(
-                    OK,
-                    'Added ' + product + ' to your shopping list.',
-                    command,
-                    confidence
-                );
+                evernote.addNoteItem(query.authtoken, product).then(function(){
+                  answer(OK, 'Added ' + product + ' to your shopping list.', command, confidence);
+                }, function(err) {
+                  answer(ERROR_EXECUTING, sorryService, command, confidence);
+                });
             };
 
             client.on('message', (data, flags) => {
