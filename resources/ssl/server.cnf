@@ -12,6 +12,7 @@ ST                     = BE
 L                      = Berlin
 O                      = Mozilla
 OU                     = Connected Devices
+CN                     = vaani-single-env.us-west-2.elasticbeanstalk.com
 emailAddress           = tilman@mozilla.com
 
 [ req_attributes ]

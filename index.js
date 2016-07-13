@@ -31,7 +31,7 @@ const ssldir = './resources/ssl/';
 const getConfig = () => {
     var config = JSON.parse(process.env.VAANI_CONFIG || fs.readFileSync("config.json"));
     config.secure = !!config.secure;
-    config.port = config.port || (config.secure ? 443 : 80);
+    config.port = process.env.PORT || config.port || (config.secure ? 443 : 80);
     return config;
 };
 
@@ -72,11 +72,19 @@ const serve = (config, callback) => {
         });
         server.on('request', app);
 
-        server.listen(process.env.PORT || config.port || (config.secure ? 443 : 80));
+        server.listen(config.port);
+        console.log('serving on port ' + config.port);
 
         const wss = new WebSocketServer({
             server: server
         });
+
+        if (config.healthport) {
+            http.createServer((req, res) => {
+                res.end('I am alive!');
+            }).listen(config.healthport);
+            console.log('health status on port ' + config.port);
+        }
 
         const text_to_speech = watson.text_to_speech({
             username: config.watsontts.username,
