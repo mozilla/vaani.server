@@ -1,0 +1,112 @@
+#!/usr/bin/env node
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+'use strict';
+
+var fs = require('fs');
+var path = require('path');
+var watson = require('watson-developer-cloud');
+var parser = require("./resources/shoppinglist").parser;
+
+var directory = './resources/stt/wav/';
+
+const getConfig = () => {
+    var config = JSON.parse(process.env.VAANI_CONFIG || fs.readFileSync("config.json"));
+    config.secure = !!config.secure;
+    config.port = process.env.PORT || config.port || (config.secure ? 443 : 80);
+    return config;
+};
+
+const sleep = (time) => {
+    var stop = new Date().getTime();
+    while(new Date().getTime() < stop + time) {
+        ;
+    }
+}
+
+const getBestTranscript = (res) => {
+  var result = {
+    "confidence": 0,
+    "transcript": ''
+  };
+
+  var results = res.results;
+
+  for (var i in results) {
+    if (true == results[i].final) {
+      var alternatives = results[i].alternatives;
+      for (var j in alternatives) {
+        var alternative = alternatives[j];
+        if (result.confidence < alternative.confidence) {
+          result.confidence = alternative.confidence;
+          result.transcript = alternative.transcript.trim();
+        }
+      }
+    }
+  }
+
+  return result;
+}
+
+const getJSONResult = (transcript) => {
+ var result = {
+   "status": 0,
+   "message": "Sorry, but I did not quite understand.",
+   "command": transcript.transcript,
+   "confidence": transcript.confidence
+   
+ };
+
+ try {
+   var item = parser.parse(transcript.transcript);
+   result.message = "Added " + item + " to your shopping list.";
+ } catch(err) {
+   result.status = 1;
+ }
+
+ return JSON.stringify(result, null, 2);
+}
+
+const logJSON = (wavFile, err, res) => {
+  if (err) {
+    console.log(err);
+  } else {
+    var transcript = getBestTranscript(res);
+    var resultJSON = getJSONResult(transcript);
+    var jsonFile = directory + path.parse(wavFile).name + ".json";
+    fs.writeFile(jsonFile, resultJSON, function(err) {
+      if(err) {
+          console.log(err);
+      }
+    });
+  }
+}
+
+const main = () => {
+  var config = getConfig();
+
+  var speech_to_text = watson.speech_to_text({
+    password: config.watsonstt.password,
+    username: config.watsonstt.username,
+    version: 'v1'
+  });
+  
+  var files = fs.readdirSync(directory);
+  for (var i in files) {
+    var extension = path.extname(files[i]);
+    if (extension === '.wav') {
+      var params = {
+        audio: fs.createReadStream(directory + files[i]),
+        content_type: 'audio/l16; rate=16000'
+      };
+  
+      var logJSONBound = logJSON.bind(undefined, files[i]);
+      speech_to_text.recognize(params, logJSONBound);
+      sleep(1000);
+    }
+  }
+}
+
+main();
