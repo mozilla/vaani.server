@@ -17,3 +17,8 @@ Default TED-LIUM model with default rescoring
   sentence result count 997
   sentence error count 802
   sentence error rate 0.804413239719
+
+Default TED-LIUM nnet2_multisplice model with default rescoring
+  sentence result count 997
+  sentence error count 803
+  sentence error rate 0.805416248746
