@@ -145,7 +145,7 @@ const serve = (config, callback) => {
                     answer(ERROR_PARSING, sorryUnderstand, command, confidence);
                     return;
                 }
-                evernote.addNoteItem(query.authtoken, product).then(function(){
+                evernote.addNoteItem(query.authtoken, product, config).then(function(){
                   answer(OK, 'Added ' + product + ' to your shopping list.', command, confidence);
                 }, function(err) {
                   answer(ERROR_EXECUTING, sorryService, command, confidence);
