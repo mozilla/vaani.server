@@ -1,34 +1,35 @@
-IBM Watson
-  sentence result count 645
-  sentence error count 592
-  sentence error rate 0.917829457364
+Deterministic Parser:
+  IBM Watson
+    sentence result count 645
+    sentence error count 592
+    sentence error rate 0.917829457364
 
-Default TED-LIUM model with no rescoring
-  sentence result count 996
-  sentence error count 801
-  sentence error rate 0.80421686747
+  Default TED-LIUM model with no rescoring
+    sentence result count 996
+    sentence error count 801
+    sentence error rate 0.80421686747
 
-Default Fisher model with no rescoring
-  sentence result count 997
-  sentence error count 803
-  sentence error rate 0.805416248746
+  Default Fisher model with no rescoring
+    sentence result count 997
+    sentence error count 803
+    sentence error rate 0.805416248746
 
-Default TED-LIUM model with default rescoring
-  sentence result count 997
-  sentence error count 802
-  sentence error rate 0.804413239719
+  Default TED-LIUM model with default rescoring
+    sentence result count 997
+    sentence error count 802
+    sentence error rate 0.804413239719
 
-Default TED-LIUM nnet2_multisplice model with default rescoring
-  sentence result count 997
-  sentence error count 803
-  sentence error rate 0.805416248746
+  Default TED-LIUM nnet2_multisplice model with default rescoring
+    sentence result count 997
+    sentence error count 803
+    sentence error rate 0.805416248746
 
-Default Fisher nnet2_multisplice model with no rescoring
-  sentence result count 997
-  sentence error count 804
-  sentence error rate 0.806419257773
+  Default Fisher nnet2_multisplice model with no rescoring
+    sentence result count 997
+    sentence error count 804
+    sentence error rate 0.806419257773
 
-Default TED-LIUM nnet2_multisplice model with 4-gram shopping rescoring
-  sentence result count 999
-  sentence error count 805
-  sentence error rate 0.805805805806
+  Default TED-LIUM nnet2_multisplice model with 4-gram shopping rescoring
+    sentence result count 999
+    sentence error count 805
+    sentence error rate 0.805805805806
