@@ -22,7 +22,7 @@ shopping
   / 'grocery'
 
 add
-  = ('add' / 'tack' / 'tag') 'on'
+  = ('add' / 'tack' / 'tag') _ 'on'
   / 'append'
   / 'add'
 
