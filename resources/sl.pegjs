@@ -22,9 +22,9 @@ shopping
   / 'grocery'
 
 add
-  = 'add'
+  = ('add' / 'tack' / 'tag') 'on'
   / 'append'
-  / ('add' / 'tack' / 'tag') 'on'
+  / 'add'
 
 polite
   = would _ 'you' (_ please)?
