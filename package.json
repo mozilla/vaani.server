@@ -12,23 +12,19 @@
     "url": "https://github.com/mozilla/vaani.server/issues"
   },
   "homepage": "https://github.com/mozilla/vaani.server#readme",
-  "devDependencies": {
-    "jison": "^0.4.17"
-  },
   "dependencies": {
     "commander": "^2.9.0",
     "evernote": "^1.25.82",
     "express": "^4.14.0",
     "http": "0.0.0",
+    "pegjs": "^0.9.0",
     "url": "^0.11.0",
     "watson-developer-cloud": "^1.9.4",
     "ws": "^1.0.1"
   },
   "engine": "node 6.2.2",
   "scripts": {
+    "install": "pegjs resources/sl.pegjs resources/sl-parser.js",
     "start": "node app.js"
-  },
-  "config": {
-    "unsafe-perm": true
   }
 }

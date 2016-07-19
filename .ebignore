@@ -1,8 +1,7 @@
 node_modules
-/resources/shoppinglist.jison
 /resources/stt
+/resources/sl-parser.js
 
-/.git/*
 *.log
 .DS_Store
 

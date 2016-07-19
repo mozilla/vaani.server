@@ -5,5 +5,17 @@
 
 'use strict';
 
-var parser = require("./resources/shoppinglist").parser;
-console.log(parser.parse(process.argv.slice(2, process.argv.length).join(' ')));
+const parser = require("./resources/sl-parser");
+
+var text = process.argv.slice(2).join(' ');
+console.log('Parsing: ' +  text);
+try {
+    console.log(parser.parse(text));
+} catch (ex) {
+    var p = '';
+    if (ex.location) {
+        p = ex.location.start;
+        p = ' line: ' + p.line + ' column: ' + p.column;
+    }
+    console.log(ex.message + p);
+}
