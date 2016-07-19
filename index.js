@@ -18,6 +18,7 @@ const watson = require('watson-developer-cloud');
 const parser = require('./resources/sl-parser');
 
 const sorryUnderstand = 'Sorry, but I did not quite understand.';
+const sorryTooLong = 'Sorry, but this was a bit too long for me.';
 const sorryService = 'Sorry, the service is not available at the moment.';
 const unknown = '<unknown>';
 
@@ -32,6 +33,7 @@ const getConfig = () => {
     var config = JSON.parse(process.env.VAANI_CONFIG || fs.readFileSync("config.json"));
     config.secure = !!config.secure;
     config.port = process.env.PORT || config.port || (config.secure ? 443 : 80);
+    config.maxwords = config.maxwords || 5;
     return config;
 };
 
@@ -137,11 +139,14 @@ const serve = (config, callback) => {
 
         const interpret = (command, confidence) => {
             var product;
-            try {
-                product = parser.parse(command);
-            } catch (ex) {
+            try { product = parser.parse(command); } catch (ex) {
                 console.log('Problem interpreting: ' + command);
                 answer(ERROR_PARSING, sorryUnderstand, command, confidence);
+                return;
+            }
+            if(product.split(' ').length > config.maxwords) {
+                console.log('Product name too long: ' + product);
+                answer(ERROR_PARSING, sorryTooLong, command, confidence);
                 return;
             }
             evernote.addNoteItem(query.authtoken, product, config).then(function(){

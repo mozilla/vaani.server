@@ -10,6 +10,7 @@ const watson = require('watson-developer-cloud');
 const child_process = require('child_process');
 const fs = require('fs');
 const url = require('url');
+const vaani = require('./index');
 
 const ssldir = './resources/ssl/';
 
@@ -17,7 +18,7 @@ var program = require('commander'),
     telltext,
     audiofile,
     audio,
-    config = JSON.parse(process.env.VAANI_CONFIG || fs.readFileSync("config.json"));
+    config = vaani.getConfig();
 
 config.port = 8585; // for development and testing, as port 80 is typically blocked
 config.secure = true; // no security required for development and testing
@@ -114,5 +115,5 @@ const send = (server) => {
 if(program.server) {
     send(program.server);
 } else {
-    require('./').serve(config, () => send((config.secure ? 'wss' : 'ws') + '://localhost:' + config.port));
+    vaani.serve(config, () => send((config.secure ? 'wss' : 'ws') + '://localhost:' + config.port));
 }
