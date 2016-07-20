@@ -8,9 +8,11 @@
 
 const fs = require('fs');
 const url = require('url');
+const path = require('path');
 const http = require('http');
 const https = require('https');
 const express = require('express');
+const shortid = require('shortid');
 const WebSocket = require('ws');
 const WebSocketServer = WebSocket.Server;
 const evernote = require('./lib/evernote');
@@ -27,7 +29,12 @@ const ERROR_PARSING = 1;
 const ERROR_EXECUTING = 2;
 const ERROR_STT = 100;
 
+const logdir = './log/';
 const ssldir = './resources/ssl/';
+
+if (!fs.existsSync(logdir)){
+    fs.mkdirSync(logdir);
+}
 
 const getConfig = () => {
     var config = JSON.parse(process.env.VAANI_CONFIG || fs.readFileSync("config.json"));
@@ -96,6 +103,8 @@ const serve = (config, callback) => {
     wss.on('connection', (client) => {
 
         var buffer = [],
+            logfile = path.join(logdir, shortid.generate()),
+            rawlog = fs.createWriteStream(logfile + '.raw'),
             query = url.parse(client.upgradeReq.url, true).query,
             interval,
             kaldi = new WebSocket(
@@ -103,7 +112,10 @@ const serve = (config, callback) => {
                 '?content-type=audio/x-raw,layout=(string)interleaved,rate=(int)16000,format=(string)S16LE,channels=(int)1'
             );
 
+        rawlog.on('error', (err) => {console.log('Problem logging audio: ' + err)});
+
         const fail = (message) => {
+            rawlog.end();
             kaldi.close();
             client.close();
             console.log('Failed: ' + message);
@@ -112,12 +124,20 @@ const serve = (config, callback) => {
         const answer = (status, message, command, confidence) => {
             console.log('Sending answer: ' + status + ' - ' + message);
             try {
-                client.send(JSON.stringify({
+                var jsonResult = JSON.stringify({
                     status: status,
                     message: message,
                     command: command,
                     confidence: confidence || 1
-                }));
+                });
+
+                client.send(jsonResult);
+
+                fs.writeFile(logfile + '.json', jsonResult, function(err) {
+                  if(err) {
+                    console.log("Problem logging json:" + err)
+                  }
+                });
 
                 var voice = text_to_speech.synthesize({
                     text: [
@@ -131,7 +151,7 @@ const serve = (config, callback) => {
                     accept: 'audio/wav'
                 });
                 voice.on('data', (data) => client.send(data));
-                voice.on('end', () => client.close());
+                voice.on('end', () => {rawlog.end(); client.close()});
             } catch(ex) {
                 fail('answering');
             }
@@ -158,6 +178,9 @@ const serve = (config, callback) => {
 
         client.on('message', (data, flags) => {
             buffer.push(data);
+            if (!(data instanceof String)) {
+              rawlog.write(new Buffer(data));
+            }
         });
         client.on('error', (error) => {
             fail('client connection')
