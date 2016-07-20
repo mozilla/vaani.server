@@ -4,6 +4,7 @@ resources/sl-parser.js
 
 *.log
 .DS_Store
+log
 
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
