@@ -1,6 +1,6 @@
 node_modules
 /config.json
-resources/sl-parser.js
+/resources/sl-parser.js
 
 *.log
 .DS_Store

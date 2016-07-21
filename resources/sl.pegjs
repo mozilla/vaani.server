@@ -4,15 +4,19 @@ start
 head
   = ((polite _)? add _)?
 
-tail
-  = ((_ / (',' _?)) please)? ('.'/'?')?
-
 middle
-  = list { return ''; }
-  / i:identifier m:middlea? { return i + (m ? (' ' + m) : ''); }
+  = i:identifier m:middletail?   { return i + (m ? (' ' + m) : ''); }
 
-middlea
-  = _ m:middle { return m; }
+middletail
+  = _ list endplease?            { return ''; }
+  / endplease                    { return ''; }
+  / _ i:identifier m:middletail? { return i + (m ? (' ' + m) : ''); }
+
+tail
+  = ('.'/'?')?
+
+endplease
+  = ','? _ please
 
 list
   = 'to' _ ('my' / 'the') (_ shopping)? _ 'list'
@@ -39,7 +43,7 @@ please
   = 'please'
 
 identifier
-  = (a:[0-9a-zA-Z]+b:[0-9a-zA-Z\-\']*) { return a.concat(b).join(''); }
+  = $(a:[0-9a-zA-Z]+b:[0-9a-zA-Z\-\']*)
 
 _
   = ' '+
