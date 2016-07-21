@@ -133,11 +133,11 @@ const serve = (config, callback) => {
 
                 client.send(jsonResult);
 
-                fs.writeFile(logfile + '.json', jsonResult, function(err) {
-                  if(err) {
-                    console.log("Problem logging json:" + err)
-                  }
-                });
+                fs.writeFile(
+                    logfile + '.json',
+                    jsonResult,
+                    err => err && console.log("Problem logging json: " + err)
+                );
 
                 var voice = text_to_speech.synthesize({
                     text: [
@@ -149,9 +149,9 @@ const serve = (config, callback) => {
                     ].join(''),
                     voice: 'en-US_AllisonVoice',
                     accept: 'audio/wav'
-                });
-                voice.on('data', (data) => client.send(data));
-                voice.on('end', () => {rawlog.end(); client.close()});
+                }, () => client.close());
+                voice.on('data', data => (client.readyState == client.OPEN) && client.send(data));
+                voice.on('end', () => { rawlog.end(); client.close(); });
             } catch(ex) {
                 fail('answering');
             }
@@ -170,9 +170,9 @@ const serve = (config, callback) => {
                 return;
             }
             evernote.addNoteItem(query.authtoken, product, config).then(function(){
-              answer(OK, 'Added ' + product + ' to your shopping list.', command, confidence);
+                answer(OK, 'Added ' + product + ' to your shopping list.', command, confidence);
             }, function(err) {
-              answer(ERROR_EXECUTING, sorryService, command, confidence);
+                answer(ERROR_EXECUTING, sorryService, command, confidence);
             });
         };
 
