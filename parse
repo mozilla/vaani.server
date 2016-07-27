@@ -8,6 +8,7 @@
 const parser = require("./resources/sl-parser");
 
 var text = process.argv.slice(2).join(' ');
+text = text.replace(/\[.*?\]/g, '');
 console.log('Parsing: ' +  text);
 try {
     console.log(parser.parse(text));

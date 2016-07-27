@@ -159,6 +159,7 @@ const serve = (config, callback) => {
 
         const interpret = (command, confidence) => {
             var product;
+            command = command.replace(/\[.*?\]/g, '');
             try { product = parser.parse(command); } catch (ex) {
                 console.log('Problem interpreting: ' + command);
                 answer(ERROR_PARSING, sorryUnderstand, command, confidence);
