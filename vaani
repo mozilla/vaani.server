@@ -77,12 +77,13 @@ const send = (server) => {
         audio;
 
     if(telltext) {
+        const callback = error => error && fail('Problem with TTS service.\n\n' + JSON.stringify(error));
         audio = text_to_speech.synthesize({
             text: telltext,
             voice: 'en-US_AllisonVoice',
             accept: 'audio/wav'
-        });
-        audio.on('error', (error) => fail('Problem with TTS service.\n\n' + error));
+        }, callback);
+        audio.on('error', callback);
     } else if(audiofile) {
         audio = (audiofile == '-') ? process.stdin : fs.createReadStream(audiofile);
         audio.on('error', (error) => fail('Problem reading from audio file.\n\n' + error));

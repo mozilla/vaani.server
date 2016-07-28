@@ -149,7 +149,7 @@ const serve = (config, callback) => {
                     ].join(''),
                     voice: 'en-US_AllisonVoice',
                     accept: 'audio/wav'
-                }, () => client.close());
+                }, error => error ? fail('Problem with TTS service - ' + JSON.stringify(error)) : client.close());
                 voice.on('data', data => (client.readyState == client.OPEN) && client.send(data));
                 voice.on('end', () => { rawlog.end(); client.close(); });
             } catch(ex) {
