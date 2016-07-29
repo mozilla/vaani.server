@@ -5,13 +5,12 @@
 
 'use strict';
 
-const parser = require("./resources/sl-parser");
+const vaani = require('./parser');
 
 var text = process.argv.slice(2).join(' ');
-text = text.replace(/\[.*?\]/g, '');
 console.log('Parsing: ' +  text);
 try {
-    console.log(parser.parse(text));
+    console.log(vaani.parse(text));
 } catch (ex) {
     var p = '';
     if (ex.location) {

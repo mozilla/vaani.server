@@ -18,7 +18,7 @@ const WebSocketServer = require('ws').Server;
 const evernote = require('./lib/evernote');
 const stt = require('./lib/stt');
 const watson = require('watson-developer-cloud');
-const parser = require('./resources/sl-parser');
+const parser = require('./parser');
 
 const sorryUnderstand = 'Sorry, but I did not quite understand.';
 const sorryTooLong = 'Sorry, but this was a bit too long for me.';
@@ -153,7 +153,6 @@ const serve = (config, callback) => {
 
         const interpret = (command, confidence) => {
             var product;
-            command = command.replace(/\[.*?\]/g, '');
             try { product = parser.parse(command); } catch (ex) {
                 console.log('Problem interpreting: ' + command);
                 answer(ERROR_PARSING, sorryUnderstand, command, confidence);
