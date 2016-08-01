@@ -19,7 +19,7 @@ endplease
   = ','? _ please
 
 list
-  = 'to' _ ('my' / 'the') (_ shopping)? _ 'list'
+  = ('to' / 'onto' / 'on') _ ('my' / 'the') (_ shopping)? _ 'list'
 
 shopping
   = 'shopping'
