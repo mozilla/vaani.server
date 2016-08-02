@@ -166,6 +166,7 @@ const serve = (config, callback) => {
             evernote.addNoteItem(query.authtoken, product, config).then(function(){
                 answer(OK, 'Added ' + product + ' to your shopping list.', command, confidence);
             }, function(err) {
+                console.log('Evernote error: "' + err + '"');
                 answer(ERROR_EXECUTING, sorryService, command, confidence);
             });
         };
