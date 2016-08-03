@@ -145,7 +145,7 @@ const serve = (config, callback) => {
                     accept: 'audio/wav'
                 }, error => error ? fail('Problem with TTS service - ' + JSON.stringify(error)) : client.close());
                 voice.on('data', data => (client.readyState == client.OPEN) && client.send(data));
-                voice.on('end', () => { rawlog.end(); client.close(); });
+                voice.on('end', () => client.close());
             } catch(ex) {
                 fail('answering');
             }
@@ -173,6 +173,7 @@ const serve = (config, callback) => {
 
         client.on('error', (error) => fail('client connection'));
         client.on('message', (data) => data === 'EOS' ? audio.end() : audio.write(data));
+        client.on('close', () => rawlog.end());
 
         speech_to_text.recognize(sttParams, (err, res) => err ?
             answer(ERROR_STT, sorryService, unknown, 0) :
