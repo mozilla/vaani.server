@@ -32,7 +32,7 @@
   },
   "engine": "node 6.2.2",
   "scripts": {
-    "install": "pegjs resources/sl.pegjs resources/sl-parser.js",
+    "install": "pegjs lib/parser/sl.pegjs lib/parser/sl-parser.js",
     "start": "node app.js"
   }
 }

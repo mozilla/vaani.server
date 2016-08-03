@@ -18,7 +18,7 @@ const WebSocketServer = require('ws').Server;
 const evernote = require('./lib/evernote');
 const stt = require('./lib/stt');
 const watson = require('watson-developer-cloud');
-const parser = require('./parser');
+const parser = require('./lib/parser');
 
 const sorryUnderstand = 'Sorry, but I did not quite understand.';
 const sorryTooLong = 'Sorry, but this was a bit too long for me.';

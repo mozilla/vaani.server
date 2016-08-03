@@ -1,6 +1,6 @@
 node_modules
 /resources/stt
-/resources/sl-parser.js
+/lib/parser/sl-parser.js
 
 *.log
 .DS_Store
