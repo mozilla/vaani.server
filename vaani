@@ -51,16 +51,16 @@ const fail = (message) => { console.error(message); process.exit(1); }
 
 const call = (command, params) => child_process.spawn(command, params.split(' '));
 
-const send = (server) => {
-    server = url.parse(server, true, false);
+const send = (serverurl) => {
+    var server = url.parse(serverurl, true, false);
     server.query.authtoken = config.evernote.authtoken;
     server.pathname = server.pathname || '/';
-    server = url.format(server);
+    serverurl = url.format(server);
 
     var options = {
         rejectUnauthorized: !!program.validate
     };
-    if (config.secure) {
+    if (server.protocol === 'wss:') {
         options.key =  fs.readFileSync(ssldir + 'client-key.pem');
         options.cert = fs.readFileSync(ssldir + 'client-crt.pem');
         options.ca =   fs.readFileSync(ssldir + 'ca-crt.pem');
@@ -68,7 +68,7 @@ const send = (server) => {
     }
 
     var response,
-        vs = new WebSocket(server, null, options),
+        vs = new WebSocket(serverurl, null, options),
         audio;
 
     if(telltext) {
