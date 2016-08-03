@@ -11,11 +11,12 @@ const url = require('url');
 const path = require('path');
 const http = require('http');
 const https = require('https');
+const stream = require('stream');
 const express = require('express');
 const shortid = require('shortid');
-const WebSocket = require('ws');
-const WebSocketServer = WebSocket.Server;
+const WebSocketServer = require('ws').Server;
 const evernote = require('./lib/evernote');
+const stt = require('./lib/stt');
 const watson = require('watson-developer-cloud');
 const parser = require('./resources/sl-parser');
 
@@ -94,23 +95,16 @@ const serve = (config, callback) => {
         console.log('health status on port ' + config.port);
     }
 
-    const text_to_speech = watson.text_to_speech({
-        username: config.watsontts.username,
-        password: config.watsontts.password,
-        version: 'v1'
-    });
+    const speech_to_text = stt.speech_to_text(config.stt);
+    const text_to_speech = watson.text_to_speech(config.tts.watson);
 
     wss.on('connection', (client) => {
 
-        var buffer = [],
+        var audio = new stream.PassThrough(),
             logfile = path.join(logdir, shortid.generate()),
             rawlog = fs.createWriteStream(logfile + '.raw'),
             query = url.parse(client.upgradeReq.url, true).query,
-            interval,
-            kaldi = new WebSocket(
-                config.kaldi.url +
-                '?content-type=audio/x-raw,layout=(string)interleaved,rate=(int)16000,format=(string)S16LE,channels=(int)1'
-            );
+            sttParams = { audio: audio };
 
         rawlog.on('error', (err) => {console.log('Problem logging audio: ' + err)});
 
@@ -177,64 +171,15 @@ const serve = (config, callback) => {
             });
         };
 
-        client.on('message', (data, flags) => {
-            buffer.push(data);
-            if (!(data instanceof String)) {
-              rawlog.write(new Buffer(data));
-            }
-        });
-        client.on('error', (error) => {
-            fail('client connection')
-        });
-        client.on('close', () => {
-            clearInterval(interval);
-        });
+        client.on('error', (error) => fail('client connection'));
+        client.on('message', (data) => data === 'EOS' ? audio.end() : audio.write(data));
 
-        const kaldiProblem = (status) => {
-            clearInterval(interval);
-            kaldi.close();
-            answer(
-                ERROR_STT + (status ? status : 0),
-                sorryService,
-                unknown
-            );
-        };
+        speech_to_text.recognize(sttParams, (err, res) => err ?
+            answer(ERROR_STT, sorryService, unknown, 0) :
+            interpret(res.transcript, res.confidence)
+        );
 
-        kaldi.on('open', () => {
-            //console.time('kaldi time');
-            var send = () => {
-                try {
-                    var i;
-                    for(i = 0; i<buffer.length; i++) {
-                        kaldi.send(buffer[i]);
-                    }
-                    buffer = [];
-                } catch(ex) {
-                    kaldiProblem();
-                }
-            };
-            send();
-            interval = setInterval(send, 250);
-        });
-        kaldi.on('message', (data, flags) => {
-            try {
-                var message = JSON.parse(data);
-                if (message.status > 0) {
-                    //console.timeEnd('kaldi time');
-                    kaldiProblem(message.status);
-                    return;
-                }
-                var result = message.result;
-                if (result && result.final) {
-                    //console.timeEnd('kaldi time');
-                    var hypothesis = result.hypotheses[0];
-                    interpret(hypothesis.transcript, hypothesis.confidence);
-                }
-            } catch (ex) {
-                kaldiProblem();
-            }
-        });
-        kaldi.on('error', kaldiProblem);
+
     });
 
     callback && callback();

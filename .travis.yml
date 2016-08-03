@@ -8,3 +8,4 @@ script:
 - "./vaani -m tell add milk to my shopping list"
 before_install:
 - openssl aes-256-cbc -K $encrypted_6407108f7dc7_key -iv $encrypted_6407108f7dc7_iv -in config.json.enc -out config.json -d
+

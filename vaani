@@ -20,17 +20,14 @@ var program = require('commander'),
     audio,
     config = vaani.getConfig();
 
-config.port = 8585; // for development and testing, as port 80 is typically blocked
-config.secure = true; // no security required for development and testing
-
 program
     .version('0.0.1')
     .description('Vaani command line client.')
-    .option('-s, --server [url]',         'Vaani server URL. If not specified, starts a local server and connects to it.')
-    .option('-w, --watson [credentials]', 'Watson service credentials of the form <username>:<password>. By default it uses credentials from the config.json file.')
-    .option('-e, --evernote [token]',     'Evernote access token. By default it uses the token from the config.json file.')
-    .option('-v, --validate',             'Validate Vaani server certificate.')
-    .option('-m, --mute',                 'No audio output.');
+    .option('-s, --server [url]',           'Vaani server URL. If not specified, starts a local server and connects to it.')
+    .option('-r, --recognizer [provider]',  'Overrides the default STT recognition service provider in config file. Only available for local serving (ignored in case of -s option).')
+    .option('-e, --evernote [token]',       'Evernote access token. By default it uses the token from the config.json file.')
+    .option('-v, --validate',               'Validate Vaani server certificate.')
+    .option('-m, --mute',                   'No audio output.');
 
 program
     .command('tell [text...]')
@@ -43,14 +40,12 @@ program
     .action((file) => audiofile = file);
 
 program.parse(process.argv);
+config.port = 8585; // for development and testing, as port 80 is typically blocked
+config.secure = false; // no security required for development and testing
+config.stt.default = program.recognizer || config.stt.default;
+config.evernote.authtoken = program.evernote || config.evernote.authtoken;
 
-if(program.watson) {
-    var parts = program.watson.split(':');
-    config.watsontts = { username: parts[0], password: parts[0] };
-}
-config.watsontts.version = 'v1';
-
-const text_to_speech = watson.text_to_speech(config.watsontts);
+const text_to_speech = watson.text_to_speech(config.tts.watson);
 
 const fail = (message) => { console.error(message); process.exit(1); }
 
@@ -58,7 +53,7 @@ const call = (command, params) => child_process.spawn(command, params.split(' ')
 
 const send = (server) => {
     server = url.parse(server, true, false);
-    server.query.authtoken = program.evernote || config.evernote.authtoken;
+    server.query.authtoken = config.evernote.authtoken;
     server.pathname = server.pathname || '/';
     server = url.format(server);
 
