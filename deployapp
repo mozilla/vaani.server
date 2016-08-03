@@ -1,0 +1,51 @@
+#!/bin/bash
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+set -e
+
+export AWS_ACCESS_KEY_ID=`     cat config.json | jq -r '.aws.aws_access_key_id'`
+export AWS_SECRET_ACCESS_KEY=` cat config.json | jq -r '.aws.aws_secret_access_key'`
+
+BUCKET_NAME=`                  cat config.json | jq -r '.aws.bucket_name'`
+APP_NAME=`                     cat config.json | jq -r '.aws.app_name'`
+ENV_NAME=`                     cat config.json | jq -r '.aws.env_name'`
+REGION=`                       cat config.json | jq -r '.aws.region'`
+
+VERSION=$(git rev-parse --short HEAD)-$(date +%Y-%m-%d-%H-%M-%S)
+DESC=$(git log -1 --pretty=%B)
+
+# cleanup
+rm -rf app app-*.zip
+mkdir app
+
+# configuration
+cp -r .ebextensions app
+cp config.json app
+cp .npmrc app
+cp package.json app
+
+# code
+cp *.js app
+cp -r lib app
+rm -f app/lib/parser/sl-parser.js
+
+# TLS
+mkdir app/resources
+mkdir app/resources/ssl
+cp resources/ssl/server-key.pem app/resources/ssl
+cp resources/ssl/server-crt.pem app/resources/ssl
+cp resources/ssl/ca-crt.pem app/resources/ssl
+
+# zipping
+cd app
+GLOBIGNORE=.:..; zip -r ../app-$VERSION.zip *; unset GLOBIGNORE
+cd ..
+
+# create version
+aws s3 cp app-$VERSION.zip s3://$BUCKET_NAME/$APP_NAME/
+aws elasticbeanstalk create-application-version --application-name $APP_NAME --description "$DESC" --version-label $VERSION --source-bundle S3Bucket="$BUCKET_NAME",S3Key="$APP_NAME/app-$VERSION.zip" --region $REGION
+
+# update environment
+aws elasticbeanstalk update-environment --environment-name $ENV_NAME --version-label $VERSION --region $REGION

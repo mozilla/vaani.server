@@ -1,11 +1,18 @@
 language: node_js
 node_js:
 - '6.2'
+before_install:
+- openssl aes-256-cbc -K $encrypted_6407108f7dc7_key -iv $encrypted_6407108f7dc7_iv
+  -in config.json.enc -out config.json -d
 install:
 - sudo apt-get install sox
+- sudo pip install awscli
 - npm install
 script:
-- "./vaani -m tell add milk to my shopping list"
-before_install:
-- openssl aes-256-cbc -K $encrypted_6407108f7dc7_key -iv $encrypted_6407108f7dc7_iv -in config.json.enc -out config.json -d
-
+- ./vaani -m tell add milk to my shopping list
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: ./deployapp
+  on:
+    branch: production
