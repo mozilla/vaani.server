@@ -163,12 +163,17 @@ const serve = (config, callback) => {
                 answer(ERROR_PARSING, sorryTooLong, command, confidence);
                 return;
             }
-            evernote.addNoteItem(query.authtoken, product, config).then(function(){
-                answer(OK, 'Added ' + product + ' to your shopping list.', command, confidence);
-            }, function(err) {
-                console.log('Evernote error: "' + err + '"');
-                answer(ERROR_EXECUTING, sorryService, command, confidence);
-            });
+
+            if(query.authtoken) {
+                evernote.addNoteItem(query.authtoken, product, config).then(function(){
+                    answer(OK, 'Added ' + product + ' to your shopping list.', command, confidence);
+                }, err => {
+                    console.log('Evernote error: "' + err + '"');
+                    answer(ERROR_EXECUTING, sorryService, command, confidence);
+                });
+            } else {
+                answer(OK, 'Virtually added ' + product + ' to your shopping list.', command, confidence);
+            }
         };
 
         client.on('error', (error) => fail('client connection'));

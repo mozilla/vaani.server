@@ -17,7 +17,7 @@ const ssldir = './resources/ssl/';
 var program = require('commander'),
     telltext,
     audiofile,
-    audio,
+    stress,
     config = vaani.getConfig();
 
 program
@@ -27,17 +27,24 @@ program
     .option('-r, --recognizer [provider]',  'Overrides the default STT recognition service provider in config file. Only available for local serving (ignored in case of -s option).')
     .option('-e, --evernote [token]',       'Evernote access token. By default it uses the token from the config.json file.')
     .option('-v, --validate',               'Validate Vaani server certificate.')
-    .option('-m, --mute',                   'No audio output.');
+    .option('-m, --mute',                   'No audio output.')
+    .option('-q, --quiet',                  'No printing of server responses.')
+    .option('-n, --no-adding',              'No adding of items to Evernote.');
 
 program
     .command('tell [text...]')
     .description('Sends a command to Vaani by converting the provided text into audio data.')
-    .action((text) => telltext = text.join(' '));
+    .action(text => telltext = text.join(' '));
 
 program
     .command('send <file>')
     .description('Sends a command to Vaani by loading it from the specified audio file in WAV format. Use "-" to load from STDIN.')
-    .action((file) => audiofile = file);
+    .action(file => audiofile = file);
+
+program
+    .command('stress <times> [parallel=1] [delay=0]')
+    .description('Sends <times> random commands to Vaani, with [parallel=1] concurrent threads and [delay=0] seconds between calls.')
+    .action((times, parallel, delay) => stress = { times: times * 1, parallel: parallel ? parallel * 1 : 1, delay: delay ? delay * 1 : 0 });
 
 program.parse(process.argv);
 config.port = 8585; // for development and testing, as port 80 is typically blocked
@@ -51,15 +58,14 @@ const fail = (message) => { console.error(message); process.exit(1); }
 
 const call = (command, params) => child_process.spawn(command, params.split(' '));
 
-const send = (serverurl) => {
-    var server = url.parse(serverurl, true, false);
-    server.query.authtoken = config.evernote.authtoken;
+const send = (serverurl, audio, callback) => {
+    var server = url.parse(serverurl, true, false),
+        options = { rejectUnauthorized: !!program.validate };
+
+    if(program.adding)
+        server.query.authtoken = config.evernote.authtoken;
     server.pathname = server.pathname || '/';
     serverurl = url.format(server);
-
-    var options = {
-        rejectUnauthorized: !!program.validate
-    };
     if (server.protocol === 'wss:') {
         options.key =  fs.readFileSync(ssldir + 'client-key.pem');
         options.cert = fs.readFileSync(ssldir + 'client-crt.pem');
@@ -68,23 +74,9 @@ const send = (serverurl) => {
     }
 
     var response,
-        vs = new WebSocket(serverurl, null, options),
-        audio;
+        vs = new WebSocket(serverurl, null, options);
 
-    if(telltext) {
-        const callback = error => error && fail('Problem with TTS service.\n\n' + JSON.stringify(error));
-        audio = text_to_speech.synthesize({
-            text: telltext,
-            voice: 'en-US_AllisonVoice',
-            accept: 'audio/wav'
-        }, callback);
-        audio.on('error', callback);
-    } else if(audiofile) {
-        audio = (audiofile == '-') ? process.stdin : fs.createReadStream(audiofile);
-        audio.on('error', (error) => fail('Problem reading from audio file.\n\n' + error));
-    } else {
-        program.help();
-    }
+    const output = message => program.quiet || console.dir(message);
 
     vs.on('open', () => {
         var sox = call('sox', '-t wav - -t raw -b 16 -e signed -c 1 -r 16k -');
@@ -93,23 +85,66 @@ const send = (serverurl) => {
         sox.stdin .on('error', (error) => fail('Problem recognizing or converting audio format.'));
         audio.pipe(sox.stdin);
         if(program.mute) {
-            vs.on('message', (data) => response || console.dir(response = JSON.parse(data)));
-            vs.on('close', () => process.exit(response ? response.status : 1));
+            vs.on('message', (data) => response || output(response = JSON.parse(data)));
+            vs.on('close', () => callback(response ? response.status : 1));
         } else {
             var p1 = call('play', '-t wav -');
             audio.pipe(p1.stdin);
             var p2 = call('play', '-t wav -');
-            vs.on('message', (data) => response ? p2.stdin.write(data) : console.dir(response = JSON.parse(data)));
+            vs.on('message', (data) => response ? p2.stdin.write(data) : output(response = JSON.parse(data)));
             vs.on('close', () => p2.stdin.end());
-            p2.stdout.on('close', () => process.exit(response ? response.status : 1));
+            p2.stdout.on('close', () => callback(response ? response.status : 1));
         }
     });
 
     vs.on('error', (error) => fail('Problem connecting to Vaani server.\n\n' + error));
 };
 
-if(program.server) {
-    send(program.server);
+const execute = (serverurl) => {
+    var audio;
+    if(telltext) {
+        const callback = error => error && fail('Problem with TTS service.\n\n' + JSON.stringify(error));
+        audio = text_to_speech.synthesize({
+            text: telltext,
+            voice: 'en-US_AllisonVoice',
+            accept: 'audio/wav'
+        }, callback);
+        audio.on('error', callback);
+        send(serverurl, audio, status => process.exit(status));
+    } else if(audiofile) {
+        audio = (audiofile == '-') ? process.stdin : fs.createReadStream(audiofile);
+        audio.on('error', (error) => fail('Problem reading from audio file.\n\n' + error));
+        send(serverurl, audio, status => process.exit(status));
+    } else if(stress) {
+        program.mute = true;
+        var times = stress.times,
+            parallel = stress.parallel,
+            failed = 0,
+            report = { 'total number of calls': times, 'failed calls': 0 },
+            dir = 'resources/stt/wav/',
+            files = fs.readdirSync(dir).filter(item => /\.wav/.test(item));
+        const step1 = () => send(serverurl, fs.createReadStream(dir + files[Math.floor(Math.random() * files.length)]), step2);
+        const step2 = status => {
+            report['failed calls'] += Math.min(status, 1);
+            var key = 'status ' + status;
+            report[key] = report[key] ? (report[key] + 1) : 1;
+            if(times-- > 1)
+                setTimeout(step1, 1000 * stress.delay);
+            else {
+                console.log('\n\n');
+                console.dir(report);
+                process.exit(0);
+            }
+        }
+        while(parallel--) step1();
+    }
+};
+
+if(!telltext && !audiofile && !stress) {
+    program.help();
+    process.exit(1);
+} else if(program.server) {
+    execute(program.server);
 } else {
-    vaani.serve(config, () => send((config.secure ? 'wss' : 'ws') + '://localhost:' + config.port));
+    vaani.serve(config, () => execute((config.secure ? 'wss' : 'ws') + '://localhost:' + config.port));
 }
