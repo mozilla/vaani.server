@@ -48,7 +48,11 @@ const getConfig = () => {
 const serve = (config, callback) => {
     config = config || getConfig();
 
-    var server;
+    const log = s => console.log('T: ' + new Date().toISOString() + ' - ' + s);
+
+    var server,
+        clientcounter = 0;
+
     if(config.secure) {
         server = https.createServer({
             key:  fs.readFileSync(ssldir + 'server-key.pem'),
@@ -63,7 +67,7 @@ const serve = (config, callback) => {
     }
 
     server.on('error', (error) => {
-        console.log('Server problem: ' + error.message);
+        log('server problem - ' + error.message);
         process.exit(1);
     });
 
@@ -72,17 +76,17 @@ const serve = (config, callback) => {
         if (req.client.authorized) {
             res.writeHead(200, { 'Content-Type': 'application/json' });
             res.end('{ "status": "approved" }');
-            console.log('approved');
+            log('sending status approved');
         } else {
             res.writeHead(401, { 'Content-Type': 'application/json' });
             res.end('{ "status": "denied" }');
-            console.log('declined');
+            log('sending status declined');
         }
     });
     server.on('request', app);
 
     server.listen(config.port);
-    console.log('serving on port ' + config.port);
+    log('serving on port ' + config.port);
 
     const wss = new WebSocketServer({
         server: server
@@ -92,7 +96,7 @@ const serve = (config, callback) => {
         http.createServer((req, res) => {
             res.end('I am alive!');
         }).listen(config.healthport);
-        console.log('health status on port ' + config.port);
+        log('health status on port ' + config.port);
     }
 
     const speech_to_text = stt.speech_to_text(config.stt);
@@ -100,23 +104,28 @@ const serve = (config, callback) => {
 
     wss.on('connection', (client) => {
 
+        var clientindex = clientcounter++;
+        const log = s => console.log(
+            'T: ' + new Date().toISOString() + ' ' +
+            'C: ' + clientindex + ' - ' + s);
+
         var audio = new stream.PassThrough(),
             logfile = path.join(logdir, shortid.generate()),
             rawlog = fs.createWriteStream(logfile + '.raw'),
             query = url.parse(client.upgradeReq.url, true).query,
             sttParams = { audio: audio };
 
-        rawlog.on('error', (err) => {console.log('Problem logging audio: ' + err)});
+        rawlog.on('error', err => log('problem logging audio - ' + err));
 
         const fail = (message) => {
             rawlog.end();
             audio.end();
             client.close();
-            console.log('Failed: ' + message);
+            log('failed - ' + message);
         };
 
         const answer = (status, message, command, confidence) => {
-            console.log('Sending answer: ' + status + ' - ' + message);
+            log('sending answer - ' + status + ' - ' + message);
             try {
                 var jsonResult = JSON.stringify({
                     status: status,
@@ -130,7 +139,7 @@ const serve = (config, callback) => {
                 fs.writeFile(
                     logfile + '.json',
                     jsonResult,
-                    err => err && console.log("Problem logging json: " + err)
+                    err => err && log("problem logging json - " + err)
                 );
 
                 var voice = text_to_speech.synthesize({
@@ -143,23 +152,23 @@ const serve = (config, callback) => {
                     ].join(''),
                     voice: 'en-US_AllisonVoice',
                     accept: 'audio/wav'
-                }, error => error ? fail('Problem with TTS service - ' + JSON.stringify(error)) : client.close());
+                }, err => err ? fail('problem with TTS service - ' + err) : client.close());
                 voice.on('data', data => (client.readyState == client.OPEN) && client.send(data));
                 voice.on('end', () => client.close());
             } catch(ex) {
-                fail('answering');
+                fail('answering - ' + JSON.stringify(ex));
             }
         };
 
         const interpret = (command, confidence) => {
             var product;
             try { product = parser.parse(command); } catch (ex) {
-                console.log('Problem interpreting: ' + command);
+                log('problem interpreting - ' + command);
                 answer(ERROR_PARSING, sorryUnderstand, command, confidence);
                 return;
             }
             if(product.split(' ').length > config.maxwords) {
-                console.log('Product name too long: ' + product);
+                log('product name too long - ' + product);
                 answer(ERROR_PARSING, sorryTooLong, command, confidence);
                 return;
             }
@@ -168,7 +177,7 @@ const serve = (config, callback) => {
                 evernote.addNoteItem(query.authtoken, product, config).then(function(){
                     answer(OK, 'Added ' + product + ' to your shopping list.', command, confidence);
                 }, err => {
-                    console.log('Evernote error: "' + err + '"');
+                    log('problem Evernote - ' + err);
                     answer(ERROR_EXECUTING, sorryService, command, confidence);
                 });
             } else {
@@ -176,13 +185,17 @@ const serve = (config, callback) => {
             }
         };
 
-        client.on('error', (error) => fail('client connection'));
+        client.on('error', (err) => fail('client connection' + err));
         client.on('message', (data) => data === 'EOS' ? audio.end() : audio.write(data));
         client.on('close', () => rawlog.end());
 
-        speech_to_text.recognize(sttParams, (err, res) => err ?
-            answer(ERROR_STT, sorryService, unknown, 0) :
-            interpret(res.transcript, res.confidence)
+        speech_to_text.recognize(sttParams, (err, res) => {
+            if(err) {
+                log('problem STT - ' + err);
+                answer(ERROR_STT, sorryService, unknown, 0);
+            } else
+                interpret(res.transcript, res.confidence);
+            }
         );
 
 
