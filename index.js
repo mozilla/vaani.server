@@ -110,7 +110,7 @@ const serve = (config, callback) => {
 
         const fail = (message) => {
             rawlog.end();
-            kaldi.close();
+            audio.end();
             client.close();
             console.log('Failed: ' + message);
         };
