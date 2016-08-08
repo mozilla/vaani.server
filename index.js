@@ -185,8 +185,8 @@ const serve = (config, callback) => {
             }
         };
 
-        client.on('error', (err) => fail('client connection' + err));
-        client.on('message', (data) => data === 'EOS' ? audio.end() : audio.write(data));
+        client.on('error', err => fail('client connection' + err));
+        client.on('message', data => data === 'EOS' ? audio.end() : audio.write(data));
         client.on('close', () => rawlog.end());
 
         speech_to_text.recognize(sttParams, (err, res) => {
