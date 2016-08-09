@@ -29,6 +29,7 @@ cp package.json app
 # code
 cp *.js app
 cp -r lib app
+cp prunelog app
 rm -f app/lib/parser/sl-parser.js
 
 # TLS

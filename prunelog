@@ -1,0 +1,47 @@
+#!/usr/bin/env node
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+'use strict';
+
+const fs = require('fs');
+const path = require('path');
+const process = require('process');
+
+
+var dir = process.argv[2],
+    maxtime = process.argv[3] || 182,
+    maxdate = new Date(),
+    maxsize = process.argv[4] || Number.MAX_SAFE_INTEGER,
+    files = fs.readdirSync(dir)
+    .map(name => {
+        var p = path.join(dir, name),
+            stat = fs.statSync(p);
+        return {
+            path: p,
+            stat: stat,
+            time: stat.mtime.getTime()
+        };
+    })
+    .sort((a, b) => b.time - a.time),
+    totalsize = files.reduce((a, b) => a + b.stat.size, 0);
+
+maxdate.setDate(maxdate.getDate() - maxtime * 1);
+maxsize = maxsize * 1024 * 1024;
+
+if(files.length < 1) {
+    console.log('no files to delete - directory empty');
+    process.exit(0);
+}
+
+var first, gain = 0;
+while (((first = files.pop()) && first.time < maxdate) || totalsize > maxsize) {
+    var size = first.stat.size;
+    console.log('removing ' + first.path + ' - gaining ' + size + ' bytes');
+    totalsize -= size;
+    gain += size;
+    fs.unlinkSync(first.path);
+}
+
+console.log('\n\nFreed ' + gain + ' bytes of disk space.\n');
