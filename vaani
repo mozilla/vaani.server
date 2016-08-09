@@ -58,7 +58,7 @@ const fail = (message) => { console.error(message); process.exit(1); }
 
 const call = (command, params) => child_process.spawn(command, params.split(' '));
 
-const send = (serverurl, audio, callback) => {
+const send = (serverurl, getaudio, callback) => {
     var server = url.parse(serverurl, true, false),
         options = { rejectUnauthorized: !!program.validate };
 
@@ -79,42 +79,54 @@ const send = (serverurl, audio, callback) => {
     const output = message => program.quiet || console.dir(message);
 
     vs.on('open', () => {
-        var sox = call('sox', '-t wav - -t raw -b 16 -e signed -c 1 -r 16k -');
-        sox.stdout.on('data', (data) => vs.send(data));
+        var sox = call('sox', '-t wav - -t raw -b 16 -e signed -c 1 -r 16k -'),
+            audio = getaudio();
+        sox.stdout.on('data', data => vs.send(data));
         sox.stdout.on('close', () => vs.send('EOS'));
-        sox.stdin .on('error', (error) => fail('Problem recognizing or converting audio format.'));
+        sox.stdin .on('error', err => fail('Problem recognizing or converting audio format: ' + err));
         audio.pipe(sox.stdin);
         if(program.mute) {
-            vs.on('message', (data) => response || output(response = JSON.parse(data)));
+            vs.on('message', data => response || output(response = JSON.parse(data)));
             vs.on('close', () => callback(response ? response.status : 1));
         } else {
             var p1 = call('play', '-t wav -');
             audio.pipe(p1.stdin);
             var p2 = call('play', '-t wav -');
-            vs.on('message', (data) => response ? p2.stdin.write(data) : output(response = JSON.parse(data)));
+            vs.on('message', data => response ? p2.stdin.write(data) : output(response = JSON.parse(data)));
             vs.on('close', () => p2.stdin.end());
             p2.stdout.on('close', () => callback(response ? response.status : 1));
         }
     });
 
-    vs.on('error', (error) => fail('Problem connecting to Vaani server.\n\n' + error));
+    vs.on('error', err => fail('Problem connecting to Vaani server: ' + err));
 };
 
 const execute = (serverurl) => {
-    var audio;
     if(telltext) {
-        const callback = error => error && fail('Problem with TTS service.\n\n' + JSON.stringify(error));
-        audio = text_to_speech.synthesize({
-            text: telltext,
-            voice: 'en-US_AllisonVoice',
-            accept: 'audio/wav'
-        }, callback);
-        audio.on('error', callback);
-        send(serverurl, audio, status => process.exit(status));
+        const callback = err => err && fail('TTS service: ' + err);
+        send(
+            serverurl,
+            () => {
+                var audio = text_to_speech.synthesize({
+                    text: telltext,
+                    voice: 'en-US_AllisonVoice',
+                    accept: 'audio/wav'
+                }, err => callback(err));
+                audio.on('error', err => callback(err));
+                return audio;
+            },
+            status => process.exit(status)
+        );
     } else if(audiofile) {
-        audio = (audiofile == '-') ? process.stdin : fs.createReadStream(audiofile);
-        audio.on('error', (error) => fail('Problem reading from audio file.\n\n' + error));
-        send(serverurl, audio, status => process.exit(status));
+        send(
+            serverurl,
+            () => {
+                var audio = (audiofile == '-') ? process.stdin : fs.createReadStream(audiofile);
+                audio.on('error', err => fail('Problem reading from audio file ' + audiofile + ': '+ err));
+                return audio;
+            },
+            status => process.exit(status)
+        );
     } else if(stress) {
         program.mute = true;
         var times = stress.times,
@@ -123,7 +135,16 @@ const execute = (serverurl) => {
             report = { 'total number of calls': times, 'failed calls': 0 },
             dir = 'resources/stt/wav/',
             files = fs.readdirSync(dir).filter(item => /\.wav/.test(item));
-        const step1 = () => send(serverurl, fs.createReadStream(dir + files[Math.floor(Math.random() * files.length)]), step2);
+        const step1 = () => send(
+            serverurl,
+            () => {
+                var file = dir + files[Math.floor(Math.random() * files.length)],
+                    audio = fs.createReadStream(file);
+                audio.on('error', err => fail('Problem reading from audio file ' + file + ': '+ err));
+                return audio;
+            },
+            step2
+        );
         const step2 = status => {
             report['failed calls'] += Math.min(status, 1);
             var key = 'status ' + status;
