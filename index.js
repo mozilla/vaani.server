@@ -115,11 +115,21 @@ const serve = (config, callback) => {
             query = url.parse(client.upgradeReq.url, true).query,
             sttParams = { audio: audio };
 
+        audio.on('error', err => log('problem passing audio - ' + err));
         rawlog.on('error', err => log('problem logging audio - ' + err));
 
-        const fail = (message) => {
-            rawlog.end();
+        const writeToSinks = data => {
+            audio.write(data);
+            rawlog.write(data);
+        };
+
+        const closeSinks = () => {
             audio.end();
+            rawlog.end();
+        };
+
+        const fail = (message) => {
+            closeSinks();
             client.close();
             log('failed - ' + message);
         };
@@ -186,8 +196,7 @@ const serve = (config, callback) => {
         };
 
         client.on('error', err => fail('client connection' + err));
-        client.on('message', data => data === 'EOS' ? audio.end() : audio.write(data));
-        client.on('close', () => rawlog.end());
+        client.on('message', data => data === 'EOS' ? closeSinks() : writeToSinks(data));
 
         speech_to_text.recognize(sttParams, (err, res) => {
             if(err) {
